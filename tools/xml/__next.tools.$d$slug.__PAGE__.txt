@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[2291,["/devtools/_next/static/chunks/7a2d10757f2e626d.js","/devtools/_next/static/chunks/b4baa159a7838f62.js"],"default"]
-3:I[97367,["/devtools/_next/static/chunks/ff1a16fafef87110.js","/devtools/_next/static/chunks/418c0203cb686280.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"buildId":"Dp9u324XnW8mOLcEaBiqq","rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"xml","initialTool":{"id":"xml","name":"XML","slug":"xml","category":"Formatters","description":"Pretty-print XML.","componentPath":"@/tools/formatters/XMLFormatter","keywords":["xml formatter online","xml pretty print","format xml","xml validator tool"]}}],[["$","script","script-0",{"src":"/devtools/_next/static/chunks/b4baa159a7838f62.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
-5:null
