@@ -15,7 +15,7 @@ jobs:
       - run: npm ci
       - name: Extract repo name for basePath
         run: echo "BASE_PATH=/${{ github.event.repository.name }}" >> $GITHUB_ENV
-      - run: npm run build
+      #- run: npm run build
       - name: Add .nojekyll
         run: touch out/.nojekyll  # Disables Jekyll
       - name: Deploy
