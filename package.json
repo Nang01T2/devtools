@@ -1,7 +1,7 @@
 {
   "name": "devtools",
+  "homepage": "https://nang01t2.github.io/devtools",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d ."
   },
