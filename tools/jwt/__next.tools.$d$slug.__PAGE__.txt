@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[2291,["/devtools/_next/static/chunks/7a2d10757f2e626d.js","/devtools/_next/static/chunks/b4baa159a7838f62.js"],"default"]
-3:I[97367,["/devtools/_next/static/chunks/ff1a16fafef87110.js","/devtools/_next/static/chunks/418c0203cb686280.js"],"OutletBoundary"]
+2:I[2291,["/_next/static/chunks/7a2d10757f2e626d.js","/_next/static/chunks/b4baa159a7838f62.js"],"default"]
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/418c0203cb686280.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"buildId":"X2e6Kqu1DoQQKCFq7tu-h","rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"jwt","initialTool":{"id":"jwt","name":"JWT","slug":"jwt","category":"Encoders / Decoders","description":"Decode and inspect JWT tokens.","componentPath":"@/tools/encodersdecoders/JWTDecoder","keywords":["jwt decoder online","decode jwt token","jwt inspector","jwt payload viewer"]}}],[["$","script","script-0",{"src":"/devtools/_next/static/chunks/b4baa159a7838f62.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"XRhZG0ZDZ5DT7S-2LdMKk","rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"jwt","initialTool":{"id":"jwt","name":"JWT","slug":"jwt","category":"Encoders / Decoders","description":"Decode and inspect JWT tokens.","componentPath":"@/tools/encodersdecoders/JWTDecoder","keywords":["jwt decoder online","decode jwt token","jwt inspector","jwt payload viewer"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/b4baa159a7838f62.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
 5:null
