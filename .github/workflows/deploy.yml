@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20  # Or your Node version
-      - run: npm ci
+      #- run: npm ci
       - name: Extract repo name for basePath
         run: echo "BASE_PATH=/${{ github.event.repository.name }}" >> $GITHUB_ENV
       #- run: npm run build
