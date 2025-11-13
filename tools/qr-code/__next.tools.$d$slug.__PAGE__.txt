@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[2291,["/_next/static/chunks/7a2d10757f2e626d.js","/_next/static/chunks/b4baa159a7838f62.js"],"default"]
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/418c0203cb686280.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"Jy1WIQsruZy_NxBD_AJcm","rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"qr-code","initialTool":{"id":"qr-code","name":"QR Code","slug":"qr-code","category":"Generators","description":"Generate QR codes from text, URLs, or contact information","componentPath":"@/tools/generators/QRCodeGenerator","keywords":["qr code generator online","create qr code free","url qr code","text to qr"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/b4baa159a7838f62.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null
