@@ -1,0 +1,26 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20  # Or your Node version
+      - run: npm ci
+      - name: Extract repo name for basePath
+        run: echo "BASE_PATH=/${{ github.event.repository.name }}" >> $GITHUB_ENV
+      - run: npm run build
+      - name: Add .nojekyll
+        run: touch out/.nojekyll  # Disables Jekyll
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages  # Or 'public' if preferred
+          folder: out
