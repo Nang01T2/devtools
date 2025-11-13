@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[2291,["/_next/static/chunks/500824fc6357a3a5.js","/_next/static/chunks/a5f3aaf79defcc3c.js"],"default"]
-3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/418c0203cb686280.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"buildId":"-tHU4DTS7B9EPEI6K4BgM","rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"lorem-ipsum","initialTool":{"id":"lorem-ipsum","name":"Lorem Ipsum","slug":"lorem-ipsum","category":"Generators","description":"Generate Lorem Ipsum placeholder text.","componentPath":"@/tools/generators/LoremIpsumGenerator","keywords":["lorem ipsum generator","dummy text generator","placeholder text","lorem text tool"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/a5f3aaf79defcc3c.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
-5:null
