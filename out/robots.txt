@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /private/
+
+# Host
+Host: https://gadgetforge.dev
+
+# Sitemaps
+Sitemap: https://gadgetforge.dev/sitemap.xml
