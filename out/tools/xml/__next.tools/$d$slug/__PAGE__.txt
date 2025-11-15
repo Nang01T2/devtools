@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[2291,["/_next/static/chunks/16ede9e4a8b00325.js","/_next/static/chunks/e23e6dc5b6b41967.js","/_next/static/chunks/192cd4e7ef5a80c5.js","/_next/static/chunks/19c95fe93aee393c.js"],"default"]
-3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/418c0203cb686280.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"buildId":"K4RvZxUa8evTc_Uz7woNt","rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"xml","initialTool":{"id":"xml","name":"XML","longName":"XML Formatter and Pretty Printer","slug":"xml","category":"Formatters","description":"Format XML documents for readability, collapse nested elements, and validate structure. Useful for XML configuration and data exchange.","componentPath":"@/tools/formatters/XMLFormatter","keywords":["xml formatter online","xml pretty print","format xml","xml validator tool","free xml beautifier","xml minifier","xml structure checker"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/19c95fe93aee393c.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
-5:null
