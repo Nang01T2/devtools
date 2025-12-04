@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,495925,o=>{o.v({Configuration:"Configuration",Save:"Save",Copy:"Copy",Copied:"Copied"})}]);

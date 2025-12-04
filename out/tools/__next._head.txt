@@ -3,6 +3,6 @@
 4:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/d80b3790a119a285.js"],"MetadataBoundary"]
 5:"$Sreact.suspense"
 7:I[27201,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/d80b3790a119a285.js"],"IconMark"]
-0:{"buildId":"u_3eV3o2lbv8GBqZMMICF","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],null]}],"loading":null,"isPartial":false}
+0:{"buildId":"u_MloFKhl9Z39HyzsLIyj","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],null]}],"loading":null,"isPartial":false}
 3:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 6:[["$","title","0",{"children":"GadgetForge - Developer Tools"}],["$","meta","1",{"name":"description","content":"A collection of useful tools for developers."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.b4ecc298.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L7","3",{}]]
