@@ -11,12 +11,11 @@ import { avifCheck } from "./support";
     "message",
     async (event: MessageEvent<MessageData>) => {
       queue.push(async () => {
-        const output = await convert(event.data, "preview");
+        const output = await convert(event.data, "compress");
         if (output) {
-          console.log("preview output=", output);
           globalThis.postMessage(output);
         }
       });
-    },
+    }
   );
 })();
