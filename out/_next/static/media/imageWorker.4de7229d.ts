@@ -7,6 +7,8 @@ import avifDecode from "@/lib/decoders/avif/avifDecode";
 import webpDecode from "@/lib/decoders/webp/webpDecode";
 import mozjpegEncode from "@/lib/encoders/mozJPEG/mozjpegEncode";
 import jxlDecode from "@/lib/decoders/jxl/jxlDecode";
+import qoiEncode from "@/lib/encoders/qoi/qoiEncode";
+import qoiDecode from "@/lib/decoders/qoi/qoiDecode";
 
 const exports = {
   avifEncode(
@@ -43,6 +45,16 @@ const exports = {
     ...args: Parameters<typeof jxlDecode>
   ): ReturnType<typeof jxlDecode> {
     return timed("jxlDecode", () => jxlDecode(...args));
+  },
+  qoiEncode(
+    ...args: Parameters<typeof qoiEncode>
+  ): ReturnType<typeof qoiEncode> {
+    return timed("qoiEncode", () => qoiEncode(...args));
+  },
+  qoiDecode(
+    ...args: Parameters<typeof qoiDecode>
+  ): ReturnType<typeof qoiDecode> {
+    return timed("qoiDecode", () => qoiDecode(...args));
   },
 };
 export type ProcessorWorkerApi = typeof exports;
