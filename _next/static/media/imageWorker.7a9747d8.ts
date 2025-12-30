@@ -11,7 +11,6 @@ import qoiEncode from "@/lib/encoders/qoi/qoiEncode";
 import qoiDecode from "@/lib/decoders/qoi/qoiDecode";
 import resize from "@/lib/resize/resize";
 import quantize from "@/lib/quantize/quantize";
-//import { rotateImage as rotate } from "@/lib/photon/photon";
 import {
   rotate,
   flipHorizontal,
