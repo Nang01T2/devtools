@@ -70,7 +70,7 @@ const api = {
   ): Promise<ImageBitmap> {
     const backgroundRemover = await getBackgroundRemover(modelId, onProgress);
 
-    onProgress?.(10, "Preparing ...");
+    onProgress?.(10, "Removing background ...");
 
     let canvas: OffscreenCanvas;
 
