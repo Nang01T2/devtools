@@ -4,7 +4,7 @@ import { FilesetResolver, FaceDetector } from "@mediapipe/tasks-vision";
 import { pipeline } from "@huggingface/transformers";
 
 let faceDetector: FaceDetector | null = null;
-let backgroundRemover: any = null;
+const backgroundRemovers = new Map<string, any>();
 
 async function initFaceDetector() {
   if (faceDetector) return;
@@ -21,9 +21,27 @@ async function initFaceDetector() {
   });
 }
 
-async function initBackgroundRemover() {
-  if (backgroundRemover) return;
-  backgroundRemover = await pipeline("background-removal", "briaai/RMBG-1.4");
+async function getBackgroundRemover(modelId: string) {
+  if (backgroundRemovers.has(modelId)) {
+    return backgroundRemovers.get(modelId);
+  }
+
+  // Supported models (add more as needed)
+  const supportedModels = [
+    "briaai/RMBG-1.4", // High quality general-purpose
+    "Xenova/modnet", // Lighter, good for portraits
+    // Add others like "Xenova/isnet-general-use" if desired
+  ];
+
+  if (!supportedModels.includes(modelId)) {
+    throw new Error(
+      `Unsupported model: ${modelId}. Supported: ${supportedModels.join(", ")}`
+    );
+  }
+
+  const remover = await pipeline("background-removal", modelId);
+  backgroundRemovers.set(modelId, remover);
+  return remover;
 }
 
 const api = {
@@ -34,11 +52,10 @@ const api = {
   },
 
   async removeBackground(
+    modelId: string = "briaai/RMBG-1.4",
     input: ImageBitmap | HTMLImageElement | HTMLCanvasElement | OffscreenCanvas
   ): Promise<ImageBitmap> {
-    await initBackgroundRemover();
-    if (!backgroundRemover)
-      throw new Error("Background remover not initialized");
+    const backgroundRemover = await getBackgroundRemover(modelId);
 
     // Convert any input to OffscreenCanvas (supported by pipeline)
     let canvas: OffscreenCanvas;
@@ -69,7 +86,7 @@ const api = {
       throw new Error("Unsupported input type for background removal");
     }
 
-    // Run inference with OffscreenCanvas (explicitly supported)
+    // Run inference with OffscreenCanvas
     const output = await backgroundRemover(canvas);
 
     // Handle output (usually array with RawImage or object with .image)
