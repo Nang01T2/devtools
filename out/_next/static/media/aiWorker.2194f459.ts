@@ -45,7 +45,7 @@ async function getBackgroundRemover(
     progress_callback: (data: any) => {
       if (data.status === "progress") {
         const percent = Math.round((data.loaded / data.total) * 100);
-        onProgress?.(percent, `Downloading model... ${percent}%`);
+        onProgress?.(percent, `Loading model... ${percent}%`);
       } else if (data.status === "done") {
         onProgress?.(100, "Model loaded!");
       }
