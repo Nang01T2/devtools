@@ -1,0 +1,40 @@
+{
+  "toolbar": {
+    "open": "Mở",
+    "open-file": "Mở tệp",
+    "save": "Lưu",
+    "save-as": "Lưu thành…",
+    "download": "Tải xuống",
+    "paste": "Dán",
+    "paste-from-clipboard": "Dán từ clipboard",
+    "copy": "Sao chép",
+    "copy-all": "Sao chép tất cả",
+    "clear": "Xóa",
+    "clear-editor": "Xóa trình soạn thảo",
+    "search": "Tìm kiếm",
+    "find-and-replace": "Tìm và thay thế",
+    "fullscreen": "Toàn màn hình",
+    "enter-fullscreen": "Vào toàn màn hình",
+    "exit-fullscreen": "Thoát toàn màn hình",
+    "toggle-line-wrap": "Bật/tắt xuống dòng",
+    "toggle-line-wrap-hint": "Bật/tắt xuống dòng (kéo để di chuyển, Mod+Alt+W để bật/tắt)"
+  },
+  "editor": {
+    "opening-file": "Đang mở tệp…",
+    "copied": "Đã sao chép!",
+    "copy-failed": "Sao chép thất bại.",
+    "paste-failed": "Dán thất bại."
+  },
+  "section": {
+    "expand": "Mở rộng",
+    "collapse": "Thu gọn"
+  },
+  "toolsgrid": {
+    "welcome-title": "Chào mừng đến với GadgetForge",
+    "welcome-text": "Bộ sưu tập các tiện ích hữu dụng giúp tăng năng suất của bạn. GadgetForge hỗ trợ lập trình viên với các tác vụ hằng ngày như định dạng JSON, so sánh văn bản và kiểm tra RegExp. Bạn không cần dùng nhiều trang web để xử lý những tác vụ đơn giản với dữ liệu của mình.",
+    "open-tool": "Mở công cụ",
+    "share-twitter": "Chia sẻ lên X/Twitter",
+    "share-facebook": "Chia sẻ lên Facebook",
+    "share-linkedin": "Chia sẻ lên LinkedIn"
+  }
+}

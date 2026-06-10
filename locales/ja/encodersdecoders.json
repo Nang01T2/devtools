@@ -1,0 +1,27 @@
+{
+  "base64decoder": {
+    "configuration": "設定",
+    "source-type": "ソースタイプ",
+    "source-type-message": "テキスト入力またはファイルアップロードを選択",
+    "text-source": "テキストソース",
+    "file-source": "ファイルソース",
+    "text": "テキスト",
+    "file": "ファイル",
+    "encoded": "エンコード済み",
+    "invalid-base64-string": "無効なBase64文字列"
+  },
+  "htmldecoder": {
+    "decoded": "デコード済み",
+    "encoded": "エンコード済み"
+  },
+  "jwtdecoder": {
+    "input-jwt-token": "入力（JWTトークン）",
+    "header-algorithm-token-type": "ヘッダー（アルゴリズムとトークンタイプ）",
+    "payload-data-claims": "ペイロード（データとクレーム）",
+    "interpreted-claims": "解釈済みクレーム"
+  },
+  "urldecoder": {
+    "decoded": "デコード済み",
+    "encoded": "エンコード済み"
+  }
+}

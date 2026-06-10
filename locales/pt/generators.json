@@ -1,0 +1,27 @@
+{
+  "loremipsumgenerator": {
+    "configuration": "Configuração",
+    "type": "Tipo",
+    "type-message": "Tipo de Lorem Ipsum a gerar",
+    "length": "Comprimento",
+    "length-message": "Comprimento do Lorem Ipsum a gerar",
+    "words": "Palavras",
+    "sentences": "Frases",
+    "paragraphs": "Parágrafos",
+    "output": "Saída"
+  },
+  "checksumgenerator": {
+    "configuration": "Configuração",
+    "uppercase": "Maiúsculas",
+    "uppercase-message": "Apresentar a soma de verificação em letras maiúsculas",
+    "hash-algorithm": "Algoritmo de hash",
+    "hash-algorithm-message": "Escolha o algoritmo de hash a usar",
+    "input-file": "Ficheiro de entrada",
+    "calculated-checksum": "Soma de verificação calculada",
+    "checksum-will-appear-here": "A soma de verificação aparecerá aqui",
+    "compare-with": "Comparar com",
+    "paste-a-checksum-to-compare": "Cole uma soma de verificação para comparar",
+    "file-error": "Erro de ficheiro",
+    "ok": "OK"
+  }
+}

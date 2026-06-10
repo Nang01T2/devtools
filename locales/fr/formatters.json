@@ -1,0 +1,28 @@
+{
+  "jsonformatter": {
+    "configuration": "Configuration",
+    "indentation": "Indentation",
+    "indentation-message": "Choisissez le style d'indentation du JSON formaté",
+    "input": "Entrée",
+    "output": "Sortie",
+    "invalid-json-tree": "JSON invalide pour la vue arborescente"
+  },
+  "sqlformatter": {
+    "configuration": "Configuration",
+    "language": "Langage",
+    "indentation": "Indentation",
+    "input": "Entrée",
+    "output": "Sortie"
+  },
+  "xmlformatter": {
+    "configuration": "Configuration",
+    "document-type": "Type de document",
+    "document-type-message": "Choisissez entre un document HTML ou XML",
+    "auto-fix-document": "Correction automatique du document",
+    "auto-fix-document-message": "Corriger automatiquement les erreurs XML/HTML mineures lors de l'analyse",
+    "pretty-document": "Document lisible",
+    "pretty-document-message": "Formater la sortie avec indentation pour plus de lisibilité",
+    "input": "Entrée",
+    "output": "Sortie"
+  }
+}

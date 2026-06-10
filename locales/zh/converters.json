@@ -1,0 +1,62 @@
+{
+  "jsonyamlconverter": {
+    "configuration": "配置",
+    "format": "格式",
+    "format-message": "选择JSON输出格式：美化（带缩进）或压缩"
+  },
+  "datetimeconverter": {
+    "configuration": "配置",
+    "date-time": "日期和时间",
+    "date-time-message": "选择要格式化的日期和时间",
+    "locale": "语言区域",
+    "locale-message": "选择日期/时间显示的语言区域",
+    "unix-timestamp": "Unix时间戳",
+    "unix-timestamp-message": "输入Unix时间戳值",
+    "unix-timestamp-placeholder": "Unix时间戳",
+    "timestamp-actions": "时间戳操作",
+    "timestamp-actions-message": "时间戳快速操作",
+    "now": "现在",
+    "live-update": "实时更新",
+    "converted-formats": "已转换格式",
+    "common-formats": "常用格式",
+    "custom-format": "自定义格式",
+    "timezone-conversion": "时区转换",
+    "preset-format": "预设格式",
+    "custom-input": "自定义输入",
+    "enter-format": "输入格式（如：yyyy-MM-dd HH:mm:ss ZZZ）",
+    "source": "来源",
+    "target": "目标",
+    "cancel": "取消",
+    "done": "完成",
+    "search-formats": "搜索格式...",
+    "search-locales": "搜索语言区域...",
+    "search-timezones": "搜索时区...",
+    "select-preset-format": "选择预设格式",
+    "select-locale": "选择语言区域",
+    "copied-name": "已复制{name}！"
+  },
+  "numberbaseconverter": {
+    "configuration": "配置",
+    "format-number": "数字格式化",
+    "format-number-message": "将数字分组以提高可读性",
+    "loading": "加载中...",
+    "decimal": "十进制（基数10）",
+    "hexadecimal": "十六进制（基数16）",
+    "octal": "八进制（基数8）",
+    "binary": "二进制（基数2）",
+    "enter-decimal": "输入十进制数...",
+    "enter-hex": "输入十六进制（如：1A3F）",
+    "enter-octal": "输入八进制数...",
+    "enter-binary": "输入二进制数..."
+  },
+  "cronparser": {
+    "verbose": "详细",
+    "use-24-hour-time-format": "使用24小时制",
+    "days-start-at-0": "星期从0开始（周日 = 0）",
+    "symbol": "符号",
+    "meaning": "含义",
+    "example": "示例",
+    "equivalent": "等效",
+    "this-cron-is-invalid": "此cron表达式无效"
+  }
+}

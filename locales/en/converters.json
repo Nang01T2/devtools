@@ -1,0 +1,62 @@
+{
+  "jsonyamlconverter": {
+    "configuration": "Configuration",
+    "format": "Format",
+    "format-message": "Choose the JSON output format: pretty (indented) or minified"
+  },
+  "datetimeconverter": {
+    "configuration": "Configuration",
+    "date-time": "Date & Time",
+    "date-time-message": "Select the date and time for formatting",
+    "locale": "Locale",
+    "locale-message": "Choose a locale for date/time display",
+    "unix-timestamp": "Unix Timestamp",
+    "unix-timestamp-message": "Enter a Unix timestamp value",
+    "unix-timestamp-placeholder": "Unix Timestamp",
+    "timestamp-actions": "Timestamp Actions",
+    "timestamp-actions-message": "Quick actions for the timestamp",
+    "now": "Now",
+    "live-update": "Live Update",
+    "converted-formats": "Converted Formats",
+    "common-formats": "Common Formats",
+    "custom-format": "Custom Format",
+    "timezone-conversion": "Timezone Conversion",
+    "preset-format": "Preset Format",
+    "custom-input": "Custom Input",
+    "enter-format": "Enter format (e.g., yyyy-MM-dd HH:mm:ss ZZZ)",
+    "source": "Source",
+    "target": "Target",
+    "cancel": "Cancel",
+    "done": "Done",
+    "search-formats": "Search formats...",
+    "search-locales": "Search locales...",
+    "search-timezones": "Search timezones...",
+    "select-preset-format": "Select Preset Format",
+    "select-locale": "Select Locale",
+    "copied-name": "Copied {name}!"
+  },
+  "numberbaseconverter": {
+    "configuration": "Configuration",
+    "format-number": "Format Number",
+    "format-number-message": "Group digits for better readability",
+    "loading": "Loading...",
+    "decimal": "Decimal (base 10)",
+    "hexadecimal": "Hexadecimal (base 16)",
+    "octal": "Octal (base 8)",
+    "binary": "Binary (base 2)",
+    "enter-decimal": "Enter decimal number...",
+    "enter-hex": "Enter hex (e.g. 1A3F)",
+    "enter-octal": "Enter octal number...",
+    "enter-binary": "Enter binary number..."
+  },
+  "cronparser": {
+    "verbose": "Verbose",
+    "use-24-hour-time-format": "Use 24 hour time format",
+    "days-start-at-0": "Days start at 0 (Sunday = 0)",
+    "symbol": "Symbol",
+    "meaning": "Meaning",
+    "example": "Example",
+    "equivalent": "Equivalent",
+    "this-cron-is-invalid": "This cron is invalid"
+  }
+}

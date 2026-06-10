@@ -1,0 +1,27 @@
+{
+  "base64decoder": {
+    "configuration": "Konfiguration",
+    "source-type": "Quelltyp",
+    "source-type-message": "Wählen Sie zwischen Texteingabe oder Datei-Upload",
+    "text-source": "Textquelle",
+    "file-source": "Dateiquelle",
+    "text": "Text",
+    "file": "Datei",
+    "encoded": "Kodiert",
+    "invalid-base64-string": "Ungültige Base64-Zeichenkette"
+  },
+  "htmldecoder": {
+    "decoded": "Dekodiert",
+    "encoded": "Kodiert"
+  },
+  "jwtdecoder": {
+    "input-jwt-token": "Eingabe (JWT-Token)",
+    "header-algorithm-token-type": "Header (Algorithmus & Token-Typ)",
+    "payload-data-claims": "Payload (Daten & Claims)",
+    "interpreted-claims": "Interpretierte Claims"
+  },
+  "urldecoder": {
+    "decoded": "Dekodiert",
+    "encoded": "Kodiert"
+  }
+}

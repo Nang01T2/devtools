@@ -1,0 +1,8 @@
+{
+  "ipgeotool": {
+    "enter-ip-address": "Nhập địa chỉ IP (để trống để lấy IP hiện tại)",
+    "query": "Truy vấn",
+    "loading": "Đang tải...",
+    "or-query-your-current-ip": "Hoặc truy vấn vị trí IP hiện tại của bạn ngay"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "jsonyamlconverter": {
+    "configuration": "設定",
+    "format": "フォーマット",
+    "format-message": "JSONの出力形式を選択：pretty（インデント付き）またはminified"
+  },
+  "datetimeconverter": {
+    "configuration": "設定",
+    "date-time": "日付と時刻",
+    "date-time-message": "フォーマットする日付と時刻を選択",
+    "locale": "ロケール",
+    "locale-message": "日付/時刻表示のロケールを選択",
+    "unix-timestamp": "Unixタイムスタンプ",
+    "unix-timestamp-message": "Unixタイムスタンプの値を入力",
+    "unix-timestamp-placeholder": "Unixタイムスタンプ",
+    "timestamp-actions": "タイムスタンプ操作",
+    "timestamp-actions-message": "タイムスタンプのクイック操作",
+    "now": "今すぐ",
+    "live-update": "リアルタイム更新",
+    "converted-formats": "変換済みフォーマット",
+    "common-formats": "一般的なフォーマット",
+    "custom-format": "カスタムフォーマット",
+    "timezone-conversion": "タイムゾーン変換",
+    "preset-format": "プリセットフォーマット",
+    "custom-input": "カスタム入力",
+    "enter-format": "フォーマットを入力（例：yyyy-MM-dd HH:mm:ss ZZZ）",
+    "source": "ソース",
+    "target": "ターゲット",
+    "cancel": "キャンセル",
+    "done": "完了",
+    "search-formats": "フォーマットを検索...",
+    "search-locales": "ロケールを検索...",
+    "search-timezones": "タイムゾーンを検索...",
+    "select-preset-format": "プリセットフォーマットを選択",
+    "select-locale": "ロケールを選択",
+    "copied-name": "{name}をコピーしました！"
+  },
+  "numberbaseconverter": {
+    "configuration": "設定",
+    "format-number": "数値フォーマット",
+    "format-number-message": "桁をグループ化して読みやすくする",
+    "loading": "読み込み中...",
+    "decimal": "10進数",
+    "hexadecimal": "16進数",
+    "octal": "8進数",
+    "binary": "2進数",
+    "enter-decimal": "10進数を入力...",
+    "enter-hex": "16進数を入力（例：1A3F）",
+    "enter-octal": "8進数を入力...",
+    "enter-binary": "2進数を入力..."
+  },
+  "cronparser": {
+    "verbose": "詳細",
+    "use-24-hour-time-format": "24時間形式を使用",
+    "days-start-at-0": "曜日は0始まり（日曜日 = 0）",
+    "symbol": "記号",
+    "meaning": "意味",
+    "example": "例",
+    "equivalent": "相当",
+    "this-cron-is-invalid": "このcronは無効です"
+  }
+}

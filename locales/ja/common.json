@@ -1,0 +1,40 @@
+{
+  "toolbar": {
+    "open": "開く",
+    "open-file": "ファイルを開く",
+    "save": "保存",
+    "save-as": "名前を付けて保存…",
+    "download": "ダウンロード",
+    "paste": "貼り付け",
+    "paste-from-clipboard": "クリップボードから貼り付け",
+    "copy": "コピー",
+    "copy-all": "すべてコピー",
+    "clear": "クリア",
+    "clear-editor": "エディタをクリア",
+    "search": "検索",
+    "find-and-replace": "検索と置換",
+    "fullscreen": "フルスクリーン",
+    "enter-fullscreen": "フルスクリーンに入る",
+    "exit-fullscreen": "フルスクリーンを終了",
+    "toggle-line-wrap": "折り返し切替",
+    "toggle-line-wrap-hint": "折り返し切替（ドラッグで移動、Mod+Alt+Wで切替）"
+  },
+  "editor": {
+    "opening-file": "ファイルを開いています…",
+    "copied": "クリップボードにコピーしました！",
+    "copy-failed": "コピーに失敗しました。",
+    "paste-failed": "貼り付けに失敗しました。"
+  },
+  "section": {
+    "expand": "展開",
+    "collapse": "折りたたむ"
+  },
+  "toolsgrid": {
+    "welcome-title": "GadgetForgeへようこそ",
+    "welcome-text": "生産性を高める便利なユーティリティのコレクション。GadgetForgeはJSONの整形、テキスト比較、正規表現の検証など、ソフトウェア開発者の日常的なタスクをサポートします。データの簡単な処理のために複数のウェブサイトを使う必要はありません。",
+    "open-tool": "ツールを開く",
+    "share-twitter": "X/Twitterで共有",
+    "share-facebook": "Facebookで共有",
+    "share-linkedin": "LinkedInで共有"
+  }
+}

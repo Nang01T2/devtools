@@ -1,0 +1,28 @@
+{
+  "jsonformatter": {
+    "configuration": "الإعدادات",
+    "indentation": "الإزاحة",
+    "indentation-message": "اختر نمط الإزاحة لتنسيق JSON",
+    "input": "الإدخال",
+    "output": "الإخراج",
+    "invalid-json-tree": "JSON غير صالح لعرض الشجرة"
+  },
+  "sqlformatter": {
+    "configuration": "الإعدادات",
+    "language": "اللغة",
+    "indentation": "الإزاحة",
+    "input": "الإدخال",
+    "output": "الإخراج"
+  },
+  "xmlformatter": {
+    "configuration": "الإعدادات",
+    "document-type": "نوع المستند",
+    "document-type-message": "اختر بين نوع مستند HTML أو XML",
+    "auto-fix-document": "إصلاح المستند تلقائيًا",
+    "auto-fix-document-message": "إصلاح أخطاء XML/HTML البسيطة تلقائيًا أثناء التحليل",
+    "pretty-document": "تجميل المستند",
+    "pretty-document-message": "تنسيق الإخراج بإزاحات لسهولة القراءة",
+    "input": "الإدخال",
+    "output": "الإخراج"
+  }
+}

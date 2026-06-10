@@ -1,0 +1,28 @@
+{
+  "jsonformatter": {
+    "configuration": "Konfiguration",
+    "indentation": "Einrückung",
+    "indentation-message": "Wählen Sie den Einrückungsstil für formatiertes JSON",
+    "input": "Eingabe",
+    "output": "Ausgabe",
+    "invalid-json-tree": "Ungültiges JSON für die Baumansicht"
+  },
+  "sqlformatter": {
+    "configuration": "Konfiguration",
+    "language": "Sprache",
+    "indentation": "Einrückung",
+    "input": "Eingabe",
+    "output": "Ausgabe"
+  },
+  "xmlformatter": {
+    "configuration": "Konfiguration",
+    "document-type": "Dokumenttyp",
+    "document-type-message": "Wählen Sie zwischen HTML- oder XML-Dokumenttyp",
+    "auto-fix-document": "Dokument automatisch korrigieren",
+    "auto-fix-document-message": "Kleinere XML-/HTML-Fehler beim Parsen automatisch beheben",
+    "pretty-document": "Dokument formatieren",
+    "pretty-document-message": "Die Ausgabe zur besseren Lesbarkeit mit Einrückung formatieren",
+    "input": "Eingabe",
+    "output": "Ausgabe"
+  }
+}

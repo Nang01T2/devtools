@@ -1,0 +1,40 @@
+{
+  "toolbar": {
+    "open": "Abrir",
+    "open-file": "Abrir archivo",
+    "save": "Guardar",
+    "save-as": "Guardar como…",
+    "download": "Descargar",
+    "paste": "Pegar",
+    "paste-from-clipboard": "Pegar desde el portapapeles",
+    "copy": "Copiar",
+    "copy-all": "Copiar todo",
+    "clear": "Limpiar",
+    "clear-editor": "Limpiar editor",
+    "search": "Buscar",
+    "find-and-replace": "Buscar y reemplazar",
+    "fullscreen": "Pantalla completa",
+    "enter-fullscreen": "Entrar en pantalla completa",
+    "exit-fullscreen": "Salir de pantalla completa",
+    "toggle-line-wrap": "Alternar ajuste de línea",
+    "toggle-line-wrap-hint": "Alternar ajuste de línea (arrastra para mover, Mod+Alt+W para alternar)"
+  },
+  "editor": {
+    "opening-file": "Abriendo archivo…",
+    "copied": "¡Copiado al portapapeles!",
+    "copy-failed": "No se pudo copiar al portapapeles.",
+    "paste-failed": "No se pudo pegar desde el portapapeles."
+  },
+  "section": {
+    "expand": "Expandir",
+    "collapse": "Contraer"
+  },
+  "toolsgrid": {
+    "welcome-title": "Bienvenido a GadgetForge",
+    "welcome-text": "Una colección de utilidades prácticas para aumentar tu productividad. GadgetForge ayuda a los desarrolladores de software con tareas cotidianas como dar formato a JSON, comparar textos y validar expresiones regulares. No necesitas usar varios sitios web para hacer tareas simples con tus datos.",
+    "open-tool": "Abrir herramienta",
+    "share-twitter": "Compartir en X/Twitter",
+    "share-facebook": "Compartir en Facebook",
+    "share-linkedin": "Compartir en LinkedIn"
+  }
+}

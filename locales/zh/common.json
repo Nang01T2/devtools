@@ -1,0 +1,40 @@
+{
+  "toolbar": {
+    "open": "打开",
+    "open-file": "打开文件",
+    "save": "保存",
+    "save-as": "另存为…",
+    "download": "下载",
+    "paste": "粘贴",
+    "paste-from-clipboard": "从剪贴板粘贴",
+    "copy": "复制",
+    "copy-all": "复制全部",
+    "clear": "清空",
+    "clear-editor": "清空编辑器",
+    "search": "搜索",
+    "find-and-replace": "查找和替换",
+    "fullscreen": "全屏",
+    "enter-fullscreen": "进入全屏",
+    "exit-fullscreen": "退出全屏",
+    "toggle-line-wrap": "切换自动换行",
+    "toggle-line-wrap-hint": "切换自动换行（拖动移动，Mod+Alt+W 切换）"
+  },
+  "editor": {
+    "opening-file": "正在打开文件…",
+    "copied": "已复制到剪贴板！",
+    "copy-failed": "复制失败。",
+    "paste-failed": "粘贴失败。"
+  },
+  "section": {
+    "expand": "展开",
+    "collapse": "折叠"
+  },
+  "toolsgrid": {
+    "welcome-title": "欢迎来到GadgetForge",
+    "welcome-text": "一系列提升您工作效率的实用工具。GadgetForge帮助软件开发者处理日常任务，如JSON格式化、文本对比和正则表达式验证。您无需使用多个网站来完成简单的数据处理任务。",
+    "open-tool": "打开工具",
+    "share-twitter": "分享到X/Twitter",
+    "share-facebook": "分享到Facebook",
+    "share-linkedin": "分享到LinkedIn"
+  }
+}

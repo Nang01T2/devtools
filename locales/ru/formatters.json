@@ -1,0 +1,28 @@
+{
+  "jsonformatter": {
+    "configuration": "Настройки",
+    "indentation": "Отступы",
+    "indentation-message": "Выберите стиль отступов для форматированного JSON",
+    "input": "Ввод",
+    "output": "Вывод",
+    "invalid-json-tree": "Недопустимый JSON для древовидного представления"
+  },
+  "sqlformatter": {
+    "configuration": "Настройки",
+    "language": "Язык",
+    "indentation": "Отступы",
+    "input": "Ввод",
+    "output": "Вывод"
+  },
+  "xmlformatter": {
+    "configuration": "Настройки",
+    "document-type": "Тип документа",
+    "document-type-message": "Выберите тип документа: HTML или XML",
+    "auto-fix-document": "Автоисправление документа",
+    "auto-fix-document-message": "Автоматически исправлять мелкие ошибки XML/HTML при разборе",
+    "pretty-document": "Красивый документ",
+    "pretty-document-message": "Форматировать вывод с отступами для удобочитаемости",
+    "input": "Ввод",
+    "output": "Вывод"
+  }
+}
