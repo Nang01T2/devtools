@@ -1,0 +1,8 @@
+{
+  "ipgeotool": {
+    "enter-ip-address": "输入IP地址（留空查询当前IP）",
+    "query": "查询",
+    "loading": "加载中...",
+    "or-query-your-current-ip": "或立即查询您当前的IP位置"
+  }
+}

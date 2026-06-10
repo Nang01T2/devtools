@@ -1,0 +1,27 @@
+{
+  "base64decoder": {
+    "configuration": "الإعدادات",
+    "source-type": "نوع المصدر",
+    "source-type-message": "اختر بين إدخال النص أو رفع ملف",
+    "text-source": "مصدر نصي",
+    "file-source": "مصدر ملف",
+    "text": "نص",
+    "file": "ملف",
+    "encoded": "مُرمّز",
+    "invalid-base64-string": "سلسلة Base64 غير صالحة"
+  },
+  "htmldecoder": {
+    "decoded": "مفكوك الترميز",
+    "encoded": "مُرمّز"
+  },
+  "jwtdecoder": {
+    "input-jwt-token": "الإدخال (رمز JWT)",
+    "header-algorithm-token-type": "الترويسة (الخوارزمية ونوع الرمز)",
+    "payload-data-claims": "الحمولة (البيانات والمطالبات)",
+    "interpreted-claims": "المطالبات المُفسَّرة"
+  },
+  "urldecoder": {
+    "decoded": "مفكوك الترميز",
+    "encoded": "مُرمّز"
+  }
+}

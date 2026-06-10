@@ -1,0 +1,27 @@
+{
+  "loremipsumgenerator": {
+    "configuration": "الإعدادات",
+    "type": "النوع",
+    "type-message": "نوع نص Lorem Ipsum المُنشأ",
+    "length": "الطول",
+    "length-message": "طول نص Lorem Ipsum المُنشأ",
+    "words": "كلمات",
+    "sentences": "جمل",
+    "paragraphs": "فقرات",
+    "output": "الإخراج"
+  },
+  "checksumgenerator": {
+    "configuration": "الإعدادات",
+    "uppercase": "أحرف كبيرة",
+    "uppercase-message": "عرض المجموع الاختباري بأحرف كبيرة",
+    "hash-algorithm": "خوارزمية التجزئة",
+    "hash-algorithm-message": "اختر خوارزمية التجزئة المراد استخدامها",
+    "input-file": "ملف الإدخال",
+    "calculated-checksum": "المجموع الاختباري المحسوب",
+    "checksum-will-appear-here": "سيظهر المجموع الاختباري هنا",
+    "compare-with": "المقارنة مع",
+    "paste-a-checksum-to-compare": "الصق مجموعًا اختباريًا للمقارنة",
+    "file-error": "خطأ في الملف",
+    "ok": "موافق"
+  }
+}

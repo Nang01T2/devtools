@@ -1,0 +1,27 @@
+{
+  "loremipsumgenerator": {
+    "configuration": "Настройки",
+    "type": "Тип",
+    "type-message": "Тип генерируемого Lorem Ipsum",
+    "length": "Длина",
+    "length-message": "Длина генерируемого Lorem Ipsum",
+    "words": "Слова",
+    "sentences": "Предложения",
+    "paragraphs": "Абзацы",
+    "output": "Вывод"
+  },
+  "checksumgenerator": {
+    "configuration": "Настройки",
+    "uppercase": "Верхний регистр",
+    "uppercase-message": "Отображать контрольную сумму в верхнем регистре",
+    "hash-algorithm": "Алгоритм хеширования",
+    "hash-algorithm-message": "Выберите используемый алгоритм хеширования",
+    "input-file": "Входной файл",
+    "calculated-checksum": "Вычисленная контрольная сумма",
+    "checksum-will-appear-here": "Контрольная сумма появится здесь",
+    "compare-with": "Сравнить с",
+    "paste-a-checksum-to-compare": "Вставьте контрольную сумму для сравнения",
+    "file-error": "Ошибка файла",
+    "ok": "ОК"
+  }
+}

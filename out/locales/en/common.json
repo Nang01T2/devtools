@@ -1,0 +1,40 @@
+{
+  "toolbar": {
+    "open": "Open",
+    "open-file": "Open file",
+    "save": "Save",
+    "save-as": "Save As…",
+    "download": "Download",
+    "paste": "Paste",
+    "paste-from-clipboard": "Paste from clipboard",
+    "copy": "Copy",
+    "copy-all": "Copy all",
+    "clear": "Clear",
+    "clear-editor": "Clear editor",
+    "search": "Search",
+    "find-and-replace": "Find and replace",
+    "fullscreen": "Fullscreen",
+    "enter-fullscreen": "Enter fullscreen",
+    "exit-fullscreen": "Exit fullscreen",
+    "toggle-line-wrap": "Toggle line wrap",
+    "toggle-line-wrap-hint": "Toggle line wrap (drag to move, Mod+Alt+W to toggle)"
+  },
+  "editor": {
+    "opening-file": "Opening file…",
+    "copied": "Copied to clipboard!",
+    "copy-failed": "Failed to copy to clipboard.",
+    "paste-failed": "Failed to paste from clipboard."
+  },
+  "section": {
+    "expand": "Expand",
+    "collapse": "Collapse"
+  },
+  "toolsgrid": {
+    "welcome-title": "Welcome to GadgetForge",
+    "welcome-text": "A collection of handy utilities to boost your productivity. GadgetForge helps software developers with everyday tasks like JSON formatting, text comparison, and RegExp validation. You don't need to use multiple websites to do simple tasks with your data.",
+    "open-tool": "Open Tool",
+    "share-twitter": "Share on X/Twitter",
+    "share-facebook": "Share on Facebook",
+    "share-linkedin": "Share on LinkedIn"
+  }
+}

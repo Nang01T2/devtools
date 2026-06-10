@@ -1,0 +1,28 @@
+{
+  "jsonformatter": {
+    "configuration": "Cấu hình",
+    "indentation": "Thụt lề",
+    "indentation-message": "Chọn kiểu thụt lề cho JSON định dạng",
+    "input": "Đầu vào",
+    "output": "Đầu ra",
+    "invalid-json-tree": "JSON không hợp lệ cho chế độ xem cây"
+  },
+  "sqlformatter": {
+    "configuration": "Cấu hình",
+    "language": "Ngôn ngữ",
+    "indentation": "Thụt lề",
+    "input": "Đầu vào",
+    "output": "Đầu ra"
+  },
+  "xmlformatter": {
+    "configuration": "Cấu hình",
+    "document-type": "Loại tài liệu",
+    "document-type-message": "Chọn giữa tài liệu HTML hoặc XML",
+    "auto-fix-document": "Tự động sửa tài liệu",
+    "auto-fix-document-message": "Tự động sửa các lỗi XML/HTML nhỏ trong quá trình phân tích",
+    "pretty-document": "Tài liệu đẹp",
+    "pretty-document-message": "Định dạng đầu ra với thụt lề để dễ đọc",
+    "input": "Đầu vào",
+    "output": "Đầu ra"
+  }
+}

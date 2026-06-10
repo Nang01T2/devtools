@@ -1,0 +1,27 @@
+{
+  "loremipsumgenerator": {
+    "configuration": "設定",
+    "type": "タイプ",
+    "type-message": "生成するLorem Ipsumのタイプ",
+    "length": "長さ",
+    "length-message": "生成するLorem Ipsumの長さ",
+    "words": "単語",
+    "sentences": "文",
+    "paragraphs": "段落",
+    "output": "出力"
+  },
+  "checksumgenerator": {
+    "configuration": "設定",
+    "uppercase": "大文字",
+    "uppercase-message": "チェックサムを大文字で表示",
+    "hash-algorithm": "ハッシュアルゴリズム",
+    "hash-algorithm-message": "使用するハッシュアルゴリズムを選択",
+    "input-file": "入力ファイル",
+    "calculated-checksum": "計算されたチェックサム",
+    "checksum-will-appear-here": "チェックサムがここに表示されます",
+    "compare-with": "比較",
+    "paste-a-checksum-to-compare": "比較するチェックサムを貼り付け",
+    "file-error": "ファイルエラー",
+    "ok": "OK"
+  }
+}

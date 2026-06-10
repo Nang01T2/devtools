@@ -1,0 +1,28 @@
+{
+  "jsonformatter": {
+    "configuration": "Configuración",
+    "indentation": "Sangría",
+    "indentation-message": "Elige el estilo de sangría para el JSON formateado",
+    "input": "Entrada",
+    "output": "Salida",
+    "invalid-json-tree": "JSON no válido para la vista de árbol"
+  },
+  "sqlformatter": {
+    "configuration": "Configuración",
+    "language": "Lenguaje",
+    "indentation": "Sangría",
+    "input": "Entrada",
+    "output": "Salida"
+  },
+  "xmlformatter": {
+    "configuration": "Configuración",
+    "document-type": "Tipo de documento",
+    "document-type-message": "Elige entre tipo de documento HTML o XML",
+    "auto-fix-document": "Corregir documento automáticamente",
+    "auto-fix-document-message": "Corrige automáticamente errores menores de XML/HTML durante el análisis",
+    "pretty-document": "Documento legible",
+    "pretty-document-message": "Formatea la salida con sangría para facilitar la lectura",
+    "input": "Entrada",
+    "output": "Salida"
+  }
+}

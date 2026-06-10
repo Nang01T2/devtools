@@ -1,0 +1,62 @@
+{
+  "jsonyamlconverter": {
+    "configuration": "Настройки",
+    "format": "Формат",
+    "format-message": "Выберите формат вывода JSON: красивый (с отступами) или минифицированный"
+  },
+  "datetimeconverter": {
+    "configuration": "Настройки",
+    "date-time": "Дата и время",
+    "date-time-message": "Выберите дату и время для форматирования",
+    "locale": "Локаль",
+    "locale-message": "Выберите локаль для отображения даты и времени",
+    "unix-timestamp": "Unix-время",
+    "unix-timestamp-message": "Введите значение Unix-времени",
+    "unix-timestamp-placeholder": "Unix-время",
+    "timestamp-actions": "Действия с меткой времени",
+    "timestamp-actions-message": "Быстрые действия с меткой времени",
+    "now": "Сейчас",
+    "live-update": "Обновление в реальном времени",
+    "converted-formats": "Преобразованные форматы",
+    "common-formats": "Распространённые форматы",
+    "custom-format": "Пользовательский формат",
+    "timezone-conversion": "Преобразование часовых поясов",
+    "preset-format": "Готовый формат",
+    "custom-input": "Пользовательский ввод",
+    "enter-format": "Введите формат (например, yyyy-MM-dd HH:mm:ss ZZZ)",
+    "source": "Источник",
+    "target": "Цель",
+    "cancel": "Отмена",
+    "done": "Готово",
+    "search-formats": "Поиск форматов...",
+    "search-locales": "Поиск локалей...",
+    "search-timezones": "Поиск часовых поясов...",
+    "select-preset-format": "Выберите готовый формат",
+    "select-locale": "Выберите локаль",
+    "copied-name": "Скопировано: {name}!"
+  },
+  "numberbaseconverter": {
+    "configuration": "Настройки",
+    "format-number": "Форматировать число",
+    "format-number-message": "Группировать цифры для удобочитаемости",
+    "loading": "Загрузка...",
+    "decimal": "Десятичная (основание 10)",
+    "hexadecimal": "Шестнадцатеричная (основание 16)",
+    "octal": "Восьмеричная (основание 8)",
+    "binary": "Двоичная (основание 2)",
+    "enter-decimal": "Введите десятичное число...",
+    "enter-hex": "Введите шестнадцатеричное число (например, 1A3F)",
+    "enter-octal": "Введите восьмеричное число...",
+    "enter-binary": "Введите двоичное число..."
+  },
+  "cronparser": {
+    "verbose": "Подробно",
+    "use-24-hour-time-format": "Использовать 24-часовой формат времени",
+    "days-start-at-0": "Дни начинаются с 0 (воскресенье = 0)",
+    "symbol": "Символ",
+    "meaning": "Значение",
+    "example": "Пример",
+    "equivalent": "Эквивалент",
+    "this-cron-is-invalid": "Это cron-выражение недопустимо"
+  }
+}

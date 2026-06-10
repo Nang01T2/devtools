@@ -1,0 +1,62 @@
+{
+  "jsonyamlconverter": {
+    "configuration": "Cấu hình",
+    "format": "Định dạng",
+    "format-message": "Chọn định dạng đầu ra JSON: đẹp (có thụt lề) hoặc thu gọn"
+  },
+  "datetimeconverter": {
+    "configuration": "Cấu hình",
+    "date-time": "Ngày & Giờ",
+    "date-time-message": "Chọn ngày và giờ để định dạng",
+    "locale": "Ngôn ngữ vùng",
+    "locale-message": "Chọn ngôn ngữ vùng để hiển thị ngày/giờ",
+    "unix-timestamp": "Unix Timestamp",
+    "unix-timestamp-message": "Nhập giá trị Unix timestamp",
+    "unix-timestamp-placeholder": "Unix Timestamp",
+    "timestamp-actions": "Thao tác Timestamp",
+    "timestamp-actions-message": "Thao tác nhanh cho timestamp",
+    "now": "Bây giờ",
+    "live-update": "Cập nhật trực tiếp",
+    "converted-formats": "Định dạng đã chuyển đổi",
+    "common-formats": "Định dạng phổ biến",
+    "custom-format": "Định dạng tùy chỉnh",
+    "timezone-conversion": "Chuyển đổi múi giờ",
+    "preset-format": "Định dạng có sẵn",
+    "custom-input": "Nhập tùy chỉnh",
+    "enter-format": "Nhập định dạng (vd: yyyy-MM-dd HH:mm:ss ZZZ)",
+    "source": "Nguồn",
+    "target": "Đích",
+    "cancel": "Hủy",
+    "done": "Xong",
+    "search-formats": "Tìm kiếm định dạng...",
+    "search-locales": "Tìm kiếm ngôn ngữ vùng...",
+    "search-timezones": "Tìm kiếm múi giờ...",
+    "select-preset-format": "Chọn định dạng có sẵn",
+    "select-locale": "Chọn ngôn ngữ vùng",
+    "copied-name": "Đã sao chép {name}!"
+  },
+  "numberbaseconverter": {
+    "configuration": "Cấu hình",
+    "format-number": "Định dạng số",
+    "format-number-message": "Nhóm chữ số để dễ đọc hơn",
+    "loading": "Đang tải...",
+    "decimal": "Thập phân (cơ số 10)",
+    "hexadecimal": "Thập lục phân (cơ số 16)",
+    "octal": "Bát phân (cơ số 8)",
+    "binary": "Nhị phân (cơ số 2)",
+    "enter-decimal": "Nhập số thập phân...",
+    "enter-hex": "Nhập số hex (vd: 1A3F)",
+    "enter-octal": "Nhập số bát phân...",
+    "enter-binary": "Nhập số nhị phân..."
+  },
+  "cronparser": {
+    "verbose": "Chi tiết",
+    "use-24-hour-time-format": "Dùng định dạng 24 giờ",
+    "days-start-at-0": "Ngày bắt đầu từ 0 (Chủ nhật = 0)",
+    "symbol": "Ký hiệu",
+    "meaning": "Ý nghĩa",
+    "example": "Ví dụ",
+    "equivalent": "Tương đương",
+    "this-cron-is-invalid": "Biểu thức cron không hợp lệ"
+  }
+}

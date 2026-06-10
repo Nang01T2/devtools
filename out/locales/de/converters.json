@@ -1,0 +1,62 @@
+{
+  "jsonyamlconverter": {
+    "configuration": "Konfiguration",
+    "format": "Format",
+    "format-message": "Wählen Sie das JSON-Ausgabeformat: formatiert (eingerückt) oder minimiert"
+  },
+  "datetimeconverter": {
+    "configuration": "Konfiguration",
+    "date-time": "Datum & Uhrzeit",
+    "date-time-message": "Wählen Sie Datum und Uhrzeit für die Formatierung",
+    "locale": "Gebietsschema",
+    "locale-message": "Wählen Sie ein Gebietsschema für die Datums-/Zeitanzeige",
+    "unix-timestamp": "Unix-Zeitstempel",
+    "unix-timestamp-message": "Geben Sie einen Unix-Zeitstempelwert ein",
+    "unix-timestamp-placeholder": "Unix-Zeitstempel",
+    "timestamp-actions": "Zeitstempel-Aktionen",
+    "timestamp-actions-message": "Schnellaktionen für den Zeitstempel",
+    "now": "Jetzt",
+    "live-update": "Live-Aktualisierung",
+    "converted-formats": "Konvertierte Formate",
+    "common-formats": "Gängige Formate",
+    "custom-format": "Benutzerdefiniertes Format",
+    "timezone-conversion": "Zeitzonen-Umrechnung",
+    "preset-format": "Vordefiniertes Format",
+    "custom-input": "Benutzerdefinierte Eingabe",
+    "enter-format": "Format eingeben (z. B. yyyy-MM-dd HH:mm:ss ZZZ)",
+    "source": "Quelle",
+    "target": "Ziel",
+    "cancel": "Abbrechen",
+    "done": "Fertig",
+    "search-formats": "Formate suchen...",
+    "search-locales": "Gebietsschemata suchen...",
+    "search-timezones": "Zeitzonen suchen...",
+    "select-preset-format": "Vordefiniertes Format auswählen",
+    "select-locale": "Gebietsschema auswählen",
+    "copied-name": "{name} kopiert!"
+  },
+  "numberbaseconverter": {
+    "configuration": "Konfiguration",
+    "format-number": "Zahl formatieren",
+    "format-number-message": "Ziffern für bessere Lesbarkeit gruppieren",
+    "loading": "Wird geladen...",
+    "decimal": "Dezimal (Basis 10)",
+    "hexadecimal": "Hexadezimal (Basis 16)",
+    "octal": "Oktal (Basis 8)",
+    "binary": "Binär (Basis 2)",
+    "enter-decimal": "Dezimalzahl eingeben...",
+    "enter-hex": "Hexadezimalzahl eingeben (z. B. 1A3F)",
+    "enter-octal": "Oktalzahl eingeben...",
+    "enter-binary": "Binärzahl eingeben..."
+  },
+  "cronparser": {
+    "verbose": "Ausführlich",
+    "use-24-hour-time-format": "24-Stunden-Format verwenden",
+    "days-start-at-0": "Tage beginnen bei 0 (Sonntag = 0)",
+    "symbol": "Symbol",
+    "meaning": "Bedeutung",
+    "example": "Beispiel",
+    "equivalent": "Entspricht",
+    "this-cron-is-invalid": "Dieser cron-Ausdruck ist ungültig"
+  }
+}

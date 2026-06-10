@@ -1,0 +1,27 @@
+{
+  "base64decoder": {
+    "configuration": "配置",
+    "source-type": "来源类型",
+    "source-type-message": "选择文本输入或文件上传",
+    "text-source": "文本来源",
+    "file-source": "文件来源",
+    "text": "文本",
+    "file": "文件",
+    "encoded": "已编码",
+    "invalid-base64-string": "无效的Base64字符串"
+  },
+  "htmldecoder": {
+    "decoded": "已解码",
+    "encoded": "已编码"
+  },
+  "jwtdecoder": {
+    "input-jwt-token": "输入（JWT令牌）",
+    "header-algorithm-token-type": "头部（算法和令牌类型）",
+    "payload-data-claims": "载荷（数据和声明）",
+    "interpreted-claims": "已解析的声明"
+  },
+  "urldecoder": {
+    "decoded": "已解码",
+    "encoded": "已编码"
+  }
+}

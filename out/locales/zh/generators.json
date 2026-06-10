@@ -1,0 +1,27 @@
+{
+  "loremipsumgenerator": {
+    "configuration": "配置",
+    "type": "类型",
+    "type-message": "选择Lorem Ipsum的生成类型",
+    "length": "长度",
+    "length-message": "生成Lorem Ipsum的长度",
+    "words": "单词",
+    "sentences": "句子",
+    "paragraphs": "段落",
+    "output": "输出"
+  },
+  "checksumgenerator": {
+    "configuration": "配置",
+    "uppercase": "大写",
+    "uppercase-message": "以大写字母显示校验和",
+    "hash-algorithm": "哈希算法",
+    "hash-algorithm-message": "选择使用的哈希算法",
+    "input-file": "输入文件",
+    "calculated-checksum": "计算的校验和",
+    "checksum-will-appear-here": "校验和将在此显示",
+    "compare-with": "比较",
+    "paste-a-checksum-to-compare": "粘贴校验和以进行比较",
+    "file-error": "文件错误",
+    "ok": "OK"
+  }
+}

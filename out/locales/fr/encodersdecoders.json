@@ -1,0 +1,27 @@
+{
+  "base64decoder": {
+    "configuration": "Configuration",
+    "source-type": "Type de source",
+    "source-type-message": "Choisissez entre la saisie de texte ou l'envoi de fichier",
+    "text-source": "Source texte",
+    "file-source": "Source fichier",
+    "text": "Texte",
+    "file": "Fichier",
+    "encoded": "Encodé",
+    "invalid-base64-string": "Chaîne Base64 invalide"
+  },
+  "htmldecoder": {
+    "decoded": "Décodé",
+    "encoded": "Encodé"
+  },
+  "jwtdecoder": {
+    "input-jwt-token": "Entrée (jeton JWT)",
+    "header-algorithm-token-type": "En-tête (algorithme et type de jeton)",
+    "payload-data-claims": "Charge utile (données et claims)",
+    "interpreted-claims": "Claims interprétés"
+  },
+  "urldecoder": {
+    "decoded": "Décodé",
+    "encoded": "Encodé"
+  }
+}

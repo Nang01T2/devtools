@@ -1,0 +1,40 @@
+{
+  "toolbar": {
+    "open": "فتح",
+    "open-file": "فتح ملف",
+    "save": "حفظ",
+    "save-as": "حفظ باسم…",
+    "download": "تنزيل",
+    "paste": "لصق",
+    "paste-from-clipboard": "لصق من الحافظة",
+    "copy": "نسخ",
+    "copy-all": "نسخ الكل",
+    "clear": "مسح",
+    "clear-editor": "مسح المحرر",
+    "search": "بحث",
+    "find-and-replace": "بحث واستبدال",
+    "fullscreen": "ملء الشاشة",
+    "enter-fullscreen": "الدخول إلى وضع ملء الشاشة",
+    "exit-fullscreen": "الخروج من وضع ملء الشاشة",
+    "toggle-line-wrap": "تبديل التفاف الأسطر",
+    "toggle-line-wrap-hint": "تبديل التفاف الأسطر (اسحب للتحريك، Mod+Alt+W للتبديل)"
+  },
+  "editor": {
+    "opening-file": "جارٍ فتح الملف…",
+    "copied": "تم النسخ إلى الحافظة!",
+    "copy-failed": "فشل النسخ إلى الحافظة.",
+    "paste-failed": "فشل اللصق من الحافظة."
+  },
+  "section": {
+    "expand": "توسيع",
+    "collapse": "طي"
+  },
+  "toolsgrid": {
+    "welcome-title": "مرحبًا بك في GadgetForge",
+    "welcome-text": "مجموعة من الأدوات العملية لتعزيز إنتاجيتك. يساعد GadgetForge مطوري البرمجيات في المهام اليومية مثل تنسيق JSON ومقارنة النصوص والتحقق من تعبيرات RegExp. لن تحتاج إلى استخدام مواقع متعددة لإنجاز المهام البسيطة على بياناتك.",
+    "open-tool": "فتح الأداة",
+    "share-twitter": "مشاركة على X/Twitter",
+    "share-facebook": "مشاركة على Facebook",
+    "share-linkedin": "مشاركة على LinkedIn"
+  }
+}

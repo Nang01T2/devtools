@@ -1,0 +1,27 @@
+{
+  "base64decoder": {
+    "configuration": "Настройки",
+    "source-type": "Тип источника",
+    "source-type-message": "Выберите между вводом текста и загрузкой файла",
+    "text-source": "Текстовый источник",
+    "file-source": "Файловый источник",
+    "text": "Текст",
+    "file": "Файл",
+    "encoded": "Закодировано",
+    "invalid-base64-string": "Недопустимая строка Base64"
+  },
+  "htmldecoder": {
+    "decoded": "Декодировано",
+    "encoded": "Закодировано"
+  },
+  "jwtdecoder": {
+    "input-jwt-token": "Ввод (токен JWT)",
+    "header-algorithm-token-type": "Заголовок (алгоритм и тип токена)",
+    "payload-data-claims": "Полезная нагрузка (данные и утверждения)",
+    "interpreted-claims": "Интерпретированные утверждения"
+  },
+  "urldecoder": {
+    "decoded": "Декодировано",
+    "encoded": "Закодировано"
+  }
+}

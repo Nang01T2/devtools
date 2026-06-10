@@ -1,0 +1,28 @@
+{
+  "jsonformatter": {
+    "configuration": "配置",
+    "indentation": "缩进",
+    "indentation-message": "选择格式化JSON的缩进样式",
+    "input": "输入",
+    "output": "输出",
+    "invalid-json-tree": "无效的JSON，无法以树形视图显示"
+  },
+  "sqlformatter": {
+    "configuration": "配置",
+    "language": "语言",
+    "indentation": "缩进",
+    "input": "输入",
+    "output": "输出"
+  },
+  "xmlformatter": {
+    "configuration": "配置",
+    "document-type": "文档类型",
+    "document-type-message": "选择HTML或XML文档类型",
+    "auto-fix-document": "自动修复文档",
+    "auto-fix-document-message": "解析时自动修复轻微的XML/HTML错误",
+    "pretty-document": "美化文档",
+    "pretty-document-message": "以缩进格式输出，提高可读性",
+    "input": "输入",
+    "output": "输出"
+  }
+}

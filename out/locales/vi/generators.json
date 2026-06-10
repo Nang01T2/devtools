@@ -1,0 +1,27 @@
+{
+  "loremipsumgenerator": {
+    "configuration": "Cấu hình",
+    "type": "Loại",
+    "type-message": "Loại Lorem Ipsum cần tạo",
+    "length": "Độ dài",
+    "length-message": "Độ dài của Lorem Ipsum cần tạo",
+    "words": "Từ",
+    "sentences": "Câu",
+    "paragraphs": "Đoạn văn",
+    "output": "Kết quả"
+  },
+  "checksumgenerator": {
+    "configuration": "Cấu hình",
+    "uppercase": "Chữ hoa",
+    "uppercase-message": "Hiển thị checksum bằng chữ hoa",
+    "hash-algorithm": "Thuật toán Hash",
+    "hash-algorithm-message": "Chọn thuật toán băm để sử dụng",
+    "input-file": "Tệp đầu vào",
+    "calculated-checksum": "Checksum đã tính",
+    "checksum-will-appear-here": "Checksum sẽ hiển thị ở đây",
+    "compare-with": "So sánh với",
+    "paste-a-checksum-to-compare": "Dán checksum để so sánh",
+    "file-error": "Lỗi tệp",
+    "ok": "OK"
+  }
+}

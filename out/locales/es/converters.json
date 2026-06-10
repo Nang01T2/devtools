@@ -1,0 +1,62 @@
+{
+  "jsonyamlconverter": {
+    "configuration": "Configuración",
+    "format": "Formato",
+    "format-message": "Elige el formato de salida de JSON: legible (con sangría) o minificado"
+  },
+  "datetimeconverter": {
+    "configuration": "Configuración",
+    "date-time": "Fecha y hora",
+    "date-time-message": "Selecciona la fecha y la hora para el formateo",
+    "locale": "Configuración regional",
+    "locale-message": "Elige una configuración regional para mostrar la fecha/hora",
+    "unix-timestamp": "Marca de tiempo Unix",
+    "unix-timestamp-message": "Ingresa un valor de marca de tiempo Unix",
+    "unix-timestamp-placeholder": "Marca de tiempo Unix",
+    "timestamp-actions": "Acciones de marca de tiempo",
+    "timestamp-actions-message": "Acciones rápidas para la marca de tiempo",
+    "now": "Ahora",
+    "live-update": "Actualización en vivo",
+    "converted-formats": "Formatos convertidos",
+    "common-formats": "Formatos comunes",
+    "custom-format": "Formato personalizado",
+    "timezone-conversion": "Conversión de zona horaria",
+    "preset-format": "Formato predefinido",
+    "custom-input": "Entrada personalizada",
+    "enter-format": "Ingresa un formato (p. ej., yyyy-MM-dd HH:mm:ss ZZZ)",
+    "source": "Origen",
+    "target": "Destino",
+    "cancel": "Cancelar",
+    "done": "Listo",
+    "search-formats": "Buscar formatos...",
+    "search-locales": "Buscar configuraciones regionales...",
+    "search-timezones": "Buscar zonas horarias...",
+    "select-preset-format": "Seleccionar formato predefinido",
+    "select-locale": "Seleccionar configuración regional",
+    "copied-name": "¡Se copió {name}!"
+  },
+  "numberbaseconverter": {
+    "configuration": "Configuración",
+    "format-number": "Formatear número",
+    "format-number-message": "Agrupa los dígitos para mejorar la legibilidad",
+    "loading": "Cargando...",
+    "decimal": "Decimal (base 10)",
+    "hexadecimal": "Hexadecimal (base 16)",
+    "octal": "Octal (base 8)",
+    "binary": "Binario (base 2)",
+    "enter-decimal": "Ingresa un número decimal...",
+    "enter-hex": "Ingresa un hexadecimal (p. ej., 1A3F)",
+    "enter-octal": "Ingresa un número octal...",
+    "enter-binary": "Ingresa un número binario..."
+  },
+  "cronparser": {
+    "verbose": "Detallado",
+    "use-24-hour-time-format": "Usar formato de 24 horas",
+    "days-start-at-0": "Los días empiezan en 0 (domingo = 0)",
+    "symbol": "Símbolo",
+    "meaning": "Significado",
+    "example": "Ejemplo",
+    "equivalent": "Equivalente",
+    "this-cron-is-invalid": "Esta expresión cron no es válida"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "jsonformatter": {
+    "configuration": "設定",
+    "indentation": "インデント",
+    "indentation-message": "フォーマットされたJSONのインデントスタイルを選択",
+    "input": "入力",
+    "output": "出力",
+    "invalid-json-tree": "ツリー表示には無効なJSONです"
+  },
+  "sqlformatter": {
+    "configuration": "設定",
+    "language": "言語",
+    "indentation": "インデント",
+    "input": "入力",
+    "output": "出力"
+  },
+  "xmlformatter": {
+    "configuration": "設定",
+    "document-type": "ドキュメントタイプ",
+    "document-type-message": "HTMLまたはXMLドキュメントタイプを選択",
+    "auto-fix-document": "自動修正",
+    "auto-fix-document-message": "解析中にXML/HTMLの軽微なエラーを自動的に修正",
+    "pretty-document": "整形",
+    "pretty-document-message": "読みやすくするためにインデント付きで出力をフォーマット",
+    "input": "入力",
+    "output": "出力"
+  }
+}

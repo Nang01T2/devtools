@@ -1,0 +1,62 @@
+{
+  "jsonyamlconverter": {
+    "configuration": "الإعدادات",
+    "format": "التنسيق",
+    "format-message": "اختر تنسيق إخراج JSON: منسّق (بمسافات بادئة) أو مصغّر"
+  },
+  "datetimeconverter": {
+    "configuration": "الإعدادات",
+    "date-time": "التاريخ والوقت",
+    "date-time-message": "اختر التاريخ والوقت للتنسيق",
+    "locale": "اللغة المحلية",
+    "locale-message": "اختر لغة محلية لعرض التاريخ/الوقت",
+    "unix-timestamp": "طابع Unix الزمني",
+    "unix-timestamp-message": "أدخل قيمة طابع Unix الزمني",
+    "unix-timestamp-placeholder": "طابع Unix الزمني",
+    "timestamp-actions": "إجراءات الطابع الزمني",
+    "timestamp-actions-message": "إجراءات سريعة للطابع الزمني",
+    "now": "الآن",
+    "live-update": "تحديث مباشر",
+    "converted-formats": "التنسيقات المحوّلة",
+    "common-formats": "التنسيقات الشائعة",
+    "custom-format": "تنسيق مخصص",
+    "timezone-conversion": "تحويل المنطقة الزمنية",
+    "preset-format": "تنسيق مسبق الإعداد",
+    "custom-input": "إدخال مخصص",
+    "enter-format": "أدخل التنسيق (مثل yyyy-MM-dd HH:mm:ss ZZZ)",
+    "source": "المصدر",
+    "target": "الهدف",
+    "cancel": "إلغاء",
+    "done": "تم",
+    "search-formats": "البحث في التنسيقات...",
+    "search-locales": "البحث في اللغات المحلية...",
+    "search-timezones": "البحث في المناطق الزمنية...",
+    "select-preset-format": "اختر تنسيقًا مسبق الإعداد",
+    "select-locale": "اختر اللغة المحلية",
+    "copied-name": "تم نسخ {name}!"
+  },
+  "numberbaseconverter": {
+    "configuration": "الإعدادات",
+    "format-number": "تنسيق الرقم",
+    "format-number-message": "تجميع الأرقام لتحسين القراءة",
+    "loading": "جارٍ التحميل...",
+    "decimal": "عشري (الأساس 10)",
+    "hexadecimal": "سداسي عشري (الأساس 16)",
+    "octal": "ثماني (الأساس 8)",
+    "binary": "ثنائي (الأساس 2)",
+    "enter-decimal": "أدخل رقمًا عشريًا...",
+    "enter-hex": "أدخل رقمًا سداسيًا عشريًا (مثل 1A3F)",
+    "enter-octal": "أدخل رقمًا ثمانيًا...",
+    "enter-binary": "أدخل رقمًا ثنائيًا..."
+  },
+  "cronparser": {
+    "verbose": "مفصّل",
+    "use-24-hour-time-format": "استخدام تنسيق 24 ساعة",
+    "days-start-at-0": "تبدأ الأيام من 0 (الأحد = 0)",
+    "symbol": "الرمز",
+    "meaning": "المعنى",
+    "example": "مثال",
+    "equivalent": "المكافئ",
+    "this-cron-is-invalid": "تعبير cron هذا غير صالح"
+  }
+}

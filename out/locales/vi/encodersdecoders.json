@@ -1,0 +1,27 @@
+{
+  "base64decoder": {
+    "configuration": "Cấu hình",
+    "source-type": "Loại nguồn",
+    "source-type-message": "Chọn giữa nhập văn bản hoặc tải tệp lên",
+    "text-source": "Văn bản",
+    "file-source": "Tệp",
+    "text": "Văn bản",
+    "file": "Tệp",
+    "encoded": "Đã mã hóa",
+    "invalid-base64-string": "Chuỗi Base64 không hợp lệ"
+  },
+  "htmldecoder": {
+    "decoded": "Đã giải mã",
+    "encoded": "Đã mã hóa"
+  },
+  "jwtdecoder": {
+    "input-jwt-token": "Đầu vào (JWT Token)",
+    "header-algorithm-token-type": "Header (Thuật toán & Loại Token)",
+    "payload-data-claims": "Payload (Dữ liệu & Claims)",
+    "interpreted-claims": "Claims đã giải mã"
+  },
+  "urldecoder": {
+    "decoded": "Đã giải mã",
+    "encoded": "Đã mã hóa"
+  }
+}

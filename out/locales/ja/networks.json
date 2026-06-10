@@ -1,0 +1,8 @@
+{
+  "ipgeotool": {
+    "enter-ip-address": "IPアドレスを入力（空白の場合は現在のIPを使用）",
+    "query": "クエリ",
+    "loading": "読み込み中...",
+    "or-query-your-current-ip": "または現在のIPの場所を今すぐ確認"
+  }
+}

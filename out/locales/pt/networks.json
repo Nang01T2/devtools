@@ -1,0 +1,8 @@
+{
+  "ipgeotool": {
+    "enter-ip-address": "Introduza um endereço IP (deixe em branco para o seu IP atual)",
+    "query": "Consultar",
+    "loading": "A carregar...",
+    "or-query-your-current-ip": "Ou consulte agora a localização do seu IP atual"
+  }
+}
