@@ -1,0 +1,21 @@
+{
+  "privacy": {
+    "title": "Política de privacidad",
+    "last-updated": "Última actualización: 10 de junio de 2026",
+    "s1-title": "1. Introducción",
+    "s1-body": "Bienvenido a GadgetForge (\"la Aplicación\"). Respetamos tu privacidad y nos comprometemos a proteger tus datos. Esta política explica cómo se tratan tus datos cuando usas la Aplicación.",
+    "s2-title": "2. Tu contenido",
+    "s2-b1": "La mayoría de las herramientas se ejecutan por completo en tu navegador. El código, los archivos y el texto que abres, editas o creas permanecen en tu dispositivo y no se envían a nuestros servidores.",
+    "s2-b2": "Usar las herramientas no requiere ninguna cuenta, y el contenido con el que trabajas no se almacena en ningún servidor nuestro.",
+    "s2-b3": "Algunas herramientas necesitan un servicio externo para funcionar; consulta \"Servicios de terceros\" más abajo.",
+    "s3-title": "3. Servicios de terceros",
+    "s3-intro": "La mayoría de las herramientas funcionan totalmente sin conexión en tu navegador. Las siguientes herramientas son una excepción porque necesitan datos externos para funcionar, por lo que la información que proporcionas se envía a un proveedor externo:",
+    "s3-b1": "Traductor multilingüe — el texto que introduces se envía a Google Translate para generar las traducciones.",
+    "s3-b2": "Geolocalización de IP — la dirección IP que consultas se envía a un proveedor externo de geolocalización de IP.",
+    "s4-title": "4. Almacenamiento local",
+    "s4-body": "Tus preferencias (tema de color, idioma de la interfaz) y algunos ajustes o datos de las herramientas se guardan en tu dispositivo mediante el localStorage e IndexedDB de tu navegador. Estos datos permanecen en tu navegador, nunca se nos transmiten y puedes borrarlos en cualquier momento desde la configuración de tu navegador.",
+    "s5-title": "5. Manejo de archivos y seguridad",
+    "s5-body": "Cuando abres un archivo, se lee directamente en tu navegador mediante la File API. El contenido nunca sale de tu dispositivo. Del mismo modo, \"Guardar como\" descarga el archivo directamente desde tu navegador, sin que intervenga ningún servidor.",
+    "footer": "© 2026 GadgetForge. Todos los derechos reservados."
+  }
+}

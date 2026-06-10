@@ -1,0 +1,21 @@
+{
+  "privacy": {
+    "title": "Chính sách quyền riêng tư",
+    "last-updated": "Cập nhật lần cuối: ngày 10 tháng 6 năm 2026",
+    "s1-title": "1. Giới thiệu",
+    "s1-body": "Chào mừng bạn đến với GadgetForge (\"Ứng dụng\"). Chúng tôi tôn trọng quyền riêng tư của bạn và cam kết bảo vệ dữ liệu của bạn. Chính sách này giải thích cách dữ liệu của bạn được xử lý khi bạn sử dụng Ứng dụng.",
+    "s2-title": "2. Nội dung của bạn",
+    "s2-b1": "Hầu hết các công cụ chạy hoàn toàn trong trình duyệt của bạn. Mã, tệp và văn bản mà bạn mở, chỉnh sửa hoặc tạo ra đều nằm trên thiết bị của bạn và không được gửi đến máy chủ của chúng tôi.",
+    "s2-b2": "Việc sử dụng các công cụ không yêu cầu tài khoản, và nội dung bạn làm việc không được lưu trữ trên bất kỳ máy chủ nào của chúng tôi.",
+    "s2-b3": "Một vài công cụ cần dịch vụ bên ngoài để hoạt động — xem mục \"Dịch vụ của bên thứ ba\" bên dưới.",
+    "s3-title": "3. Dịch vụ của bên thứ ba",
+    "s3-intro": "Hầu hết các công cụ hoạt động hoàn toàn ngoại tuyến trong trình duyệt của bạn. Các công cụ sau là ngoại lệ vì chúng cần dữ liệu bên ngoài để hoạt động, do đó thông tin bạn cung cấp sẽ được gửi đến một nhà cung cấp bên thứ ba:",
+    "s3-b1": "Trình dịch đa ngôn ngữ — văn bản bạn nhập sẽ được gửi đến Google Translate để tạo bản dịch.",
+    "s3-b2": "Định vị địa lý IP — địa chỉ IP bạn tra cứu sẽ được gửi đến một nhà cung cấp dịch vụ định vị địa lý IP bên thứ ba.",
+    "s4-title": "4. Lưu trữ cục bộ",
+    "s4-body": "Các tùy chọn của bạn (giao diện màu sắc, ngôn ngữ giao diện) và một số thiết lập hoặc dữ liệu nhập của công cụ được lưu trên thiết bị của bạn bằng localStorage và IndexedDB của trình duyệt. Dữ liệu này nằm trong trình duyệt của bạn, không bao giờ được truyền đến chúng tôi, và bạn có thể xóa nó bất cứ lúc nào thông qua cài đặt trình duyệt.",
+    "s5-title": "5. Xử lý tệp và bảo mật",
+    "s5-body": "Khi bạn mở một tệp, nó được đọc trực tiếp trong trình duyệt của bạn bằng File API. Nội dung không bao giờ rời khỏi thiết bị của bạn. Tương tự, \"Lưu thành\" tải tệp xuống trực tiếp từ trình duyệt của bạn — không có máy chủ nào tham gia.",
+    "footer": "© 2026 GadgetForge. Bảo lưu mọi quyền."
+  }
+}

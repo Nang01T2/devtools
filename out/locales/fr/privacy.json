@@ -1,0 +1,21 @@
+{
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "last-updated": "Dernière mise à jour : 10 juin 2026",
+    "s1-title": "1. Introduction",
+    "s1-body": "Bienvenue sur GadgetForge (« l'Application »). Nous respectons votre vie privée et nous engageons à protéger vos données. Cette politique explique comment vos données sont traitées lorsque vous utilisez l'Application.",
+    "s2-title": "2. Votre contenu",
+    "s2-b1": "La plupart des outils s'exécutent entièrement dans votre navigateur. Le code, les fichiers et le texte que vous ouvrez, modifiez ou créez restent sur votre appareil et ne sont pas envoyés à nos serveurs.",
+    "s2-b2": "L'utilisation des outils ne nécessite aucun compte, et le contenu que vous manipulez n'est stocké sur aucun de nos serveurs.",
+    "s2-b3": "Quelques outils ont besoin d'un service externe pour fonctionner — voir « Services tiers » ci-dessous.",
+    "s3-title": "3. Services tiers",
+    "s3-intro": "La plupart des outils fonctionnent entièrement hors ligne dans votre navigateur. Les outils suivants font exception car ils nécessitent des données externes pour fonctionner ; les informations que vous fournissez sont donc envoyées à un fournisseur tiers :",
+    "s3-b1": "Traducteur multilingue — le texte que vous saisissez est envoyé à Google Translate pour produire les traductions.",
+    "s3-b2": "Géolocalisation IP — l'adresse IP que vous recherchez est envoyée à un fournisseur tiers de géolocalisation IP.",
+    "s4-title": "4. Stockage local",
+    "s4-body": "Vos préférences (thème de couleur, langue de l'interface) et certains réglages ou saisies des outils sont enregistrés sur votre appareil à l'aide du localStorage et d'IndexedDB de votre navigateur. Ces données restent dans votre navigateur, ne nous sont jamais transmises, et vous pouvez les effacer à tout moment depuis les paramètres de votre navigateur.",
+    "s5-title": "5. Gestion des fichiers et sécurité",
+    "s5-body": "Lorsque vous ouvrez un fichier, il est lu directement dans votre navigateur via la File API. Le contenu ne quitte jamais votre appareil. De même, « Enregistrer sous » télécharge le fichier directement depuis votre navigateur — aucun serveur n'intervient.",
+    "footer": "© 2026 GadgetForge. Tous droits réservés."
+  }
+}
