@@ -1,0 +1,21 @@
+{
+  "privacy": {
+    "title": "Privacy Policy",
+    "last-updated": "Last updated: June 10, 2026",
+    "s1-title": "1. Introduction",
+    "s1-body": "Welcome to GadgetForge (\"the App\"). We respect your privacy and are committed to protecting your data. This policy explains how your data is handled when you use the App.",
+    "s2-title": "2. Your Content",
+    "s2-b1": "Most tools run entirely in your browser. The code, files, and text you open, edit, or create stay on your device and are not sent to our servers.",
+    "s2-b2": "Using the tools requires no account, and the content you work with is not stored on any server of ours.",
+    "s2-b3": "A few tools need an external service to function — see \"Third-Party Services\" below.",
+    "s3-title": "3. Third-Party Services",
+    "s3-intro": "Most tools work fully offline in your browser. The following tools are exceptions because they require external data to function, so the input you provide is sent to a third-party provider:",
+    "s3-b1": "Multi-Language Translator — the text you enter is sent to Google Translate to produce translations.",
+    "s3-b2": "IP Geolocation — the IP address you look up is sent to a third-party IP-geolocation provider.",
+    "s4-title": "4. Local Storage",
+    "s4-body": "Your preferences (color theme, interface language) and some tool settings or inputs are saved on your device using your browser's localStorage and IndexedDB. This data stays in your browser, is never transmitted to us, and you can clear it anytime through your browser settings.",
+    "s5-title": "5. File Handling & Security",
+    "s5-body": "When you open a file, it is read directly in your browser using the File API. The content never leaves your device. Similarly, \"Save As\" downloads the file directly from your browser — no server is involved.",
+    "footer": "© 2026 GadgetForge. All rights reserved."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "privacy": {
+    "title": "Informativa sulla privacy",
+    "last-updated": "Ultimo aggiornamento: 10 giugno 2026",
+    "s1-title": "1. Introduzione",
+    "s1-body": "Benvenuto su GadgetForge (\"l'App\"). Rispettiamo la tua privacy e ci impegniamo a proteggere i tuoi dati. Questa informativa spiega come vengono trattati i tuoi dati quando usi l'App.",
+    "s2-title": "2. I tuoi contenuti",
+    "s2-b1": "La maggior parte degli strumenti funziona interamente nel tuo browser. Il codice, i file e il testo che apri, modifichi o crei restano sul tuo dispositivo e non vengono inviati ai nostri server.",
+    "s2-b2": "L'uso degli strumenti non richiede alcun account e i contenuti con cui lavori non vengono memorizzati su alcun nostro server.",
+    "s2-b3": "Alcuni strumenti necessitano di un servizio esterno per funzionare — vedi \"Servizi di terze parti\" qui sotto.",
+    "s3-title": "3. Servizi di terze parti",
+    "s3-intro": "La maggior parte degli strumenti funziona completamente offline nel tuo browser. I seguenti strumenti fanno eccezione perché richiedono dati esterni per funzionare, quindi le informazioni che fornisci vengono inviate a un fornitore terzo:",
+    "s3-b1": "Traduttore multilingue — il testo che inserisci viene inviato a Google Translate per produrre le traduzioni.",
+    "s3-b2": "Geolocalizzazione IP — l'indirizzo IP che cerchi viene inviato a un fornitore terzo di geolocalizzazione IP.",
+    "s4-title": "4. Archiviazione locale",
+    "s4-body": "Le tue preferenze (tema dei colori, lingua dell'interfaccia) e alcune impostazioni o dati inseriti negli strumenti vengono salvati sul tuo dispositivo tramite localStorage e IndexedDB del browser. Questi dati restano nel tuo browser, non ci vengono mai trasmessi e puoi cancellarli in qualsiasi momento dalle impostazioni del browser.",
+    "s5-title": "5. Gestione dei file e sicurezza",
+    "s5-body": "Quando apri un file, viene letto direttamente nel tuo browser tramite la File API. Il contenuto non lascia mai il tuo dispositivo. Allo stesso modo, \"Salva con nome\" scarica il file direttamente dal tuo browser, senza coinvolgere alcun server.",
+    "footer": "© 2026 GadgetForge. Tutti i diritti riservati."
+  }
+}

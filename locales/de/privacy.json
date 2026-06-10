@@ -1,0 +1,21 @@
+{
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "last-updated": "Zuletzt aktualisiert: 10. Juni 2026",
+    "s1-title": "1. Einführung",
+    "s1-body": "Willkommen bei GadgetForge (\"die App\"). Wir respektieren Ihre Privatsphäre und verpflichten uns, Ihre Daten zu schützen. Diese Erklärung erläutert, wie Ihre Daten verarbeitet werden, wenn Sie die App nutzen.",
+    "s2-title": "2. Ihre Inhalte",
+    "s2-b1": "Die meisten Werkzeuge laufen vollständig in Ihrem Browser. Der Code, die Dateien und der Text, die Sie öffnen, bearbeiten oder erstellen, bleiben auf Ihrem Gerät und werden nicht an unsere Server gesendet.",
+    "s2-b2": "Die Nutzung der Werkzeuge erfordert kein Konto, und die Inhalte, mit denen Sie arbeiten, werden auf keinem unserer Server gespeichert.",
+    "s2-b3": "Einige Werkzeuge benötigen einen externen Dienst, um zu funktionieren — siehe \"Drittanbieterdienste\" weiter unten.",
+    "s3-title": "3. Drittanbieterdienste",
+    "s3-intro": "Die meisten Werkzeuge funktionieren vollständig offline in Ihrem Browser. Die folgenden Werkzeuge sind eine Ausnahme, da sie externe Daten zum Funktionieren benötigen, sodass die von Ihnen eingegebenen Informationen an einen Drittanbieter gesendet werden:",
+    "s3-b1": "Mehrsprachiger Übersetzer — der von Ihnen eingegebene Text wird an Google Translate gesendet, um Übersetzungen zu erstellen.",
+    "s3-b2": "IP-Geolokalisierung — die von Ihnen abgefragte IP-Adresse wird an einen Drittanbieter für IP-Geolokalisierung gesendet.",
+    "s4-title": "4. Lokaler Speicher",
+    "s4-body": "Ihre Einstellungen (Farbschema, Oberflächensprache) sowie einige Werkzeugeinstellungen oder Eingaben werden mithilfe von localStorage und IndexedDB Ihres Browsers auf Ihrem Gerät gespeichert. Diese Daten verbleiben in Ihrem Browser, werden niemals an uns übertragen, und Sie können sie jederzeit über die Einstellungen Ihres Browsers löschen.",
+    "s5-title": "5. Umgang mit Dateien und Sicherheit",
+    "s5-body": "Wenn Sie eine Datei öffnen, wird sie über die File API direkt in Ihrem Browser gelesen. Der Inhalt verlässt niemals Ihr Gerät. Ebenso lädt \"Speichern unter\" die Datei direkt aus Ihrem Browser herunter — es ist kein Server beteiligt.",
+    "footer": "© 2026 GadgetForge. Alle Rechte vorbehalten."
+  }
+}
