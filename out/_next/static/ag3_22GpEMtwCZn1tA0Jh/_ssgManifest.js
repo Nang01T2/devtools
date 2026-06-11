@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002F[lang]\u002Ftools\u002F[slug]","\u002Fcategories\u002F[category]","\u002Fconvert\u002F[pair]","\u002Fpost\u002F[...slug]","\u002Ftags\u002F[tag]","\u002Ftools\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
