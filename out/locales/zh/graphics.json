@@ -43,6 +43,8 @@
     "settings-customize": "自定义压缩设置。修改将应用于所有图像。",
     "settings-reset": "重置",
     "settings-apply": "应用",
+    "settings-title": "设置",
+    "settings-close": "关闭设置",
     "toolbar-add-images": "添加图像",
     "toolbar-add-folder": "添加文件夹",
     "toolbar-recompress": "重新压缩",
@@ -135,7 +137,14 @@
     "quality-fair": "一般",
     "quality-low": "较低",
     "compress-keep-exif-label": "保留 EXIF 元数据",
-    "compress-keep-exif-hint": "在输出中保留原始相机/EXIF 信息（JPEG → JPEG）。关闭＝移除以减小文件。"
+    "compress-keep-exif-hint": "在输出中保留原始相机/EXIF 信息（JPEG → JPEG）。关闭＝移除以减小文件。",
+    "compare-before": "原图",
+    "compare-after": "压缩后",
+    "compare-help": "拖动分隔条对比原图与结果。滚动以缩放。",
+    "compare-close": "关闭",
+    "compare-help-label": "帮助",
+    "compare-title": "图像对比",
+    "compare-jxl-note": "无法预览 — 此浏览器不支持显示 JPEG XL。文件仍会正确保存。"
   },
   "pdftoimages": {
     "section-title": "PDF转图像",

@@ -43,6 +43,8 @@
     "settings-customize": "خصّص إعدادات الضغط. ستُطبَّق التعديلات على الخيارات على جميع الصور.",
     "settings-reset": "إعادة تعيين",
     "settings-apply": "تطبيق",
+    "settings-title": "الإعدادات",
+    "settings-close": "إغلاق الإعدادات",
     "toolbar-add-images": "إضافة صور",
     "toolbar-add-folder": "إضافة مجلد",
     "toolbar-recompress": "إعادة الضغط",
@@ -135,7 +137,14 @@
     "quality-fair": "مقبول",
     "quality-low": "منخفض",
     "compress-keep-exif-label": "الاحتفاظ ببيانات EXIF",
-    "compress-keep-exif-hint": "يحتفظ ببيانات الكاميرا/EXIF الأصلية في الإخراج (JPEG → JPEG). إيقاف = تُزال لتصغير الملف."
+    "compress-keep-exif-hint": "يحتفظ ببيانات الكاميرا/EXIF الأصلية في الإخراج (JPEG → JPEG). إيقاف = تُزال لتصغير الملف.",
+    "compare-before": "الأصلية",
+    "compare-after": "المضغوطة",
+    "compare-help": "اسحب الفاصل لمقارنة الأصل بالنتيجة. مرّر للتكبير.",
+    "compare-close": "إغلاق",
+    "compare-help-label": "مساعدة",
+    "compare-title": "مقارنة الصور",
+    "compare-jxl-note": "المعاينة غير متاحة — لا يُعرض JPEG XL في هذا المتصفح، لكن الملف يُحفظ بشكل صحيح."
   },
   "pdftoimages": {
     "section-title": "محول PDF إلى صور",

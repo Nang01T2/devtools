@@ -43,6 +43,8 @@
     "settings-customize": "Tùy chỉnh cài đặt nén. Các thay đổi sẽ được áp dụng cho tất cả hình ảnh.",
     "settings-reset": "Đặt lại",
     "settings-apply": "Áp dụng",
+    "settings-title": "Cài đặt",
+    "settings-close": "Đóng cài đặt",
     "toolbar-add-images": "Thêm hình ảnh",
     "toolbar-add-folder": "Thêm thư mục",
     "toolbar-recompress": "Nén lại",
@@ -135,7 +137,14 @@
     "quality-fair": "Khá",
     "quality-low": "Thấp",
     "compress-keep-exif-label": "Giữ metadata EXIF",
-    "compress-keep-exif-hint": "Giữ lại dữ liệu máy ảnh/EXIF gốc trong ảnh xuất (JPEG → JPEG). Tắt = xoá để tệp nhỏ hơn."
+    "compress-keep-exif-hint": "Giữ lại dữ liệu máy ảnh/EXIF gốc trong ảnh xuất (JPEG → JPEG). Tắt = xoá để tệp nhỏ hơn.",
+    "compare-before": "Gốc",
+    "compare-after": "Đã nén",
+    "compare-help": "Kéo thanh chia để so sánh ảnh gốc và kết quả. Cuộn để phóng to.",
+    "compare-close": "Đóng",
+    "compare-help-label": "Trợ giúp",
+    "compare-title": "So sánh ảnh",
+    "compare-jxl-note": "Không xem trước được — JPEG XL không hiển thị trên trình duyệt này. Tệp vẫn được lưu đúng."
   },
   "pdftoimages": {
     "section-title": "Chuyển PDF sang hình ảnh",

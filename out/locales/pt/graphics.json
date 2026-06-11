@@ -43,6 +43,8 @@
     "settings-customize": "Personalize as definições de compressão. As alterações às opções serão aplicadas a todas as imagens.",
     "settings-reset": "Repor",
     "settings-apply": "Aplicar",
+    "settings-title": "Configurações",
+    "settings-close": "Fechar configurações",
     "toolbar-add-images": "Adicionar imagens",
     "toolbar-add-folder": "Adicionar pasta",
     "toolbar-recompress": "Recomprimir",
@@ -135,7 +137,14 @@
     "quality-fair": "Razoável",
     "quality-low": "Baixa",
     "compress-keep-exif-label": "Manter metadados EXIF",
-    "compress-keep-exif-hint": "Mantém os dados originais da câmara/EXIF na saída (JPEG → JPEG). Desligado = removidos para ficheiros menores."
+    "compress-keep-exif-hint": "Mantém os dados originais da câmara/EXIF na saída (JPEG → JPEG). Desligado = removidos para ficheiros menores.",
+    "compare-before": "Original",
+    "compare-after": "Comprimida",
+    "compare-help": "Arraste o divisor para comparar o original e o resultado. Role para ampliar.",
+    "compare-close": "Fechar",
+    "compare-help-label": "Ajuda",
+    "compare-title": "Comparação de imagens",
+    "compare-jxl-note": "Pré-visualização indisponível — o JPEG XL não é exibido neste navegador. O ficheiro é guardado corretamente."
   },
   "pdftoimages": {
     "section-title": "Conversor de PDF para Imagens",
