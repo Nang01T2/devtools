@@ -113,6 +113,8 @@
     "progress-after": "Nachher:",
     "progress-rate": "Rate:",
     "progress-failed": "fehlgeschlagen",
+    "zip-empty": "Keine komprimierten Bilder zum Herunterladen",
+    "zip-failed": "ZIP-Datei konnte nicht erstellt werden",
     "codec-quality": "Qualität",
     "codec-effort": "Aufwand",
     "codec-slight-loss": "Leichter Verlust",

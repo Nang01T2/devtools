@@ -113,6 +113,8 @@
     "progress-after": "Sau:",
     "progress-rate": "Tỷ lệ:",
     "progress-failed": "lỗi",
+    "zip-empty": "Không có ảnh nén nào để tải",
+    "zip-failed": "Không thể tạo tệp ZIP",
     "codec-quality": "Chất lượng",
     "codec-effort": "Mức nén",
     "codec-slight-loss": "Mất mát nhẹ",

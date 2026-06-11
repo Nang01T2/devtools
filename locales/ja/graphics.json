@@ -113,6 +113,8 @@
     "progress-after": "変換後:",
     "progress-rate": "圧縮率:",
     "progress-failed": "失敗",
+    "zip-empty": "ダウンロードできる圧縮画像がありません",
+    "zip-failed": "ZIP ファイルの作成に失敗しました",
     "codec-quality": "品質",
     "codec-effort": "圧縮レベル",
     "codec-slight-loss": "わずかな損失",
