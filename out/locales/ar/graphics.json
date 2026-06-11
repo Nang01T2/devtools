@@ -126,14 +126,16 @@
     "compress-png-lossless-hint": "بدون فقدان للجودة — الأفضل للقطات الشاشة والشعارات والشفافية. أوقف التشغيل لتقليل الألوان وتصغير الملف.",
     "compress-png-level": "مستوى التحسين",
     "compress-png-level-value": "المستوى {n} / 6",
-    "upload-privacy": "خصوصية: تُحوَّل الملفات من جهازك داخل المتصفح وتُزال بيانات EXIF/GPS الوصفية.",
+    "upload-privacy": "خصوصية: تُعالَج الملفات من جهازك بالكامل داخل متصفحك — ولا يُرفع أي شيء.",
     "table-quality": "الجودة",
     "quality-identical": "مطابق",
     "quality-pristine": "ممتاز جدًا",
     "quality-excellent": "ممتاز",
     "quality-good": "جيد",
     "quality-fair": "مقبول",
-    "quality-low": "منخفض"
+    "quality-low": "منخفض",
+    "compress-keep-exif-label": "الاحتفاظ ببيانات EXIF",
+    "compress-keep-exif-hint": "يحتفظ ببيانات الكاميرا/EXIF الأصلية في الإخراج (JPEG → JPEG). إيقاف = تُزال لتصغير الملف."
   },
   "pdftoimages": {
     "section-title": "محول PDF إلى صور",

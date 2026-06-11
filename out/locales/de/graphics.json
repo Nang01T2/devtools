@@ -126,14 +126,16 @@
     "compress-png-lossless-hint": "Kein Qualitätsverlust — ideal für Screenshots, Logos und Transparenz. Zum Verkleinern Farben reduzieren: ausschalten.",
     "compress-png-level": "Optimierungsstufe",
     "compress-png-level-value": "Stufe {n} / 6",
-    "upload-privacy": "Privat: Dateien von Ihrem Gerät werden im Browser konvertiert und EXIF-/GPS-Metadaten werden entfernt.",
+    "upload-privacy": "Privat: Dateien von Ihrem Gerät werden vollständig im Browser verarbeitet — nichts wird hochgeladen.",
     "table-quality": "Qualität",
     "quality-identical": "Identisch",
     "quality-pristine": "Makellos",
     "quality-excellent": "Ausgezeichnet",
     "quality-good": "Gut",
     "quality-fair": "Mittel",
-    "quality-low": "Niedrig"
+    "quality-low": "Niedrig",
+    "compress-keep-exif-label": "EXIF-Metadaten behalten",
+    "compress-keep-exif-hint": "Behält die originalen Kamera-/EXIF-Daten in der Ausgabe (JPEG → JPEG). Aus = entfernt für kleinere Dateien."
   },
   "pdftoimages": {
     "section-title": "PDF-zu-Bilder-Konverter",

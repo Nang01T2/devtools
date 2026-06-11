@@ -126,14 +126,16 @@
     "compress-png-lossless-hint": "无质量损失 — 适合截图、徽标和透明图像。关闭可减少颜色以获得更小文件。",
     "compress-png-level": "优化级别",
     "compress-png-level-value": "级别 {n} / 6",
-    "upload-privacy": "隐私保护：来自您设备的文件在浏览器中转换，EXIF/GPS 元数据会被移除。",
+    "upload-privacy": "隐私保护：来自您设备的文件完全在浏览器中处理 — 不会上传任何内容。",
     "table-quality": "质量",
     "quality-identical": "完全一致",
     "quality-pristine": "近乎完美",
     "quality-excellent": "优秀",
     "quality-good": "良好",
     "quality-fair": "一般",
-    "quality-low": "较低"
+    "quality-low": "较低",
+    "compress-keep-exif-label": "保留 EXIF 元数据",
+    "compress-keep-exif-hint": "在输出中保留原始相机/EXIF 信息（JPEG → JPEG）。关闭＝移除以减小文件。"
   },
   "pdftoimages": {
     "section-title": "PDF转图像",

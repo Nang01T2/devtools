@@ -126,14 +126,16 @@
     "compress-png-lossless-hint": "Không giảm chất lượng — tốt cho ảnh chụp màn hình, logo, ảnh trong suốt. Tắt để giảm màu cho tệp nhỏ hơn.",
     "compress-png-level": "Mức tối ưu",
     "compress-png-level-value": "Mức {n} / 6",
-    "upload-privacy": "Riêng tư: tệp từ thiết bị của bạn được chuyển đổi ngay trong trình duyệt — metadata EXIF/GPS được xoá.",
+    "upload-privacy": "Riêng tư: tệp từ thiết bị của bạn được xử lý hoàn toàn trong trình duyệt — không có gì được tải lên.",
     "table-quality": "Chất lượng",
     "quality-identical": "Y hệt",
     "quality-pristine": "Hoàn hảo",
     "quality-excellent": "Xuất sắc",
     "quality-good": "Tốt",
     "quality-fair": "Khá",
-    "quality-low": "Thấp"
+    "quality-low": "Thấp",
+    "compress-keep-exif-label": "Giữ metadata EXIF",
+    "compress-keep-exif-hint": "Giữ lại dữ liệu máy ảnh/EXIF gốc trong ảnh xuất (JPEG → JPEG). Tắt = xoá để tệp nhỏ hơn."
   },
   "pdftoimages": {
     "section-title": "Chuyển PDF sang hình ảnh",

@@ -126,14 +126,16 @@
     "compress-png-lossless-hint": "画質劣化なし — スクリーンショット・ロゴ・透過に最適。オフにすると色数を減らしてファイルを小さくできます。",
     "compress-png-level": "最適化レベル",
     "compress-png-level-value": "レベル {n} / 6",
-    "upload-privacy": "プライバシー保護：お使いの端末のファイルはブラウザー内で変換され、EXIF/GPSメタデータは削除されます。",
+    "upload-privacy": "プライバシー保護：お使いの端末のファイルはすべてブラウザー内で処理され、何もアップロードされません。",
     "table-quality": "品質",
     "quality-identical": "同一",
     "quality-pristine": "ほぼ完璧",
     "quality-excellent": "優秀",
     "quality-good": "良好",
     "quality-fair": "普通",
-    "quality-low": "低い"
+    "quality-low": "低い",
+    "compress-keep-exif-label": "EXIFメタデータを保持",
+    "compress-keep-exif-hint": "元のカメラ/EXIF情報を出力に保持します（JPEG → JPEG）。オフ＝削除してファイルを小さくします。"
   },
   "pdftoimages": {
     "section-title": "PDF→画像変換",
