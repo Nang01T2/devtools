@@ -113,6 +113,8 @@
     "progress-after": "压缩后:",
     "progress-rate": "压缩率:",
     "progress-failed": "失败",
+    "zip-empty": "没有可下载的已压缩图片",
+    "zip-failed": "创建 ZIP 文件失败",
     "codec-quality": "质量",
     "codec-effort": "压缩力度",
     "codec-slight-loss": "轻微损失",

@@ -113,6 +113,8 @@
     "progress-after": "بعد:",
     "progress-rate": "النسبة:",
     "progress-failed": "فشل",
+    "zip-empty": "لا توجد صور مضغوطة للتنزيل",
+    "zip-failed": "فشل إنشاء ملف ZIP",
     "codec-quality": "الجودة",
     "codec-effort": "الجهد",
     "codec-slight-loss": "فقد طفيف",

@@ -113,6 +113,8 @@
     "progress-after": "После:",
     "progress-rate": "Коэффициент:",
     "progress-failed": "ошибок",
+    "zip-empty": "Нет сжатых изображений для скачивания",
+    "zip-failed": "Не удалось создать ZIP-файл",
     "codec-quality": "Качество",
     "codec-effort": "Усилие",
     "codec-slight-loss": "Небольшие потери",
