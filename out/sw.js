@@ -16,6 +16,29 @@
 const CACHE_VERSION = "v1";
 const CACHE = `gadgetforge-${CACHE_VERSION}`;
 const PRECACHE = ["/", "/offline.html", "/manifest.webmanifest"];
+// Soft cap on the stale-while-revalidate cache so it can't grow without bound
+// (WASM codecs / locale JSON / chunks add up). The precache shell above is
+// never evicted; oldest runtime entries are trimmed first. Generous enough to
+// keep a typical multi-tool offline session intact.
+const MAX_ENTRIES = 120;
+
+/** Trim the cache to MAX_ENTRIES, evicting oldest non-shell entries first. */
+async function trimCache() {
+  try {
+    const cache = await caches.open(CACHE);
+    const keys = await cache.keys();
+    const shell = new Set(
+      PRECACHE.map((p) => new URL(p, self.location.origin).href),
+    );
+    const evictable = keys.filter((req) => !shell.has(req.url));
+    let over = keys.length - MAX_ENTRIES;
+    for (let i = 0; i < evictable.length && over > 0; i++, over--) {
+      await cache.delete(evictable[i]); // cache.keys() is insertion-ordered → oldest first
+    }
+  } catch {
+    // Trimming is best-effort — never let it break a fetch.
+  }
+}
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -77,11 +100,10 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Static assets → stale-while-revalidate.
-  // Intentionally unbounded: caching the WASM codecs / locale JSON / chunks is
-  // exactly what makes the tools work offline. There's no LRU cap — the browser
-  // evicts under storage pressure, and quota-exceeded `put`s are swallowed
-  // below, so growth degrades gracefully rather than breaking.
+  // Static assets → stale-while-revalidate. Caching the WASM codecs / locale
+  // JSON / chunks is what makes the tools work offline; the cache is bounded by
+  // MAX_ENTRIES (trimmed below) so it can't grow without limit, and the browser
+  // still evicts under storage pressure / quota-exceeded `put`s are swallowed.
   event.respondWith(
     caches.match(req).then((cached) => {
       const network = fetch(req)
@@ -92,6 +114,7 @@ self.addEventListener("fetch", (event) => {
             caches
               .open(CACHE)
               .then((c) => c.put(req, copy))
+              .then(() => trimCache())
               .catch(() => {});
           }
           return res;
