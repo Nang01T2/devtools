@@ -34,6 +34,7 @@
     "preview-error-transform": "Échec de l'application de la transformation.",
     "preview-removing": "Traitement...",
     "preview-remove-bg": "Supprimer l'arrière-plan",
+    "preview-cancel": "Annuler",
     "preview-remove-image": "Supprimer l'image",
     "preview-restore": "Restaurer l'original",
     "dropzone-select-image": "Sélectionner une image",
