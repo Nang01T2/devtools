@@ -13,6 +13,7 @@
     "export-ios-label": "منصات iOS",
     "export-btn-generating": "جارٍ الإنشاء...",
     "export-btn": "تصدير الأيقونات",
+    "export-btn-cancel": "إلغاء",
     "export-success": "اكتمل التصدير بنجاح!",
     "export-failed": "فشل التصدير: {error}",
     "dropzone-title": "أفلت صورتك هنا",
@@ -23,6 +24,8 @@
     "dropzone-error-fetch": "فشل جلب الصورة",
     "dropzone-error-not-image": "عنوان URL ليس صورة",
     "dropzone-error-invalid": "عنوان URL للصورة غير صالح",
+    "dropzone-error-too-large": "الصورة تتجاوز حد 10 ميجابايت",
+    "dropzone-error-timeout": "انتهت مهلة الطلب",
     "dropzone-recommended": "موصى به: 1024×1024 على الأقل لأفضل النتائج",
     "preview-model-best": "أفضل جودة",
     "preview-model-best-desc": "إزالة عامة عالية الجودة (موصى به)",
@@ -33,7 +36,9 @@
     "preview-remove-bg": "إزالة الخلفية",
     "preview-remove-image": "إزالة الصورة",
     "preview-restore": "استعادة الأصل",
-    "dropzone-select-image": "اختر صورة"
+    "dropzone-select-image": "اختر صورة",
+    "error-image-too-large": "الصورة كبيرة جداً ({w}×{h} بكسل). الحد الأقصى {max}×{max} بكسل.",
+    "error-image-undecodable": "لا يمكن فك ترميز هذا الملف كصورة."
   },
   "imageconverter": {
     "upload-title": "اختر ملفات أو اسحب وأفلت الصور والمجلدات هنا",

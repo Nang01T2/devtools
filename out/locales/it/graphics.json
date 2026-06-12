@@ -13,6 +13,7 @@
     "export-ios-label": "Piattaforme iOS",
     "export-btn-generating": "Generazione in corso...",
     "export-btn": "Esporta icone",
+    "export-btn-cancel": "Annulla",
     "export-success": "Esportazione completata con successo!",
     "export-failed": "Esportazione non riuscita: {error}",
     "dropzone-title": "Trascina qui la tua immagine",
@@ -23,6 +24,8 @@
     "dropzone-error-fetch": "Impossibile recuperare l'immagine",
     "dropzone-error-not-image": "L'URL non è un'immagine",
     "dropzone-error-invalid": "URL dell'immagine non valido",
+    "dropzone-error-too-large": "L'immagine supera il limite di 10 MB",
+    "dropzone-error-timeout": "Richiesta scaduta",
     "dropzone-recommended": "Consigliato: almeno 1024×1024 per risultati migliori",
     "preview-model-best": "Migliore qualità",
     "preview-model-best-desc": "Rimozione generica di alta qualità (consigliata)",
@@ -33,7 +36,9 @@
     "preview-remove-bg": "Rimuovi sfondo",
     "preview-remove-image": "Rimuovi immagine",
     "preview-restore": "Ripristina originale",
-    "dropzone-select-image": "Seleziona immagine"
+    "dropzone-select-image": "Seleziona immagine",
+    "error-image-too-large": "Immagine troppo grande ({w}×{h}px). Massimo {max}×{max}px.",
+    "error-image-undecodable": "Questo file non può essere decodificato come immagine."
   },
   "imageconverter": {
     "upload-title": "Seleziona i file o trascina qui immagini e cartelle",
