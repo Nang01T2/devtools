@@ -36,5 +36,8 @@
     "share-twitter": "Condividi su X/Twitter",
     "share-facebook": "Condividi su Facebook",
     "share-linkedin": "Condividi su LinkedIn"
+  },
+  "footer": {
+    "privacy-policy": "Informativa sulla privacy"
   }
 }

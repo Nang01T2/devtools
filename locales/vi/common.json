@@ -36,5 +36,8 @@
     "share-twitter": "Chia sẻ lên X/Twitter",
     "share-facebook": "Chia sẻ lên Facebook",
     "share-linkedin": "Chia sẻ lên LinkedIn"
+  },
+  "footer": {
+    "privacy-policy": "Chính sách bảo mật"
   }
 }
