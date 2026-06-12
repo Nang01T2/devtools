@@ -34,6 +34,7 @@
     "preview-error-transform": "Failed to apply transformation.",
     "preview-removing": "Processing...",
     "preview-remove-bg": "Remove Background",
+    "preview-cancel": "Cancel",
     "preview-remove-image": "Remove Image",
     "preview-restore": "Restore Original",
     "dropzone-select-image": "Select Image",

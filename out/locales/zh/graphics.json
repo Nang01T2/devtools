@@ -34,6 +34,7 @@
     "preview-error-transform": "应用变换失败。",
     "preview-removing": "处理中...",
     "preview-remove-bg": "移除背景",
+    "preview-cancel": "取消",
     "preview-remove-image": "删除图像",
     "preview-restore": "恢复原始",
     "dropzone-select-image": "选择图片",
