@@ -13,6 +13,7 @@
     "export-ios-label": "iOS平台",
     "export-btn-generating": "生成中...",
     "export-btn": "导出图标",
+    "export-btn-cancel": "取消",
     "export-success": "导出成功！",
     "export-failed": "导出失败: {error}",
     "dropzone-title": "将图像拖放到此处",
@@ -23,6 +24,8 @@
     "dropzone-error-fetch": "获取图像失败",
     "dropzone-error-not-image": "URL不是图像",
     "dropzone-error-invalid": "无效的图像URL",
+    "dropzone-error-too-large": "图片超过10 MB限制",
+    "dropzone-error-timeout": "请求超时",
     "dropzone-recommended": "建议：至少1024×1024以获得最佳效果",
     "preview-model-best": "最佳质量",
     "preview-model-best-desc": "高质量通用背景移除（推荐）",
@@ -33,7 +36,9 @@
     "preview-remove-bg": "移除背景",
     "preview-remove-image": "删除图像",
     "preview-restore": "恢复原始",
-    "dropzone-select-image": "选择图片"
+    "dropzone-select-image": "选择图片",
+    "error-image-too-large": "图片太大（{w}×{h}px），最大为{max}×{max}px。",
+    "error-image-undecodable": "此文件无法解码为图片。"
   },
   "imageconverter": {
     "upload-title": "选择文件或将图像和文件夹拖放到此处",

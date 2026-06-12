@@ -13,6 +13,7 @@
     "export-ios-label": "iOS Platforms",
     "export-btn-generating": "Generating...",
     "export-btn": "Export Icons",
+    "export-btn-cancel": "Cancel",
     "export-success": "Export completed successfully!",
     "export-failed": "Export failed: {error}",
     "dropzone-title": "Drop Your Image Here",
@@ -23,6 +24,8 @@
     "dropzone-error-fetch": "Failed to fetch image",
     "dropzone-error-not-image": "URL is not an image",
     "dropzone-error-invalid": "Invalid image URL",
+    "dropzone-error-too-large": "Image exceeds 10 MB limit",
+    "dropzone-error-timeout": "Request timed out",
     "dropzone-recommended": "Recommended: at least 1024×1024 for best results",
     "preview-model-best": "Best Quality",
     "preview-model-best-desc": "High-quality general-purpose removal (recommended)",
@@ -33,7 +36,9 @@
     "preview-remove-bg": "Remove Background",
     "preview-remove-image": "Remove Image",
     "preview-restore": "Restore Original",
-    "dropzone-select-image": "Select Image"
+    "dropzone-select-image": "Select Image",
+    "error-image-too-large": "Image is too large ({w}×{h}px). Maximum is {max}×{max}px.",
+    "error-image-undecodable": "This file cannot be decoded as an image."
   },
   "imageconverter": {
     "upload-title": "Select files or drag & drop images and folders here",

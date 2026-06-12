@@ -13,6 +13,7 @@
     "export-ios-label": "Plateformes iOS",
     "export-btn-generating": "Génération...",
     "export-btn": "Exporter les icônes",
+    "export-btn-cancel": "Annuler",
     "export-success": "Exportation terminée avec succès !",
     "export-failed": "Échec de l'exportation : {error}",
     "dropzone-title": "Déposez votre image ici",
@@ -23,6 +24,8 @@
     "dropzone-error-fetch": "Échec de la récupération de l'image",
     "dropzone-error-not-image": "L'URL ne pointe pas vers une image",
     "dropzone-error-invalid": "URL d'image invalide",
+    "dropzone-error-too-large": "L'image dépasse la limite de 10 Mo",
+    "dropzone-error-timeout": "La requête a expiré",
     "dropzone-recommended": "Recommandé : au moins 1024×1024 pour de meilleurs résultats",
     "preview-model-best": "Meilleure qualité",
     "preview-model-best-desc": "Suppression polyvalente de haute qualité (recommandé)",
@@ -33,7 +36,9 @@
     "preview-remove-bg": "Supprimer l'arrière-plan",
     "preview-remove-image": "Supprimer l'image",
     "preview-restore": "Restaurer l'original",
-    "dropzone-select-image": "Sélectionner une image"
+    "dropzone-select-image": "Sélectionner une image",
+    "error-image-too-large": "Image trop grande ({w}×{h}px). Maximum : {max}×{max}px.",
+    "error-image-undecodable": "Ce fichier ne peut pas être décodé comme image."
   },
   "imageconverter": {
     "upload-title": "Sélectionnez des fichiers ou glissez-déposez des images et des dossiers ici",

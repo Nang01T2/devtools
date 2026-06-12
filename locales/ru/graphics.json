@@ -13,6 +13,7 @@
     "export-ios-label": "Платформы iOS",
     "export-btn-generating": "Генерация...",
     "export-btn": "Экспортировать иконки",
+    "export-btn-cancel": "Отмена",
     "export-success": "Экспорт успешно завершён!",
     "export-failed": "Экспорт не удался: {error}",
     "dropzone-title": "Перетащите ваше изображение сюда",
@@ -23,6 +24,8 @@
     "dropzone-error-fetch": "Не удалось загрузить изображение",
     "dropzone-error-not-image": "URL не является изображением",
     "dropzone-error-invalid": "Недопустимый URL изображения",
+    "dropzone-error-too-large": "Изображение превышает лимит 10 МБ",
+    "dropzone-error-timeout": "Время ожидания запроса истекло",
     "dropzone-recommended": "Рекомендуется: не менее 1024×1024 для лучших результатов",
     "preview-model-best": "Лучшее качество",
     "preview-model-best-desc": "Высококачественное универсальное удаление фона (рекомендуется)",
@@ -33,7 +36,9 @@
     "preview-remove-bg": "Удалить фон",
     "preview-remove-image": "Удалить изображение",
     "preview-restore": "Восстановить оригинал",
-    "dropzone-select-image": "Выбрать изображение"
+    "dropzone-select-image": "Выбрать изображение",
+    "error-image-too-large": "Изображение слишком большое ({w}×{h}px). Максимум {max}×{max}px.",
+    "error-image-undecodable": "Этот файл не может быть декодирован как изображение."
   },
   "imageconverter": {
     "upload-title": "Выберите файлы или перетащите изображения и папки сюда",

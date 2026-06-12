@@ -13,6 +13,7 @@
     "export-ios-label": "iOSプラットフォーム",
     "export-btn-generating": "生成中...",
     "export-btn": "アイコンをエクスポート",
+    "export-btn-cancel": "キャンセル",
     "export-success": "エクスポートが完了しました！",
     "export-failed": "エクスポートに失敗しました: {error}",
     "dropzone-title": "ここに画像をドロップ",
@@ -23,6 +24,8 @@
     "dropzone-error-fetch": "画像の取得に失敗しました",
     "dropzone-error-not-image": "URLは画像ではありません",
     "dropzone-error-invalid": "無効な画像URL",
+    "dropzone-error-too-large": "画像が10MBの制限を超えています",
+    "dropzone-error-timeout": "リクエストがタイムアウトしました",
     "dropzone-recommended": "推奨: 最高の結果を得るには1024×1024以上",
     "preview-model-best": "最高品質",
     "preview-model-best-desc": "高品質の汎用背景除去（推奨）",
@@ -33,7 +36,9 @@
     "preview-remove-bg": "背景を削除",
     "preview-remove-image": "画像を削除",
     "preview-restore": "元に戻す",
-    "dropzone-select-image": "画像を選択"
+    "dropzone-select-image": "画像を選択",
+    "error-image-too-large": "画像が大きすぎます（{w}×{h}px）。最大は{max}×{max}pxです。",
+    "error-image-undecodable": "このファイルは画像としてデコードできません。"
   },
   "imageconverter": {
     "upload-title": "ファイルを選択するか、画像とフォルダをここにドラッグ＆ドロップ",

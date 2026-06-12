@@ -13,6 +13,7 @@
     "export-ios-label": "Nền tảng iOS",
     "export-btn-generating": "Đang tạo...",
     "export-btn": "Xuất biểu tượng",
+    "export-btn-cancel": "Hủy",
     "export-success": "Xuất thành công!",
     "export-failed": "Xuất thất bại: {error}",
     "dropzone-title": "Thả hình ảnh vào đây",
@@ -23,6 +24,8 @@
     "dropzone-error-fetch": "Không thể tải hình ảnh",
     "dropzone-error-not-image": "URL không phải là hình ảnh",
     "dropzone-error-invalid": "URL hình ảnh không hợp lệ",
+    "dropzone-error-too-large": "Ảnh vượt quá giới hạn 10 MB",
+    "dropzone-error-timeout": "Yêu cầu đã hết thời gian",
     "dropzone-recommended": "Khuyến nghị: ít nhất 1024×1024 để đạt kết quả tốt nhất",
     "preview-model-best": "Chất lượng tốt nhất",
     "preview-model-best-desc": "Xóa nền đa dụng chất lượng cao (khuyến nghị)",
@@ -33,7 +36,9 @@
     "preview-remove-bg": "Xóa nền",
     "preview-remove-image": "Xóa hình ảnh",
     "preview-restore": "Khôi phục bản gốc",
-    "dropzone-select-image": "Chọn hình ảnh"
+    "dropzone-select-image": "Chọn hình ảnh",
+    "error-image-too-large": "Ảnh quá lớn ({w}×{h}px). Tối đa là {max}×{max}px.",
+    "error-image-undecodable": "Tệp này không thể giải mã dưới dạng ảnh."
   },
   "imageconverter": {
     "upload-title": "Chọn tệp hoặc kéo & thả hình ảnh và thư mục vào đây",
