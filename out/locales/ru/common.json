@@ -36,5 +36,8 @@
     "share-twitter": "Поделиться в X/Twitter",
     "share-facebook": "Поделиться в Facebook",
     "share-linkedin": "Поделиться в LinkedIn"
+  },
+  "footer": {
+    "privacy-policy": "Политика конфиденциальности"
   }
 }

@@ -36,5 +36,8 @@
     "share-twitter": "X/Twitterで共有",
     "share-facebook": "Facebookで共有",
     "share-linkedin": "LinkedInで共有"
+  },
+  "footer": {
+    "privacy-policy": "プライバシーポリシー"
   }
 }
