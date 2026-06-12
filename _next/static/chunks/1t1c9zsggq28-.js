@@ -1,0 +1,20 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,421072,e=>{"use strict";var t=e.i(843476);e.s(["default",0,function({children:e,gap:s="0",alignment:a="start",distribution:i="start",className:r="",style:n,width:l="100"}){let o=["d-flex flex-column","25"===l?"w-25":"50"===l?"w-50":"75"===l?"w-75":"100"===l?"w-100":"auto"===l?"w-auto":"",`gap-${s}`,`align-items-${a}`,`justify-content-${"between"===i?"between":"around"===i?"around":"evenly"===i?"evenly":i}`,r].filter(Boolean).join(" "),d={...n,..."string"==typeof l&&!["25","50","75","100","auto"].includes(l)?{width:l}:{}};return(0,t.jsx)("div",{className:o,style:d,children:e})}])},439911,e=>{"use strict";var t=e.i(843476),s=e.i(421072);e.s(["default",0,function({children:e,style:a}){return(0,t.jsx)(s.default,{gap:"3",alignment:"start",className:"px-3 pb-3",style:a,children:e})}])},426169,e=>{"use strict";var t=e.i(843476),s=e.i(271645),a=e.i(770703),i=e.i(424154),r=e.i(439911),n=e.i(594745);function l(){return(0,t.jsxs)("div",{className:"text-center py-5 my-5",children:[(0,t.jsx)("div",{className:"spinner-border text-primary mb-3",role:"status"}),(0,t.jsx)("p",{className:"text-muted",children:"Loading Markdown editor..."})]})}let o=(0,a.default)(()=>e.A(215481).then(e=>e.MdEditor),{loadableGenerated:{modules:[327359]},ssr:!1,loading:()=>(0,t.jsx)(l,{})});e.s(["default",0,function(){let e=(0,n.useTranslations)("texts"),[a,l]=(0,s.useState)(`# Welcome to Markdown Editor
+
+This is a **real-time** Markdown editor with:
+
+- Live preview
+- Syntax highlighting
+- Dark / Light mode (syncs with system / Bootstrap theme)
+- Support for tables, code blocks, lists, images, etc.
+
+## Example Table
+
+| Feature          | Supported |
+|------------------|-----------|
+| Bold / Italic    | Yes       |
+| Code blocks      | Yes       |
+| Tables           | Yes       |
+| Task lists       | Yes       |
+
+Try editing this text!
+`),[d,c]=(0,s.useState)("light");(0,s.useEffect)(()=>{let e=()=>{c("dark"===document.documentElement.getAttribute("data-bs-theme")?"dark":"light")};e();let t=new MutationObserver(e);return t.observe(document.documentElement,{attributes:!0,attributeFilter:["data-bs-theme"]}),()=>t.disconnect()},[]);let u=(0,s.useCallback)(e=>{if(!i.default.isSupported)throw Error("DOMPurify unavailable");return i.default.sanitize(e)},[]);return(0,t.jsx)(r.default,{children:(0,t.jsx)("div",{className:"w-100 row justify-content-center",children:(0,t.jsx)("div",{className:"col-12 col-xxl-11",children:(0,t.jsxs)("div",{className:"card shadow border-0 overflow-hidden",children:[(0,t.jsx)("div",{className:"card-header bg-body-tertiary border-bottom py-3",children:(0,t.jsx)("div",{className:"d-flex align-items-center justify-content-between",children:(0,t.jsxs)("button",{className:"btn btn-outline-success btn-sm d-flex align-items-center gap-2",onClick:()=>{let e=new Blob([a],{type:"text/markdown;charset=utf-8"}),t=URL.createObjectURL(e),s=document.createElement("a");s.href=t,s.download="my-document.md",document.body.appendChild(s),s.click(),document.body.removeChild(s),URL.revokeObjectURL(t)},title:e("markdowneditor.save-title"),children:[(0,t.jsx)("i",{className:"bi bi-floppy"}),e("markdowneditor.save-as")]})})}),(0,t.jsx)(o,{modelValue:a,onChange:l,theme:d,language:"en-US",previewTheme:"dark"===d?"cyanosis":"github",height:"80vh",placeholder:e("markdowneditor.placeholder"),autoFocus:!0,showCodeRowNumber:!0,style:{border:"none"},sanitize:u,sanitizeMermaid:e=>Promise.resolve(i.default.sanitize(e,{USE_PROFILES:{svg:!0,svgFilters:!0}}))})]})})})})}])},215481,e=>{e.v(t=>Promise.all(["static/chunks/1oc3qxz9usyx0.js","static/chunks/1eduaxsg_bixm.js","static/chunks/1o0dxp_zt4rvj.js","static/chunks/1l0eah2-xmdkp.js","static/chunks/2wrj4gg83oy2m.js","static/chunks/2fryh-vrnauk3.js","static/chunks/3xqchgwloby4p.js","static/chunks/2f_d1fumf147l.js","static/chunks/1_imq6s4zft1o.js"].map(t=>e.l(t))).then(()=>t(327359)))}]);
