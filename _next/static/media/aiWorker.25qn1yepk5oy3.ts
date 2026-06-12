@@ -50,6 +50,12 @@ async function getBackgroundRemover(modelId: string) {
 }
 
 const api = {
+  async preloadBackgroundRemover(
+    modelId: string = "briaai/RMBG-1.4",
+  ): Promise<void> {
+    await getBackgroundRemover(modelId);
+  },
+
   async detectFaces(image: ImageBitmap | HTMLImageElement | HTMLCanvasElement) {
     await initFaceDetector();
     if (!faceDetector) throw new Error("Face detector not initialized");
@@ -60,7 +66,16 @@ const api = {
     modelId: string = "briaai/RMBG-1.4",
     input: ImageBitmap | HTMLImageElement | HTMLCanvasElement | OffscreenCanvas,
   ): Promise<ImageBitmap> {
-    const backgroundRemover = await getBackgroundRemover(modelId);
+    // After transfer the worker is sole owner of the bitmap. If getBackgroundRemover
+    // throws before the draw-path finally block, we must release it here.
+    const ownedBitmap = input instanceof ImageBitmap ? input : null;
+    let backgroundRemover: any;
+    try {
+      backgroundRemover = await getBackgroundRemover(modelId);
+    } catch (err) {
+      ownedBitmap?.close();
+      throw err;
+    }
 
     reportProgress(10, "Removing background...");
 
