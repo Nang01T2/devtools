@@ -35,9 +35,39 @@
     "open-tool": "Open Tool",
     "share-twitter": "Share on X/Twitter",
     "share-facebook": "Share on Facebook",
-    "share-linkedin": "Share on LinkedIn"
+    "share-linkedin": "Share on LinkedIn",
+    "hero-title": "Tools that respect your privacy",
+    "hero-subtitle": "Format, convert, generate and inspect — every tool runs entirely in your browser. No upload, no signup, no limits.",
+    "search-placeholder": "Search tools…",
+    "stat-tools": "{n} tools",
+    "stat-private": "100% client-side",
+    "stat-nosignup": "No signup",
+    "all": "All",
+    "all-tools": "All tools",
+    "no-results": "No tools match your search."
   },
   "footer": {
     "privacy-policy": "Privacy Policy"
+  },
+  "sidebar": {
+    "search-placeholder": "Search tools...",
+    "expand": "Expand sidebar",
+    "minimize": "Minimize sidebar"
+  },
+  "category": {
+    "crypto": "Crypto",
+    "converters": "Converters / Parsers",
+    "encoders": "Encoders / Decoders",
+    "formatters": "Formatters",
+    "generators": "Generators",
+    "qr-barcodes": "QR / Barcodes",
+    "graphic": "Graphic",
+    "media": "Media",
+    "network": "Network",
+    "testers": "Testers",
+    "text": "Text",
+    "components": "Components",
+    "database": "Database",
+    "development": "Development"
   }
 }

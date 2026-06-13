@@ -35,9 +35,39 @@
     "open-tool": "打开工具",
     "share-twitter": "分享到X/Twitter",
     "share-facebook": "分享到Facebook",
-    "share-linkedin": "分享到LinkedIn"
+    "share-linkedin": "分享到LinkedIn",
+    "hero-title": "尊重隐私的工具",
+    "hero-subtitle": "格式化、转换、生成与检查——所有工具完全在你的浏览器中运行。无需上传、无需注册、没有限制。",
+    "search-placeholder": "搜索工具…",
+    "stat-tools": "{n} 个工具",
+    "stat-private": "100% 本地运行",
+    "stat-nosignup": "无需注册",
+    "all": "全部",
+    "all-tools": "全部工具",
+    "no-results": "没有匹配的工具。"
   },
   "footer": {
     "privacy-policy": "隐私政策"
+  },
+  "sidebar": {
+    "search-placeholder": "搜索工具...",
+    "expand": "展开侧边栏",
+    "minimize": "收起侧边栏"
+  },
+  "category": {
+    "crypto": "加密",
+    "converters": "转换 / 解析",
+    "encoders": "编码 / 解码",
+    "formatters": "格式化",
+    "generators": "生成器",
+    "qr-barcodes": "二维码 / 条形码",
+    "graphic": "图形",
+    "media": "媒体",
+    "network": "网络",
+    "testers": "测试",
+    "text": "文本",
+    "components": "组件",
+    "database": "数据库",
+    "development": "开发"
   }
 }

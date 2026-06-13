@@ -35,9 +35,39 @@
     "open-tool": "Apri strumento",
     "share-twitter": "Condividi su X/Twitter",
     "share-facebook": "Condividi su Facebook",
-    "share-linkedin": "Condividi su LinkedIn"
+    "share-linkedin": "Condividi su LinkedIn",
+    "hero-title": "Strumenti che rispettano la tua privacy",
+    "hero-subtitle": "Formatta, converti, genera e ispeziona: ogni strumento gira interamente nel tuo browser. Nessun caricamento, nessuna registrazione, nessun limite.",
+    "search-placeholder": "Cerca strumenti…",
+    "stat-tools": "{n} strumenti",
+    "stat-private": "100% lato client",
+    "stat-nosignup": "Senza registrazione",
+    "all": "Tutti",
+    "all-tools": "Tutti gli strumenti",
+    "no-results": "Nessuno strumento corrisponde alla ricerca."
   },
   "footer": {
     "privacy-policy": "Informativa sulla privacy"
+  },
+  "sidebar": {
+    "search-placeholder": "Cerca strumenti...",
+    "expand": "Espandi barra laterale",
+    "minimize": "Riduci barra laterale"
+  },
+  "category": {
+    "crypto": "Crittografia",
+    "converters": "Convertitori / Parser",
+    "encoders": "Codificatori / Decodificatori",
+    "formatters": "Formattatori",
+    "generators": "Generatori",
+    "qr-barcodes": "QR / Codici a barre",
+    "graphic": "Grafica",
+    "media": "Media",
+    "network": "Rete",
+    "testers": "Tester",
+    "text": "Testo",
+    "components": "Componenti",
+    "database": "Database",
+    "development": "Sviluppo"
   }
 }

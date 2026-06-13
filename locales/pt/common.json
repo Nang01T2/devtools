@@ -35,9 +35,39 @@
     "open-tool": "Abrir ferramenta",
     "share-twitter": "Partilhar no X/Twitter",
     "share-facebook": "Partilhar no Facebook",
-    "share-linkedin": "Partilhar no LinkedIn"
+    "share-linkedin": "Partilhar no LinkedIn",
+    "hero-title": "Ferramentas que respeitam sua privacidade",
+    "hero-subtitle": "Formate, converta, gere e inspecione — todas as ferramentas rodam inteiramente no seu navegador. Sem upload, sem cadastro, sem limites.",
+    "search-placeholder": "Pesquisar ferramentas…",
+    "stat-tools": "{n} ferramentas",
+    "stat-private": "100% no navegador",
+    "stat-nosignup": "Sem cadastro",
+    "all": "Todas",
+    "all-tools": "Todas as ferramentas",
+    "no-results": "Nenhuma ferramenta corresponde à sua pesquisa."
   },
   "footer": {
     "privacy-policy": "Política de Privacidade"
+  },
+  "sidebar": {
+    "search-placeholder": "Pesquisar ferramentas...",
+    "expand": "Expandir barra lateral",
+    "minimize": "Minimizar barra lateral"
+  },
+  "category": {
+    "crypto": "Criptografia",
+    "converters": "Conversores / Analisadores",
+    "encoders": "Codificadores / Decodificadores",
+    "formatters": "Formatadores",
+    "generators": "Geradores",
+    "qr-barcodes": "QR / Códigos de barras",
+    "graphic": "Gráfico",
+    "media": "Mídia",
+    "network": "Rede",
+    "testers": "Testadores",
+    "text": "Texto",
+    "components": "Componentes",
+    "database": "Banco de dados",
+    "development": "Desenvolvimento"
   }
 }

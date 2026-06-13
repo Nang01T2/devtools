@@ -35,9 +35,39 @@
     "open-tool": "ツールを開く",
     "share-twitter": "X/Twitterで共有",
     "share-facebook": "Facebookで共有",
-    "share-linkedin": "LinkedInで共有"
+    "share-linkedin": "LinkedInで共有",
+    "hero-title": "プライバシーを尊重するツール",
+    "hero-subtitle": "整形・変換・生成・検査 — すべてのツールがブラウザー内で完結。アップロード不要、登録不要、制限なし。",
+    "search-placeholder": "ツールを検索…",
+    "stat-tools": "{n} 個のツール",
+    "stat-private": "100% ブラウザー処理",
+    "stat-nosignup": "登録不要",
+    "all": "すべて",
+    "all-tools": "すべてのツール",
+    "no-results": "一致するツールがありません。"
   },
   "footer": {
     "privacy-policy": "プライバシーポリシー"
+  },
+  "sidebar": {
+    "search-placeholder": "ツールを検索...",
+    "expand": "サイドバーを展開",
+    "minimize": "サイドバーを最小化"
+  },
+  "category": {
+    "crypto": "暗号",
+    "converters": "変換 / パーサー",
+    "encoders": "エンコーダー / デコーダー",
+    "formatters": "フォーマッター",
+    "generators": "ジェネレーター",
+    "qr-barcodes": "QR / バーコード",
+    "graphic": "グラフィック",
+    "media": "メディア",
+    "network": "ネットワーク",
+    "testers": "テスター",
+    "text": "テキスト",
+    "components": "コンポーネント",
+    "database": "データベース",
+    "development": "開発"
   }
 }

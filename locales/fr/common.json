@@ -35,9 +35,39 @@
     "open-tool": "Ouvrir l'outil",
     "share-twitter": "Partager sur X/Twitter",
     "share-facebook": "Partager sur Facebook",
-    "share-linkedin": "Partager sur LinkedIn"
+    "share-linkedin": "Partager sur LinkedIn",
+    "hero-title": "Des outils qui respectent votre vie privée",
+    "hero-subtitle": "Formatez, convertissez, générez et inspectez — chaque outil s'exécute entièrement dans votre navigateur. Sans envoi, sans inscription, sans limite.",
+    "search-placeholder": "Rechercher des outils…",
+    "stat-tools": "{n} outils",
+    "stat-private": "100 % côté client",
+    "stat-nosignup": "Sans inscription",
+    "all": "Tous",
+    "all-tools": "Tous les outils",
+    "no-results": "Aucun outil ne correspond à votre recherche."
   },
   "footer": {
     "privacy-policy": "Politique de confidentialité"
+  },
+  "sidebar": {
+    "search-placeholder": "Rechercher des outils...",
+    "expand": "Développer la barre latérale",
+    "minimize": "Réduire la barre latérale"
+  },
+  "category": {
+    "crypto": "Cryptographie",
+    "converters": "Convertisseurs / Analyseurs",
+    "encoders": "Encodeurs / Décodeurs",
+    "formatters": "Formateurs",
+    "generators": "Générateurs",
+    "qr-barcodes": "QR / Codes-barres",
+    "graphic": "Graphisme",
+    "media": "Média",
+    "network": "Réseau",
+    "testers": "Testeurs",
+    "text": "Texte",
+    "components": "Composants",
+    "database": "Base de données",
+    "development": "Développement"
   }
 }
