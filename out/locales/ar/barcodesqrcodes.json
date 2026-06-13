@@ -99,7 +99,14 @@
     "foreground-color": "اللون الأمامي:",
     "background-color": "لون الخلفية:",
     "download-qr-code": "تنزيل رمز QR",
-    "enter-wifi-details": "أدخل بيانات WiFi لإنشاء رمز QR"
+    "enter-wifi-details": "أدخل بيانات WiFi لإنشاء رمز QR",
+    "qr-alt": "رمز QR للواي فاي",
+    "copy-qr": "نسخ QR",
+    "copy-qr-success": "تم نسخ رمز QR!",
+    "copy-qr-unsupported": "النسخ غير مدعوم في هذا المتصفح",
+    "copy-qr-error": "فشل نسخ رمز QR",
+    "share-qr": "مشاركة QR",
+    "share-qr-failed": "فشل المشاركة. حاول مرة أخرى."
   },
   "qrcodereader": {
     "qr-barcode-scanner": "ماسح رموز QR / الباركود",

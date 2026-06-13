@@ -99,7 +99,14 @@
     "foreground-color": "Màu nền trước:",
     "background-color": "Màu nền sau:",
     "download-qr-code": "Tải xuống mã QR",
-    "enter-wifi-details": "Nhập thông tin WiFi để tạo mã QR"
+    "enter-wifi-details": "Nhập thông tin WiFi để tạo mã QR",
+    "qr-alt": "Mã QR WiFi",
+    "copy-qr": "Sao chép QR",
+    "copy-qr-success": "Đã sao chép mã QR!",
+    "copy-qr-unsupported": "Trình duyệt không hỗ trợ sao chép",
+    "copy-qr-error": "Sao chép thất bại",
+    "share-qr": "Chia sẻ QR",
+    "share-qr-failed": "Chia sẻ thất bại. Vui lòng thử lại."
   },
   "qrcodereader": {
     "qr-barcode-scanner": "Quét mã QR / Mã vạch",

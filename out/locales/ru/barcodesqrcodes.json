@@ -99,7 +99,14 @@
     "foreground-color": "Цвет переднего плана:",
     "background-color": "Цвет фона:",
     "download-qr-code": "Скачать QR-код",
-    "enter-wifi-details": "Введите данные WiFi, чтобы создать QR-код"
+    "enter-wifi-details": "Введите данные WiFi, чтобы создать QR-код",
+    "qr-alt": "QR-код WiFi",
+    "copy-qr": "Копировать QR",
+    "copy-qr-success": "QR-код скопирован!",
+    "copy-qr-unsupported": "Копирование не поддерживается в этом браузере",
+    "copy-qr-error": "Не удалось скопировать QR-код",
+    "share-qr": "Поделиться QR",
+    "share-qr-failed": "Не удалось поделиться. Повторите попытку."
   },
   "qrcodereader": {
     "qr-barcode-scanner": "Сканер QR / штрихкодов",
