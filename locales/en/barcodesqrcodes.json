@@ -99,7 +99,14 @@
     "foreground-color": "Foreground color:",
     "background-color": "Background color:",
     "download-qr-code": "Download QR Code",
-    "enter-wifi-details": "Enter WiFi details to generate the QR code"
+    "enter-wifi-details": "Enter WiFi details to generate the QR code",
+    "qr-alt": "WiFi QR Code",
+    "copy-qr": "Copy QR",
+    "copy-qr-success": "QR code copied!",
+    "copy-qr-unsupported": "Copy not supported in this browser",
+    "copy-qr-error": "Failed to copy QR code",
+    "share-qr": "Share QR",
+    "share-qr-failed": "Share failed. Please try again."
   },
   "qrcodereader": {
     "qr-barcode-scanner": "QR / Barcode Scanner",
