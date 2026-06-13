@@ -106,7 +106,16 @@
     "copy-qr-unsupported": "Cópia não suportada neste navegador",
     "copy-qr-error": "Falha ao copiar o QR",
     "share-qr": "Partilhar QR",
-    "share-qr-failed": "Falha ao partilhar. Tente novamente."
+    "share-qr-failed": "Falha ao partilhar. Tente novamente.",
+    "logo-label": "Logotipo central",
+    "logo-remove": "Remover",
+    "download-wifi-card": "Cartão WiFi",
+    "card-wifi-network": "Rede WiFi",
+    "card-scan-to-connect": "Escanear para conectar",
+    "download-wifi-card-error": "Falha ao gerar o cartão WiFi",
+    "customize": "Personalizar",
+    "eap-settings-title": "Configurações Empresariais (EAP)",
+    "empty-state-hint": "Seu código QR aparece aqui instantaneamente"
   },
   "qrcodereader": {
     "qr-barcode-scanner": "Leitor de QR / Código de Barras",

@@ -106,7 +106,16 @@
     "copy-qr-unsupported": "Kopieren in diesem Browser nicht unterstützt",
     "copy-qr-error": "QR-Code konnte nicht kopiert werden",
     "share-qr": "QR teilen",
-    "share-qr-failed": "Teilen fehlgeschlagen. Bitte erneut versuchen."
+    "share-qr-failed": "Teilen fehlgeschlagen. Bitte erneut versuchen.",
+    "logo-label": "Zentriertes Logo",
+    "logo-remove": "Entfernen",
+    "download-wifi-card": "WiFi-Karte",
+    "card-wifi-network": "WLAN-Netzwerk",
+    "card-scan-to-connect": "Scannen zum Verbinden",
+    "download-wifi-card-error": "WiFi-Karte konnte nicht erstellt werden",
+    "customize": "Anpassen",
+    "eap-settings-title": "Unternehmenseinstellungen (EAP)",
+    "empty-state-hint": "Ihr QR-Code erscheint sofort hier"
   },
   "qrcodereader": {
     "qr-barcode-scanner": "QR-/Barcode-Scanner",

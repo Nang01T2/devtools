@@ -106,7 +106,16 @@
     "copy-qr-unsupported": "Copy not supported in this browser",
     "copy-qr-error": "Failed to copy QR code",
     "share-qr": "Share QR",
-    "share-qr-failed": "Share failed. Please try again."
+    "share-qr-failed": "Share failed. Please try again.",
+    "logo-label": "Center logo",
+    "logo-remove": "Remove",
+    "download-wifi-card": "WiFi Card",
+    "card-wifi-network": "WiFi Network",
+    "card-scan-to-connect": "Scan to connect",
+    "download-wifi-card-error": "Failed to generate WiFi card",
+    "customize": "Customize",
+    "eap-settings-title": "Enterprise (EAP) Settings",
+    "empty-state-hint": "Your QR code appears here instantly"
   },
   "qrcodereader": {
     "qr-barcode-scanner": "QR / Barcode Scanner",

@@ -106,7 +106,16 @@
     "copy-qr-unsupported": "Trình duyệt không hỗ trợ sao chép",
     "copy-qr-error": "Sao chép thất bại",
     "share-qr": "Chia sẻ QR",
-    "share-qr-failed": "Chia sẻ thất bại. Vui lòng thử lại."
+    "share-qr-failed": "Chia sẻ thất bại. Vui lòng thử lại.",
+    "logo-label": "Logo giữa QR",
+    "logo-remove": "Xóa",
+    "download-wifi-card": "Thẻ WiFi",
+    "card-wifi-network": "Mạng WiFi",
+    "card-scan-to-connect": "Quét để kết nối",
+    "download-wifi-card-error": "Tạo thẻ WiFi thất bại",
+    "customize": "Tùy chỉnh",
+    "eap-settings-title": "Cài đặt Enterprise (EAP)",
+    "empty-state-hint": "Mã QR sẽ xuất hiện ngay tại đây"
   },
   "qrcodereader": {
     "qr-barcode-scanner": "Quét mã QR / Mã vạch",

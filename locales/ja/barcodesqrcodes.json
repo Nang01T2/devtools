@@ -106,7 +106,16 @@
     "copy-qr-unsupported": "このブラウザはコピーに対応していません",
     "copy-qr-error": "コピーに失敗しました",
     "share-qr": "QRを共有",
-    "share-qr-failed": "共有に失敗しました。もう一度お試しください。"
+    "share-qr-failed": "共有に失敗しました。もう一度お試しください。",
+    "logo-label": "中央ロゴ",
+    "logo-remove": "削除",
+    "download-wifi-card": "WiFiカード",
+    "card-wifi-network": "WiFiネットワーク",
+    "card-scan-to-connect": "スキャンして接続",
+    "download-wifi-card-error": "WiFiカードの生成に失敗しました",
+    "customize": "カスタマイズ",
+    "eap-settings-title": "エンタープライズ (EAP) 設定",
+    "empty-state-hint": "QRコードはここにすぐ表示されます"
   },
   "qrcodereader": {
     "qr-barcode-scanner": "QR / バーコードスキャナー",
