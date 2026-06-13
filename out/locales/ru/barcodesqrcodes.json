@@ -106,7 +106,16 @@
     "copy-qr-unsupported": "Копирование не поддерживается в этом браузере",
     "copy-qr-error": "Не удалось скопировать QR-код",
     "share-qr": "Поделиться QR",
-    "share-qr-failed": "Не удалось поделиться. Повторите попытку."
+    "share-qr-failed": "Не удалось поделиться. Повторите попытку.",
+    "logo-label": "Логотип в центре",
+    "logo-remove": "Удалить",
+    "download-wifi-card": "Карта WiFi",
+    "card-wifi-network": "Сеть WiFi",
+    "card-scan-to-connect": "Сканировать для подключения",
+    "download-wifi-card-error": "Не удалось создать карту WiFi",
+    "customize": "Настроить",
+    "eap-settings-title": "Корпоративные настройки (EAP)",
+    "empty-state-hint": "QR-код появится здесь мгновенно"
   },
   "qrcodereader": {
     "qr-barcode-scanner": "Сканер QR / штрихкодов",

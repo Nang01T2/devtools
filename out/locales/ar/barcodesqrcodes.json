@@ -106,7 +106,16 @@
     "copy-qr-unsupported": "النسخ غير مدعوم في هذا المتصفح",
     "copy-qr-error": "فشل نسخ رمز QR",
     "share-qr": "مشاركة QR",
-    "share-qr-failed": "فشل المشاركة. حاول مرة أخرى."
+    "share-qr-failed": "فشل المشاركة. حاول مرة أخرى.",
+    "logo-label": "شعار مركزي",
+    "logo-remove": "إزالة",
+    "download-wifi-card": "بطاقة WiFi",
+    "card-wifi-network": "شبكة WiFi",
+    "card-scan-to-connect": "مسح للاتصال",
+    "download-wifi-card-error": "فشل إنشاء بطاقة WiFi",
+    "customize": "تخصيص",
+    "eap-settings-title": "إعدادات المؤسسة (EAP)",
+    "empty-state-hint": "سيظهر رمز QR هنا فورًا"
   },
   "qrcodereader": {
     "qr-barcode-scanner": "ماسح رموز QR / الباركود",

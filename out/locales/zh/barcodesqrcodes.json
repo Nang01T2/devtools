@@ -106,7 +106,16 @@
     "copy-qr-unsupported": "此浏览器不支持复制",
     "copy-qr-error": "复制失败",
     "share-qr": "分享QR码",
-    "share-qr-failed": "分享失败，请重试。"
+    "share-qr-failed": "分享失败，请重试。",
+    "logo-label": "中心Logo",
+    "logo-remove": "移除",
+    "download-wifi-card": "WiFi卡片",
+    "card-wifi-network": "WiFi网络",
+    "card-scan-to-connect": "扫描连接",
+    "download-wifi-card-error": "生成WiFi卡片失败",
+    "customize": "自定义",
+    "eap-settings-title": "企业 (EAP) 设置",
+    "empty-state-hint": "您的QR码将立即显示在这里"
   },
   "qrcodereader": {
     "qr-barcode-scanner": "二维码 / 条形码扫描器",
