@@ -35,9 +35,39 @@
     "open-tool": "Mở công cụ",
     "share-twitter": "Chia sẻ lên X/Twitter",
     "share-facebook": "Chia sẻ lên Facebook",
-    "share-linkedin": "Chia sẻ lên LinkedIn"
+    "share-linkedin": "Chia sẻ lên LinkedIn",
+    "hero-title": "Công cụ tôn trọng quyền riêng tư",
+    "hero-subtitle": "Định dạng, chuyển đổi, tạo và kiểm tra — mọi công cụ chạy hoàn toàn trong trình duyệt. Không tải lên, không đăng ký, không giới hạn.",
+    "search-placeholder": "Tìm công cụ…",
+    "stat-tools": "{n} công cụ",
+    "stat-private": "100% chạy trên máy",
+    "stat-nosignup": "Không cần đăng ký",
+    "all": "Tất cả",
+    "all-tools": "Tất cả công cụ",
+    "no-results": "Không có công cụ nào khớp tìm kiếm."
   },
   "footer": {
     "privacy-policy": "Chính sách bảo mật"
+  },
+  "sidebar": {
+    "search-placeholder": "Tìm công cụ...",
+    "expand": "Mở rộng thanh bên",
+    "minimize": "Thu gọn thanh bên"
+  },
+  "category": {
+    "crypto": "Mật mã",
+    "converters": "Chuyển đổi / Phân tích",
+    "encoders": "Mã hóa / Giải mã",
+    "formatters": "Định dạng",
+    "generators": "Trình tạo",
+    "qr-barcodes": "QR / Mã vạch",
+    "graphic": "Đồ họa",
+    "media": "Đa phương tiện",
+    "network": "Mạng",
+    "testers": "Kiểm thử",
+    "text": "Văn bản",
+    "components": "Thành phần",
+    "database": "Cơ sở dữ liệu",
+    "development": "Phát triển"
   }
 }

@@ -35,9 +35,39 @@
     "open-tool": "فتح الأداة",
     "share-twitter": "مشاركة على X/Twitter",
     "share-facebook": "مشاركة على Facebook",
-    "share-linkedin": "مشاركة على LinkedIn"
+    "share-linkedin": "مشاركة على LinkedIn",
+    "hero-title": "أدوات تحترم خصوصيتك",
+    "hero-subtitle": "نسّق وحوّل وولّد وافحص — كل أداة تعمل بالكامل داخل متصفحك. بدون رفع، بدون تسجيل، بدون حدود.",
+    "search-placeholder": "البحث عن الأدوات…",
+    "stat-tools": "{n} أداة",
+    "stat-private": "100% على جهازك",
+    "stat-nosignup": "بدون تسجيل",
+    "all": "الكل",
+    "all-tools": "كل الأدوات",
+    "no-results": "لا توجد أدوات تطابق بحثك."
   },
   "footer": {
     "privacy-policy": "سياسة الخصوصية"
+  },
+  "sidebar": {
+    "search-placeholder": "البحث عن الأدوات...",
+    "expand": "توسيع الشريط الجانبي",
+    "minimize": "تصغير الشريط الجانبي"
+  },
+  "category": {
+    "crypto": "التشفير",
+    "converters": "المحولات / المحللات",
+    "encoders": "المُرمِّزات / فاكّات الترميز",
+    "formatters": "المنسّقات",
+    "generators": "المولّدات",
+    "qr-barcodes": "QR / الباركود",
+    "graphic": "الرسوميات",
+    "media": "الوسائط",
+    "network": "الشبكة",
+    "testers": "أدوات الاختبار",
+    "text": "النص",
+    "components": "المكوّنات",
+    "database": "قاعدة البيانات",
+    "development": "التطوير"
   }
 }

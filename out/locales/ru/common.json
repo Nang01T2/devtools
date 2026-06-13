@@ -35,9 +35,39 @@
     "open-tool": "Открыть инструмент",
     "share-twitter": "Поделиться в X/Twitter",
     "share-facebook": "Поделиться в Facebook",
-    "share-linkedin": "Поделиться в LinkedIn"
+    "share-linkedin": "Поделиться в LinkedIn",
+    "hero-title": "Инструменты, уважающие вашу приватность",
+    "hero-subtitle": "Форматируйте, конвертируйте, генерируйте и проверяйте — каждый инструмент работает прямо в браузере. Без загрузки, без регистрации, без ограничений.",
+    "search-placeholder": "Поиск инструментов…",
+    "stat-tools": "{n} инструментов",
+    "stat-private": "100% в браузере",
+    "stat-nosignup": "Без регистрации",
+    "all": "Все",
+    "all-tools": "Все инструменты",
+    "no-results": "Нет инструментов по вашему запросу."
   },
   "footer": {
     "privacy-policy": "Политика конфиденциальности"
+  },
+  "sidebar": {
+    "search-placeholder": "Поиск инструментов...",
+    "expand": "Развернуть боковую панель",
+    "minimize": "Свернуть боковую панель"
+  },
+  "category": {
+    "crypto": "Криптография",
+    "converters": "Конвертеры / Парсеры",
+    "encoders": "Кодировщики / Декодеры",
+    "formatters": "Форматировщики",
+    "generators": "Генераторы",
+    "qr-barcodes": "QR / Штрихкоды",
+    "graphic": "Графика",
+    "media": "Медиа",
+    "network": "Сеть",
+    "testers": "Тестеры",
+    "text": "Текст",
+    "components": "Компоненты",
+    "database": "База данных",
+    "development": "Разработка"
   }
 }
