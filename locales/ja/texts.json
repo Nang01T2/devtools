@@ -65,6 +65,10 @@
   },
   "translator": {
     "configuration": "設定",
+    "settings": "設定",
+    "key-format-short": "形式",
+    "sort-keys-short": "並替",
+    "merge-position-short": "結合",
     "key-format": "キー形式（ICU保持）",
     "key-format-message": "入力行から翻訳キーを生成する方法。{count, plural, ...} などのICUプレースホルダーは完全に保持されます。推奨: Android/iOSにはkebab-case、バックエンドにはsnake_case。",
     "merge-position": "マージ位置",
@@ -72,6 +76,8 @@
     "merge-position-message-new-last": "新規を末尾に",
     "sort-keys": "キーの並び替え",
     "sort-keys-message": "出力ファイル内のすべてのキーをアルファベット順（A → Z）に並び替え。Git diffとチームの一貫性に推奨。",
+    "key-format-original": "元のまま",
+    "sort-original-order": "元の順序",
     "target-languages": "対象言語",
     "no-languages": "言語が選択されていません — 翻訳とエクスポートを有効にするには少なくとも1つ選択してください",
     "export-zip": "ZIPでエクスポート",
@@ -85,7 +91,9 @@
     "no-languages-selected": "言語が選択されていません",
     "status-failed": "失敗",
     "status-fallback": "フォールバックプロキシ",
-    "one-phrase-per-line": "1行に1フレーズ"
+    "refresh-lang": "再翻訳（キャッシュをクリア）",
+    "one-phrase-per-line": "1行に1フレーズ",
+    "existing-json-optional": "既存のJSON（任意）"
   },
   "markdowneditor": {
     "save-title": "現在のコンテンツを.mdファイルとして保存",

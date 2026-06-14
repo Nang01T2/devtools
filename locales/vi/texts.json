@@ -65,6 +65,10 @@
   },
   "translator": {
     "configuration": "Cấu hình",
+    "settings": "Cài đặt",
+    "key-format-short": "Định dạng",
+    "sort-keys-short": "Sắp xếp",
+    "merge-position-short": "Gộp",
     "key-format": "Định dạng khóa (giữ ICU)",
     "key-format-message": "Cách tạo khóa dịch từ các dòng đầu vào. Giữ nguyên ICU placeholders như {count, plural, ...}. Khuyến nghị: kebab-case cho Android/iOS, snake_case cho backend.",
     "merge-position": "Vị trí gộp",
@@ -72,6 +76,8 @@
     "merge-position-message-new-last": "Mới cuối cùng",
     "sort-keys": "Sắp xếp khóa",
     "sort-keys-message": "Sắp xếp tất cả khóa theo thứ tự chữ cái (A → Z). Khuyến nghị cho Git diff và nhất quán nhóm.",
+    "key-format-original": "Nguyên bản",
+    "sort-original-order": "Thứ tự gốc",
     "target-languages": "Ngôn ngữ đích",
     "no-languages": "Chưa chọn ngôn ngữ — thêm ít nhất một ngôn ngữ để bật dịch & xuất",
     "export-zip": "Xuất ZIP",
@@ -85,7 +91,9 @@
     "no-languages-selected": "Chưa chọn ngôn ngữ",
     "status-failed": "Thất bại",
     "status-fallback": "Proxy dự phòng",
-    "one-phrase-per-line": "Mỗi dòng một cụm từ"
+    "refresh-lang": "Dịch lại (xóa cache)",
+    "one-phrase-per-line": "Mỗi dòng một cụm từ",
+    "existing-json-optional": "JSON hiện có (tùy chọn)"
   },
   "markdowneditor": {
     "save-title": "Lưu nội dung hiện tại dưới dạng file .md",

@@ -65,6 +65,10 @@
   },
   "translator": {
     "configuration": "Configuration",
+    "settings": "Paramètres",
+    "key-format-short": "Format",
+    "sort-keys-short": "Tri",
+    "merge-position-short": "Fusion",
     "key-format": "Format des clés (ICU préservé)",
     "key-format-message": "Comment les clés de traduction sont générées à partir de vos lignes de saisie. Les espaces réservés ICU comme {count, plural, ...} sont entièrement préservés. Recommandé : kebab-case pour Android/iOS, snake_case pour le backend.",
     "merge-position": "Position de fusion",
@@ -72,6 +76,8 @@
     "merge-position-message-new-last": "Nouveaux en dernier",
     "sort-keys": "Trier les clés",
     "sort-keys-message": "Trier alphabétiquement toutes les clés des fichiers de sortie (A → Z). Recommandé pour les diffs Git et la cohérence en équipe.",
+    "key-format-original": "Original",
+    "sort-original-order": "Ordre original",
     "target-languages": "Langues cibles",
     "no-languages": "Aucune langue sélectionnée — ajoutez-en au moins une pour activer la traduction et l'exportation",
     "export-zip": "Exporter en ZIP",
@@ -85,7 +91,9 @@
     "no-languages-selected": "Aucune langue sélectionnée",
     "status-failed": "Échec",
     "status-fallback": "Proxy de secours",
-    "one-phrase-per-line": "Une phrase par ligne"
+    "refresh-lang": "Retraduire (vider le cache)",
+    "one-phrase-per-line": "Une phrase par ligne",
+    "existing-json-optional": "JSON existant (optionnel)"
   },
   "markdowneditor": {
     "save-title": "Enregistrer le contenu actuel en fichier .md",

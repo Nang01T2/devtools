@@ -65,6 +65,10 @@
   },
   "translator": {
     "configuration": "الإعدادات",
+    "settings": "الإعدادات",
+    "key-format-short": "النوع",
+    "sort-keys-short": "ترتيب",
+    "merge-position-short": "دمج",
     "key-format": "تنسيق المفاتيح (مع الحفاظ على ICU)",
     "key-format-message": "كيفية توليد مفاتيح الترجمة من أسطر الإدخال. تُحفظ عناصر ICU النائبة مثل {count, plural, ...} بالكامل. موصى به: kebab-case لأنظمة Android/iOS، وsnake_case للواجهة الخلفية.",
     "merge-position": "موضع الدمج",
@@ -72,6 +76,8 @@
     "merge-position-message-new-last": "الجديد أخيرًا",
     "sort-keys": "ترتيب المفاتيح",
     "sort-keys-message": "ترتيب جميع المفاتيح أبجديًا في ملفات الإخراج (من A إلى Z). موصى به لمقارنات Git واتساق الفريق.",
+    "key-format-original": "الأصلي",
+    "sort-original-order": "الترتيب الأصلي",
     "target-languages": "اللغات المستهدفة",
     "no-languages": "لم يتم اختيار لغات — أضف لغة واحدة على الأقل لتفعيل الترجمة والتصدير",
     "export-zip": "تصدير ZIP",
@@ -85,7 +91,9 @@
     "no-languages-selected": "لم يتم اختيار لغات",
     "status-failed": "فشل",
     "status-fallback": "وكيل احتياطي",
-    "one-phrase-per-line": "عبارة واحدة في كل سطر"
+    "refresh-lang": "إعادة الترجمة (مسح الذاكرة المؤقتة)",
+    "one-phrase-per-line": "عبارة واحدة في كل سطر",
+    "existing-json-optional": "JSON موجود (اختياري)"
   },
   "markdowneditor": {
     "save-title": "حفظ المحتوى الحالي كملف ‎.md",

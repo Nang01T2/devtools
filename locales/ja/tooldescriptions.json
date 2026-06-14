@@ -33,8 +33,9 @@
   "text-diff": "2つのテキストを並列またはインラインで色分け比較。コード、設定、ログ、ドキュメントの変更を単語・文字レベルの精度で発見。",
   "multi-language-translator": "単語やフレーズを11以上の言語に即座に翻訳。アプリ用（i18n）のcommon.jsonファイルをcamelCase、snake_caseなど任意の形式で生成。",
   "markdown-editor": "Markdownをリアルタイムで執筆・編集・プレビュー。構文ハイライト、ライブレンダリング、ダーク/ライトモード、エクスポートオプション対応。メモ、README、ドキュメント、ブログ記事に最適。",
-  "icon-generator": "1枚のソース画像からiOS・Android用の完全なアプリアイコンセットを生成。AIによる背景除去で透過アイコン作成、回転・反転ツール、モダンなスタイルテンプレート（角丸、スクワークル、円形）、URLやクリップボードからのアップロード、単一PNG/JPEG出力用カスタムスケール、JPEG背景色の選択、高品質なリサイズと圧縮。",
+  "icon-generator": "1枚のソース画像からiOS・Android用の完全なアプリアイコンセットを生成。AIによる背景除去で透過アイコン作成、回転・反転ツール、モダンなスタイルテンプレート（角丸、スクワークル、円形）、URLやクリップボードからのアップロード、単一PNG/JPEG出力用カスタムスケール、JPEG背景色の選択、高品質…",
   "image-converter": "最新フォーマット対応の高度な画像コンバーター：HEIC/HEIF（iPhone写真）、AVIF、WebP、JPEG XL（JXL）、MozJPEG、PNG、アニメーションGIF。品質、リサイズ、最適化、一括処理、フォーマット間変換、複数画像の単一PDF結合（PNG、JPG/JPEG、GIF、WebPのみ）を完全制御。",
   "pdf-to-images": "PDFファイルからページごとに高品質な画像を抽出。PNG/JPEG出力の選択、解像度（72〜288 DPI）とJPEG品質の調整、複数PDFの一括処理、ページプレビュー、個別またはZIPでのダウンロードに対応。",
-  "ip-geolocation": "任意のIPアドレス（または現在のIP）の位置情報を即座に取得。都市、地域、国、タイムゾーン、ISP、緯度/経度などを含む。結果は複数形式（JSON、XML、YAMLなど）でエクスポート可能。"
+  "ip-geolocation": "任意のIPアドレス（または現在のIP）の位置情報を即座に取得。都市、地域、国、タイムゾーン、ISP、緯度/経度などを含む。結果は複数形式（JSON、XML、YAMLなど）でエクスポート可能。",
+  "meme-maker": "Make memes in your browser — add captions, stickers and text to any photo, including iPhone HEIC. 100% private, no upload, no watermark, no signup."
 }

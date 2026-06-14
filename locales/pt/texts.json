@@ -65,6 +65,10 @@
   },
   "translator": {
     "configuration": "Configuração",
+    "settings": "Configurações",
+    "key-format-short": "Formato",
+    "sort-keys-short": "Ordem",
+    "merge-position-short": "Fusão",
     "key-format": "Formato das chaves (ICU preservado)",
     "key-format-message": "Como as chaves de tradução são geradas a partir das suas linhas de entrada. Os placeholders ICU como {count, plural, ...} são totalmente preservados. Recomendado: kebab-case para Android/iOS, snake_case para backend.",
     "merge-position": "Posição de fusão",
@@ -72,6 +76,8 @@
     "merge-position-message-new-last": "Novos no fim",
     "sort-keys": "Ordenar chaves",
     "sort-keys-message": "Ordenar alfabeticamente todas as chaves nos ficheiros de saída (A → Z). Recomendado para diffs no Git e consistência de equipa.",
+    "key-format-original": "Original",
+    "sort-original-order": "Ordem original",
     "target-languages": "Idiomas de destino",
     "no-languages": "Nenhum idioma selecionado — adicione pelo menos um para ativar a tradução e a exportação",
     "export-zip": "Exportar ZIP",
@@ -85,7 +91,9 @@
     "no-languages-selected": "Nenhum idioma selecionado",
     "status-failed": "Falhou",
     "status-fallback": "Proxy de recurso",
-    "one-phrase-per-line": "Uma frase por linha"
+    "refresh-lang": "Retraduzir (limpar cache)",
+    "one-phrase-per-line": "Uma frase por linha",
+    "existing-json-optional": "JSON existente (opcional)"
   },
   "markdowneditor": {
     "save-title": "Guardar o conteúdo atual como ficheiro .md",

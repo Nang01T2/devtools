@@ -65,6 +65,10 @@
   },
   "translator": {
     "configuration": "配置",
+    "settings": "设置",
+    "key-format-short": "格式",
+    "sort-keys-short": "排序",
+    "merge-position-short": "合并",
     "key-format": "键格式（保留ICU）",
     "key-format-message": "从输入行生成翻译键的方式。完全保留ICU占位符如 {count, plural, ...}。推荐：Android/iOS使用kebab-case，后端使用snake_case。",
     "merge-position": "合并位置",
@@ -72,6 +76,8 @@
     "merge-position-message-new-last": "新键在后",
     "sort-keys": "排序键",
     "sort-keys-message": "按字母顺序（A → Z）对输出文件中的所有键排序。推荐用于Git差异和团队一致性。",
+    "key-format-original": "原始",
+    "sort-original-order": "原始顺序",
     "target-languages": "目标语言",
     "no-languages": "未选择语言 — 请至少添加一种语言以启用翻译和导出",
     "export-zip": "导出ZIP",
@@ -85,7 +91,9 @@
     "no-languages-selected": "未选择语言",
     "status-failed": "失败",
     "status-fallback": "备用代理",
-    "one-phrase-per-line": "每行一个短语"
+    "refresh-lang": "重新翻译（清除缓存）",
+    "one-phrase-per-line": "每行一个短语",
+    "existing-json-optional": "现有 JSON（可选）"
   },
   "markdowneditor": {
     "save-title": "将当前内容保存为.md文件",

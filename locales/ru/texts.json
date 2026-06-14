@@ -65,6 +65,10 @@
   },
   "translator": {
     "configuration": "Настройки",
+    "settings": "Настройки",
+    "key-format-short": "Формат",
+    "sort-keys-short": "Порядок",
+    "merge-position-short": "Слияние",
     "key-format": "Формат ключей (ICU сохраняется)",
     "key-format-message": "Как ключи переводов генерируются из ваших входных строк. ICU-плейсхолдеры вроде {count, plural, ...} полностью сохраняются. Рекомендуется: kebab-case для Android/iOS, snake_case для бэкенда.",
     "merge-position": "Позиция слияния",
@@ -72,6 +76,8 @@
     "merge-position-message-new-last": "Новые в конце",
     "sort-keys": "Сортировка ключей",
     "sort-keys-message": "Сортировать все ключи в выходных файлах по алфавиту (А → Я). Рекомендуется для Git-диффов и согласованности в команде.",
+    "key-format-original": "Оригинал",
+    "sort-original-order": "Исходный порядок",
     "target-languages": "Целевые языки",
     "no-languages": "Языки не выбраны — добавьте хотя бы один, чтобы включить перевод и экспорт",
     "export-zip": "Экспорт ZIP",
@@ -85,7 +91,9 @@
     "no-languages-selected": "Языки не выбраны",
     "status-failed": "Не удалось",
     "status-fallback": "Резервный прокси",
-    "one-phrase-per-line": "Одна фраза на строку"
+    "refresh-lang": "Перевести снова (очистить кэш)",
+    "one-phrase-per-line": "Одна фраза на строку",
+    "existing-json-optional": "Существующий JSON (необязательно)"
   },
   "markdowneditor": {
     "save-title": "Сохранить текущее содержимое как файл .md",
