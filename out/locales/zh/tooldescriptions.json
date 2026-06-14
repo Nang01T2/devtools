@@ -36,5 +36,6 @@
   "icon-generator": "从一张源图片生成iOS和Android的完整应用图标集。AI驱动的背景移除生成透明图标，旋转和翻转工具，现代风格模板（圆角、超椭圆、圆形），支持从URL上传或剪贴板粘贴，单张PNG/JPEG导出自定义比例，JPEG可选背景色，高质量缩放与压缩。",
   "image-converter": "支持现代格式的高级图片转换器：HEIC/HEIF（iPhone照片）、AVIF、WebP、JPEG XL（JXL）、MozJPEG、PNG和动态GIF。全面控制质量、调整大小、优化、批量处理、跨格式转换，以及将图片合并为单个PDF（仅限PNG、JPG/JPEG、GIF、WebP）。",
   "pdf-to-images": "从PDF文件中逐页提取高质量图片。可选择PNG或JPEG输出，调整分辨率（72–288 DPI）和JPEG质量，批量处理多个PDF，预览页面，单独下载或打包为ZIP。",
-  "ip-geolocation": "即时获取任何IP地址（或您当前IP）的地理位置数据。包括城市、地区、国家、时区、ISP、经纬度等。结果可导出为多种格式（JSON、XML、YAML等）。"
+  "ip-geolocation": "即时获取任何IP地址（或您当前IP）的地理位置数据。包括城市、地区、国家、时区、ISP、经纬度等。结果可导出为多种格式（JSON、XML、YAML等）。",
+  "meme-maker": "Make memes in your browser — add captions, stickers and text to any photo, including iPhone HEIC. 100% private, no upload, no watermark, no signup."
 }

@@ -1,7 +1,6 @@
 # *
 User-agent: *
 Allow: /
-Disallow: /private/
 
 # Host
 Host: https://gadgetforge.dev

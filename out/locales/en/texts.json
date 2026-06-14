@@ -65,6 +65,10 @@
   },
   "translator": {
     "configuration": "Configuration",
+    "settings": "Settings",
+    "key-format-short": "Key",
+    "sort-keys-short": "Sort",
+    "merge-position-short": "Merge",
     "key-format": "Key Format (ICU preserved)",
     "key-format-message": "How translation keys are generated from your input lines. ICU placeholders like {count, plural, ...} are fully preserved. Recommended: kebab-case for Android/iOS, snake_case for backend.",
     "merge-position": "Merge Position",
@@ -72,6 +76,8 @@
     "merge-position-message-new-last": "New Last",
     "sort-keys": "Sort Keys",
     "sort-keys-message": "Alphabetically sort all keys in output files (A → Z). Recommended for Git diffs and team consistency.",
+    "key-format-original": "Original",
+    "sort-original-order": "Original Order",
     "target-languages": "Target Languages",
     "no-languages": "No languages selected — add at least one to enable translation & export",
     "export-zip": "Export ZIP",
@@ -85,7 +91,9 @@
     "no-languages-selected": "No languages selected",
     "status-failed": "Failed",
     "status-fallback": "Fallback proxy",
-    "one-phrase-per-line": "One phrase per line"
+    "refresh-lang": "Re-translate (clear cache)",
+    "one-phrase-per-line": "One phrase per line",
+    "existing-json-optional": "Existing JSON (optional)"
   },
   "markdowneditor": {
     "save-title": "Save current content as .md file",
