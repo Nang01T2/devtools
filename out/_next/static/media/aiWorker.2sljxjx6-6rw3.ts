@@ -7,6 +7,9 @@ const backgroundRemovers = new Map<string, any>();
 
 const w = self as unknown as Worker;
 
+// `text` is a STABLE STATUS TOKEN (not display prose) — the worker has no access
+// to the i18n hook, so useBackgroundRemoval maps these tokens to localized strings
+// (icongenerator.preview-progress-*). Keep tokens in sync with that map.
 function reportProgress(progress: number, text: string) {
   w.postMessage({ type: "ai-progress", progress, text });
 }
@@ -41,9 +44,9 @@ async function getBackgroundRemover(modelId: string) {
     progress_callback: (data: any) => {
       if (data.status === "progress" && data.total > 0) {
         const percent = Math.round((data.loaded / data.total) * 100);
-        reportProgress(percent, "Loading model...");
+        reportProgress(percent, "loading-model");
       } else if (data.status === "done") {
-        reportProgress(100, "Model loaded!");
+        reportProgress(100, "model-loaded");
       }
     },
   });
@@ -86,7 +89,7 @@ const api = {
       throw err;
     }
 
-    reportProgress(10, "Removing background...");
+    reportProgress(10, "removing");
 
     let canvas: OffscreenCanvas;
 
@@ -126,13 +129,13 @@ const api = {
     let fakePercent = 30;
     const progressInterval = setInterval(() => {
       fakePercent = Math.min(90, fakePercent + (Math.random() * 8 + 5));
-      reportProgress(fakePercent, "Removing background...");
+      reportProgress(fakePercent, "removing");
     }, 800);
 
     try {
       const output = await backgroundRemover(canvas);
       clearInterval(progressInterval);
-      reportProgress(95, "Finalizing output...");
+      reportProgress(95, "finalizing");
 
       const rawImage = Array.isArray(output)
         ? output[0]
@@ -157,7 +160,7 @@ const api = {
       );
 
       const bitmap = resultCanvas.transferToImageBitmap();
-      reportProgress(100, "Done!");
+      reportProgress(100, "done");
       return bitmap;
     } catch (err) {
       clearInterval(progressInterval);
