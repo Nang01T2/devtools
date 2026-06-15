@@ -366,7 +366,6 @@
     "face-blur-radius": "Сила",
     "face-blur-none": "Лица на изображении не обнаружены",
     "face-blur-loading": "Загрузка модели ИИ…",
-    "overlay-edit-no-undo": "Изменения изображения нельзя отменить",
     "text-presets": "Стили",
     "preset-classic": "Классика",
     "preset-dark": "Тёмный",

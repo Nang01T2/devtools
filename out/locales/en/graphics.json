@@ -366,7 +366,6 @@
     "face-blur-radius": "Strength",
     "face-blur-none": "No faces detected in this image",
     "face-blur-loading": "Loading AI model…",
-    "overlay-edit-no-undo": "Image edits cannot be undone",
     "text-presets": "Presets",
     "preset-classic": "Classic",
     "preset-dark": "Dark",

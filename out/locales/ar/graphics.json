@@ -366,7 +366,6 @@
     "face-blur-radius": "القوة",
     "face-blur-none": "لم يتم اكتشاف وجوه في هذه الصورة",
     "face-blur-loading": "جارٍ تحميل نموذج الذكاء الاصطناعي…",
-    "overlay-edit-no-undo": "لا يمكن التراجع عن تعديلات الصورة",
     "text-presets": "أنماط",
     "preset-classic": "كلاسيكي",
     "preset-dark": "داكن",

@@ -366,7 +366,6 @@
     "face-blur-radius": "Stärke",
     "face-blur-none": "Keine Gesichter erkannt",
     "face-blur-loading": "KI-Modell wird geladen…",
-    "overlay-edit-no-undo": "Bildbearbeitungen können nicht rückgängig gemacht werden",
     "text-presets": "Vorlagen",
     "preset-classic": "Classic",
     "preset-dark": "Dark",
