@@ -248,6 +248,11 @@
     "export-failed": "Export failed. Please try again.",
     "compress": "ضغط",
     "quality": "الجودة",
+    "auto-quality": "تلقائي",
+    "auto-quality-hint": "ابحث عن أصغر حجم بجودة شبه مطابقة",
+    "auto-quality-applied": "تم تطبيق الجودة التلقائية: {percent}%",
+    "auto-quality-failed": "تعذّر حساب الجودة التلقائية",
+    "auto-quality-active": "تم تطبيق الجودة التلقائية",
     "compress-png-hint": "PNG بدون فقدان — اختر JPEG أو WebP للضغط",
     "output-size": "الحجم: ≈ {bytes}",
     "add-text": "Add text",
@@ -464,6 +469,9 @@
     "panel-layers": "الطبقات",
     "panel-stickers": "ملصقات",
     "layers-empty-hint": "أضف نصًا أو ملصقًا للبدء",
-    "trending": "الرائج"
+    "trending": "الرائج",
+    "copy": "نسخ",
+    "copied": "تم النسخ إلى الحافظة",
+    "copy-failed": "فشل النسخ"
   }
 }

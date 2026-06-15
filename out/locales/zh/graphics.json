@@ -248,6 +248,11 @@
     "export-failed": "Export failed. Please try again.",
     "compress": "压缩",
     "quality": "质量",
+    "auto-quality": "自动",
+    "auto-quality-hint": "在画质几乎不变的前提下找到最小体积",
+    "auto-quality-applied": "已应用自动画质：{percent}%",
+    "auto-quality-failed": "无法计算自动画质",
+    "auto-quality-active": "已应用自动画质",
     "compress-png-hint": "PNG 为无损格式 — 选择 JPEG 或 WebP 进行压缩",
     "output-size": "输出: ≈ {bytes}",
     "add-text": "Add text",
@@ -464,6 +469,9 @@
     "panel-layers": "图层",
     "panel-stickers": "贴纸",
     "layers-empty-hint": "添加文字或贴纸开始制作",
-    "trending": "热门"
+    "trending": "热门",
+    "copy": "复制",
+    "copied": "已复制到剪贴板",
+    "copy-failed": "复制失败"
   }
 }
