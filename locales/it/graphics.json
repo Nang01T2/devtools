@@ -450,6 +450,20 @@
     "filter-neue": "Neue",
     "filter-obsidian": "Ossidiana",
     "filter-pastel_pink": "Rosa Pastello",
-    "filter-ryo": "Ryo"
+    "filter-ryo": "Ryo",
+    "curve-label": "Curva",
+    "curve-style": "Stile curva",
+    "curve-smooth": "Morbida",
+    "curve-circular": "Cerchio",
+    "tagline": "Crea meme nel browser",
+    "badge-local": "100% nel browser",
+    "badge-no-upload": "Nessun caricamento",
+    "badge-no-watermark": "Senza filigrana",
+    "badge-heic": "Supporto HEIC",
+    "panel-properties": "Proprietà",
+    "panel-layers": "Livelli",
+    "panel-stickers": "Sticker",
+    "layers-empty-hint": "Aggiungi testo o uno sticker per iniziare",
+    "trending": "Di tendenza"
   }
 }

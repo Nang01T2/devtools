@@ -450,6 +450,20 @@
     "filter-neue": "Нойе",
     "filter-obsidian": "Обсидиан",
     "filter-pastel_pink": "Пастельно-Розовый",
-    "filter-ryo": "Рё"
+    "filter-ryo": "Рё",
+    "curve-label": "Дуга",
+    "curve-style": "Тип дуги",
+    "curve-smooth": "Плавная",
+    "curve-circular": "Круг",
+    "tagline": "Создавайте мемы в браузере",
+    "badge-local": "100% в браузере",
+    "badge-no-upload": "Без загрузки",
+    "badge-no-watermark": "Без водяных знаков",
+    "badge-heic": "Поддержка HEIC",
+    "panel-properties": "Свойства",
+    "panel-layers": "Слои",
+    "panel-stickers": "Стикеры",
+    "layers-empty-hint": "Добавьте текст или стикер, чтобы начать",
+    "trending": "Популярное"
   }
 }

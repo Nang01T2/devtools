@@ -450,6 +450,20 @@
     "filter-neue": "Neue",
     "filter-obsidian": "Obsidian",
     "filter-pastel_pink": "Pastellrosa",
-    "filter-ryo": "Ryo"
+    "filter-ryo": "Ryo",
+    "curve-label": "Bogen",
+    "curve-style": "Bogenstil",
+    "curve-smooth": "Weich",
+    "curve-circular": "Kreis",
+    "tagline": "Memes im Browser erstellen",
+    "badge-local": "100% im Browser",
+    "badge-no-upload": "Kein Upload",
+    "badge-no-watermark": "Kein Wasserzeichen",
+    "badge-heic": "HEIC-Unterstützung",
+    "panel-properties": "Eigenschaften",
+    "panel-layers": "Ebenen",
+    "panel-stickers": "Sticker",
+    "layers-empty-hint": "Text oder Sticker hinzufügen, um zu starten",
+    "trending": "Angesagt"
   }
 }

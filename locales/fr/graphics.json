@@ -450,6 +450,20 @@
     "filter-neue": "Neue",
     "filter-obsidian": "Obsidienne",
     "filter-pastel_pink": "Rose Pastel",
-    "filter-ryo": "Ryo"
+    "filter-ryo": "Ryo",
+    "curve-label": "Courbe",
+    "curve-style": "Style de courbe",
+    "curve-smooth": "Douce",
+    "curve-circular": "Cercle",
+    "tagline": "Créez des memes dans le navigateur",
+    "badge-local": "100% dans le navigateur",
+    "badge-no-upload": "Aucun envoi",
+    "badge-no-watermark": "Sans filigrane",
+    "badge-heic": "Prise en charge HEIC",
+    "panel-properties": "Propriétés",
+    "panel-layers": "Calques",
+    "panel-stickers": "Stickers",
+    "layers-empty-hint": "Ajoutez du texte ou un sticker pour commencer",
+    "trending": "Tendances"
   }
 }

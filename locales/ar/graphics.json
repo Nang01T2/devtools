@@ -450,6 +450,20 @@
     "filter-neue": "نويه",
     "filter-obsidian": "سبج",
     "filter-pastel_pink": "وردي باستيل",
-    "filter-ryo": "ريو"
+    "filter-ryo": "ريو",
+    "curve-label": "انحناء",
+    "curve-style": "نمط الانحناء",
+    "curve-smooth": "ناعم",
+    "curve-circular": "دائري",
+    "tagline": "أنشئ الميمات في متصفحك",
+    "badge-local": "100% في المتصفح",
+    "badge-no-upload": "بدون رفع",
+    "badge-no-watermark": "بدون علامة مائية",
+    "badge-heic": "دعم HEIC",
+    "panel-properties": "الخصائص",
+    "panel-layers": "الطبقات",
+    "panel-stickers": "ملصقات",
+    "layers-empty-hint": "أضف نصًا أو ملصقًا للبدء",
+    "trending": "الرائج"
   }
 }

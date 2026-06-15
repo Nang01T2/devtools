@@ -450,6 +450,20 @@
     "filter-neue": "Neue",
     "filter-obsidian": "Obsidian",
     "filter-pastel_pink": "Pastel Pink",
-    "filter-ryo": "Ryo"
+    "filter-ryo": "Ryo",
+    "curve-label": "Curve",
+    "curve-style": "Curve style",
+    "curve-smooth": "Smooth",
+    "curve-circular": "Circle",
+    "tagline": "Make memes in your browser",
+    "badge-local": "100% in-browser",
+    "badge-no-upload": "No upload",
+    "badge-no-watermark": "No watermark",
+    "badge-heic": "HEIC support",
+    "panel-properties": "Properties",
+    "panel-layers": "Layers",
+    "panel-stickers": "Stickers",
+    "layers-empty-hint": "Add text or a sticker to start",
+    "trending": "Trending"
   }
 }
