@@ -450,6 +450,20 @@
     "filter-neue": "Neue",
     "filter-obsidian": "Hắc Diện",
     "filter-pastel_pink": "Hồng Pastel",
-    "filter-ryo": "Ryo"
+    "filter-ryo": "Ryo",
+    "curve-label": "Uốn cong",
+    "curve-style": "Kiểu uốn",
+    "curve-smooth": "Mượt",
+    "curve-circular": "Vòng cung",
+    "tagline": "Tạo meme ngay trong trình duyệt",
+    "badge-local": "100% trong trình duyệt",
+    "badge-no-upload": "Không upload",
+    "badge-no-watermark": "Không watermark",
+    "badge-heic": "Hỗ trợ HEIC",
+    "panel-properties": "Thuộc tính",
+    "panel-layers": "Lớp",
+    "panel-stickers": "Sticker",
+    "layers-empty-hint": "Thêm chữ hoặc sticker để bắt đầu",
+    "trending": "Thịnh hành"
   }
 }

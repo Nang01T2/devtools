@@ -450,6 +450,20 @@
     "filter-neue": "诺伊",
     "filter-obsidian": "曜石",
     "filter-pastel_pink": "柔粉",
-    "filter-ryo": "良"
+    "filter-ryo": "良",
+    "curve-label": "弧度",
+    "curve-style": "弧形样式",
+    "curve-smooth": "平滑",
+    "curve-circular": "圆形",
+    "tagline": "在浏览器中制作表情包",
+    "badge-local": "100% 在浏览器",
+    "badge-no-upload": "无需上传",
+    "badge-no-watermark": "无水印",
+    "badge-heic": "支持 HEIC",
+    "panel-properties": "属性",
+    "panel-layers": "图层",
+    "panel-stickers": "贴纸",
+    "layers-empty-hint": "添加文字或贴纸开始制作",
+    "trending": "热门"
   }
 }

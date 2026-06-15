@@ -450,6 +450,20 @@
     "filter-neue": "Neue",
     "filter-obsidian": "Obsidiana",
     "filter-pastel_pink": "Rosa Pastel",
-    "filter-ryo": "Ryo"
+    "filter-ryo": "Ryo",
+    "curve-label": "Curva",
+    "curve-style": "Estilo de curva",
+    "curve-smooth": "Suave",
+    "curve-circular": "Círculo",
+    "tagline": "Crie memes no navegador",
+    "badge-local": "100% no navegador",
+    "badge-no-upload": "Sem upload",
+    "badge-no-watermark": "Sem marca d'água",
+    "badge-heic": "Suporte a HEIC",
+    "panel-properties": "Propriedades",
+    "panel-layers": "Camadas",
+    "panel-stickers": "Stickers",
+    "layers-empty-hint": "Adicione texto ou um sticker para começar",
+    "trending": "Em alta"
   }
 }

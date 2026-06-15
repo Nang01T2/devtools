@@ -450,6 +450,20 @@
     "filter-neue": "ノイエ",
     "filter-obsidian": "オブシディアン",
     "filter-pastel_pink": "パステルピンク",
-    "filter-ryo": "リョウ"
+    "filter-ryo": "リョウ",
+    "curve-label": "カーブ",
+    "curve-style": "カーブスタイル",
+    "curve-smooth": "スムーズ",
+    "curve-circular": "円形",
+    "tagline": "ブラウザでミームを作成",
+    "badge-local": "100% ブラウザ内",
+    "badge-no-upload": "アップロード不要",
+    "badge-no-watermark": "透かしなし",
+    "badge-heic": "HEIC対応",
+    "panel-properties": "プロパティ",
+    "panel-layers": "レイヤー",
+    "panel-stickers": "ステッカー",
+    "layers-empty-hint": "テキストかステッカーを追加して開始",
+    "trending": "トレンド"
   }
 }
