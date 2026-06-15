@@ -366,7 +366,6 @@
     "face-blur-radius": "强度",
     "face-blur-none": "未在图片中检测到人脸",
     "face-blur-loading": "正在加载AI模型…",
-    "overlay-edit-no-undo": "图像编辑无法撤销",
     "text-presets": "预设",
     "preset-classic": "经典",
     "preset-dark": "暗色",

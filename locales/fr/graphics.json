@@ -366,7 +366,6 @@
     "face-blur-radius": "Intensité",
     "face-blur-none": "Aucun visage détecté dans cette image",
     "face-blur-loading": "Chargement du modèle IA…",
-    "overlay-edit-no-undo": "Les modifications d'image ne peuvent pas être annulées",
     "text-presets": "Modèles",
     "preset-classic": "Classic",
     "preset-dark": "Sombre",

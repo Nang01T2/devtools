@@ -366,7 +366,6 @@
     "face-blur-radius": "Intensidad",
     "face-blur-none": "No se detectaron caras en esta imagen",
     "face-blur-loading": "Cargando modelo de IA…",
-    "overlay-edit-no-undo": "Las ediciones de imagen no se pueden deshacer",
     "text-presets": "Estilos",
     "preset-classic": "Clásico",
     "preset-dark": "Oscuro",

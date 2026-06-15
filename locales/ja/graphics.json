@@ -366,7 +366,6 @@
     "face-blur-radius": "強度",
     "face-blur-none": "画像に顔が検出されませんでした",
     "face-blur-loading": "AIモデルを読み込み中…",
-    "overlay-edit-no-undo": "画像の編集は元に戻せません",
     "text-presets": "プリセット",
     "preset-classic": "クラシック",
     "preset-dark": "ダーク",
