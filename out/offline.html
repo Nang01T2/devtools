@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -85,12 +85,39 @@
           />
         </svg>
       </div>
-      <h1>You're offline</h1>
-      <p>
-        This page hasn't been cached yet. Tools you've already opened still work
-        offline — reconnect to load new ones.
-      </p>
-      <button onclick="location.reload()">Try again</button>
+      <h1 id="t"></h1>
+      <p id="d"></p>
+      <button onclick="location.reload()" id="b"></button>
     </div>
+    <script>
+      var T = {
+        en: ["You're offline", "This page hasn't been cached yet. Tools you've already opened still work offline — reconnect to load new ones.", "Try again"],
+        ar: ["أنت غير متصل بالإنترنت", "هذه الصفحة لم تُخزَّن مؤقتاً بعد. الأدوات التي فتحتها من قبل لا تزال تعمل دون اتصال — أعد الاتصال لتحميل أدوات جديدة.", "حاول مجدداً"],
+        zh: ["您已离线", "此页面尚未被缓存。您之前打开过的工具仍可离线使用 — 重新连接以加载新工具。", "重试"],
+        es: ["Estás sin conexión", "Esta página aún no está en caché. Las herramientas que ya has abierto siguen funcionando sin conexión — vuelve a conectarte para cargar otras nuevas.", "Intentar de nuevo"],
+        fr: ["Vous êtes hors ligne", "Cette page n'a pas encore été mise en cache. Les outils que vous avez déjà ouverts fonctionnent hors ligne — reconnectez-vous pour en charger de nouveaux.", "Réessayer"],
+        de: ["Sie sind offline", "Diese Seite wurde noch nicht gecacht. Tools, die Sie bereits geöffnet haben, funktionieren offline — verbinden Sie sich erneut, um neue zu laden.", "Erneut versuchen"],
+        it: ["Sei offline", "Questa pagina non è ancora in cache. Gli strumenti che hai già aperto continuano a funzionare offline — riconnettiti per caricarne di nuovi.", "Riprova"],
+        ja: ["オフラインです", "このページはまだキャッシュされていません。以前に開いたツールはオフラインでも使用できます — 新しいツールを読み込むには再接続してください。", "再試行"],
+        pt: ["Você está offline", "Esta página ainda não foi armazenada em cache. As ferramentas que você já abriu continuam funcionando offline — reconecte-se para carregar novas.", "Tentar novamente"],
+        ru: ["Вы не в сети", "Эта страница ещё не закэширована. Инструменты, которые вы уже открывали, продолжают работать офлайн — переподключитесь, чтобы загрузить новые.", "Попробовать снова"],
+        vi: ["Bạn đang ngoại tuyến", "Trang này chưa được lưu trong bộ nhớ đệm. Các công cụ bạn đã mở trước đây vẫn hoạt động ngoại tuyến — kết nối lại để tải công cụ mới.", "Thử lại"],
+      };
+      // Detect locale: URL path prefix first (/ar/, /vi/, …), then navigator.language.
+      // offline.html itself has no locale prefix; the regex returns undefined → fallback runs.
+      var lang = (location.pathname.match(/^\/([a-z]{2})(\/|$)/) || [])[1];
+      if (!lang || !T[lang]) {
+        var nav = (navigator.language || "en").split("-")[0].toLowerCase();
+        lang = T[nav] ? nav : "en";
+      }
+      var s = T[lang];
+      document.getElementById("t").textContent = s[0];
+      document.getElementById("d").textContent = s[1];
+      document.getElementById("b").textContent = s[2];
+      document.documentElement.lang = lang;
+      var RTL = { ar: 1, he: 1, fa: 1 };
+      if (RTL[lang]) document.documentElement.dir = "rtl";
+      document.title = s[0] + " · GadgetForge";
+    </script>
   </body>
 </html>
