@@ -248,6 +248,11 @@
     "export-failed": "Export failed. Please try again.",
     "compress": "Komprimieren",
     "quality": "Qualität",
+    "auto-quality": "Auto",
+    "auto-quality-hint": "Kleinste Dateigröße bei nahezu identischer Qualität finden",
+    "auto-quality-applied": "Auto-Qualität angewendet: {percent}%",
+    "auto-quality-failed": "Auto-Qualität konnte nicht berechnet werden",
+    "auto-quality-active": "Auto-Qualität angewendet",
     "compress-png-hint": "PNG ist verlustfrei — JPEG oder WebP zum Komprimieren wählen",
     "output-size": "Ausgabe: ≈ {bytes}",
     "add-text": "Add text",
@@ -464,6 +469,9 @@
     "panel-layers": "Ebenen",
     "panel-stickers": "Sticker",
     "layers-empty-hint": "Text oder Sticker hinzufügen, um zu starten",
-    "trending": "Angesagt"
+    "trending": "Angesagt",
+    "copy": "Kopieren",
+    "copied": "In die Zwischenablage kopiert",
+    "copy-failed": "Kopieren fehlgeschlagen"
   }
 }

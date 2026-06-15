@@ -248,6 +248,11 @@
     "export-failed": "Export failed. Please try again.",
     "compress": "Сжатие",
     "quality": "Качество",
+    "auto-quality": "Авто",
+    "auto-quality-hint": "Найти наименьший размер при почти неизменном качестве",
+    "auto-quality-applied": "Применено авто-качество: {percent}%",
+    "auto-quality-failed": "Не удалось вычислить авто-качество",
+    "auto-quality-active": "Авто-качество применено",
     "compress-png-hint": "PNG без потерь — выберите JPEG или WebP для сжатия",
     "output-size": "Размер: ≈ {bytes}",
     "add-text": "Add text",
@@ -464,6 +469,9 @@
     "panel-layers": "Слои",
     "panel-stickers": "Стикеры",
     "layers-empty-hint": "Добавьте текст или стикер, чтобы начать",
-    "trending": "Популярное"
+    "trending": "Популярное",
+    "copy": "Копировать",
+    "copied": "Скопировано в буфер обмена",
+    "copy-failed": "Не удалось скопировать"
   }
 }

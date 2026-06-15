@@ -248,6 +248,11 @@
     "export-failed": "Xuất thất bại. Vui lòng thử lại.",
     "compress": "Nén",
     "quality": "Chất lượng",
+    "auto-quality": "Tự động",
+    "auto-quality-hint": "Tìm dung lượng nhỏ nhất với chất lượng gần như không đổi",
+    "auto-quality-applied": "Đã áp dụng chất lượng tự động: {percent}%",
+    "auto-quality-failed": "Không thể tính chất lượng tự động",
+    "auto-quality-active": "Đã áp dụng chất lượng tự động",
     "compress-png-hint": "PNG không mất dữ liệu — chọn JPEG hoặc WebP để nén",
     "output-size": "Kích thước: ≈ {bytes}",
     "add-text": "Thêm chữ",
@@ -464,6 +469,9 @@
     "panel-layers": "Lớp",
     "panel-stickers": "Sticker",
     "layers-empty-hint": "Thêm chữ hoặc sticker để bắt đầu",
-    "trending": "Thịnh hành"
+    "trending": "Thịnh hành",
+    "copy": "Sao chép",
+    "copied": "Đã sao chép vào clipboard",
+    "copy-failed": "Sao chép thất bại"
   }
 }

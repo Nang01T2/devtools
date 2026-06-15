@@ -248,6 +248,11 @@
     "export-failed": "Export failed. Please try again.",
     "compress": "圧縮",
     "quality": "品質",
+    "auto-quality": "自動",
+    "auto-quality-hint": "ほぼ同じ画質で最小サイズを自動で探します",
+    "auto-quality-applied": "自動画質を適用しました: {percent}%",
+    "auto-quality-failed": "自動画質を計算できませんでした",
+    "auto-quality-active": "自動画質を適用済み",
     "compress-png-hint": "PNGは可逆形式です — 圧縮するにはJPEGまたはWebPを選択",
     "output-size": "出力サイズ: ≈ {bytes}",
     "add-text": "Add text",
@@ -464,6 +469,9 @@
     "panel-layers": "レイヤー",
     "panel-stickers": "ステッカー",
     "layers-empty-hint": "テキストかステッカーを追加して開始",
-    "trending": "トレンド"
+    "trending": "トレンド",
+    "copy": "コピー",
+    "copied": "クリップボードにコピーしました",
+    "copy-failed": "コピーに失敗しました"
   }
 }
