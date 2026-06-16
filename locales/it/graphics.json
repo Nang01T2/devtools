@@ -525,6 +525,19 @@
     "copy": "Copia",
     "copied": "Copiato negli appunti",
     "copy-failed": "Copia non riuscita",
-    "canvas-label": "Area dell'editor meme"
+    "canvas-label": "Area dell'editor meme",
+    "template-title-gif-dance": "Ballo",
+    "template-title-gif-explosion": "Esplosione",
+    "template-title-gif-hearteyes": "Occhi a Cuore",
+    "template-title-gif-shake": "Tremito",
+    "template-title-gif-spin": "Rotazione",
+    "template-title-gif-rage": "Rabbia",
+    "template-title-gif-party": "Festa",
+    "template-title-gif-troll": "Troll",
+    "template-title-gif-moneyrain": "Pioggia di Soldi",
+    "template-title-gif-catjam": "Gatto in Groove",
+    "template-title-gif-zoom": "Zoom",
+    "template-title-gif-laugh": "Risata",
+    "template-title-gif-sigma": "Sigma"
   }
 }

@@ -525,6 +525,19 @@
     "copy": "Копировать",
     "copied": "Скопировано в буфер обмена",
     "copy-failed": "Не удалось скопировать",
-    "canvas-label": "Холст редактора мемов"
+    "canvas-label": "Холст редактора мемов",
+    "template-title-gif-dance": "Танец",
+    "template-title-gif-explosion": "Взрыв",
+    "template-title-gif-hearteyes": "Влюблённый взгляд",
+    "template-title-gif-shake": "Тряска",
+    "template-title-gif-spin": "Вращение",
+    "template-title-gif-rage": "Ярость",
+    "template-title-gif-party": "Вечеринка",
+    "template-title-gif-troll": "Тролль",
+    "template-title-gif-moneyrain": "Денежный дождь",
+    "template-title-gif-catjam": "Кот грувит",
+    "template-title-gif-zoom": "Зум",
+    "template-title-gif-laugh": "Смех",
+    "template-title-gif-sigma": "Сигма"
   }
 }

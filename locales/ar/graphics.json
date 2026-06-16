@@ -525,6 +525,19 @@
     "copy": "نسخ",
     "copied": "تم النسخ إلى الحافظة",
     "copy-failed": "فشل النسخ",
-    "canvas-label": "لوحة تحرير الميم"
+    "canvas-label": "لوحة تحرير الميم",
+    "template-title-gif-dance": "رقص",
+    "template-title-gif-explosion": "انفجار",
+    "template-title-gif-hearteyes": "عيون قلبية",
+    "template-title-gif-shake": "اهتزاز",
+    "template-title-gif-spin": "دوران",
+    "template-title-gif-rage": "غضب",
+    "template-title-gif-party": "حفلة",
+    "template-title-gif-troll": "ترول",
+    "template-title-gif-moneyrain": "مطر المال",
+    "template-title-gif-catjam": "القط يتمايل",
+    "template-title-gif-zoom": "تكبير مفاجئ",
+    "template-title-gif-laugh": "ضحك",
+    "template-title-gif-sigma": "سيغما"
   }
 }
