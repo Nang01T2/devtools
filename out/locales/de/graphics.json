@@ -314,7 +314,7 @@
     "template-classical": "Klassische Kunst",
     "template-layouts": "Layouts",
     "template-stock": "Stockfotos",
-    "template-gifs": "GIFs",
+    "template-gifs": "Animiert",
     "privacy-note": "100% privat – nichts verlässt dein Gerät. Kein Wasserzeichen.",
     "close": "Schließen",
     "controls-panel": "Bearbeitungswerkzeuge",
@@ -524,6 +524,7 @@
     "trending": "Angesagt",
     "copy": "Kopieren",
     "copied": "In die Zwischenablage kopiert",
-    "copy-failed": "Kopieren fehlgeschlagen"
+    "copy-failed": "Kopieren fehlgeschlagen",
+    "canvas-label": "Meme-Editor-Canvas"
   }
 }

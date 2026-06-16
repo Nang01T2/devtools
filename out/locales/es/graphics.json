@@ -314,7 +314,7 @@
     "template-classical": "Arte clásico",
     "template-layouts": "Diseños",
     "template-stock": "Fotos de stock",
-    "template-gifs": "GIFs",
+    "template-gifs": "Animados",
     "privacy-note": "100% privado: nada sale de tu dispositivo. Sin marca de agua.",
     "close": "Cerrar",
     "controls-panel": "Controles de edición",
@@ -524,6 +524,7 @@
     "trending": "Tendencias",
     "copy": "Copiar",
     "copied": "Copiado al portapapeles",
-    "copy-failed": "Error al copiar"
+    "copy-failed": "Error al copiar",
+    "canvas-label": "Lienzo del editor de memes"
   }
 }

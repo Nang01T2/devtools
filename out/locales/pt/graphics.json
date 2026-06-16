@@ -314,7 +314,7 @@
     "template-classical": "Arte clássica",
     "template-layouts": "Modelos",
     "template-stock": "Fotos de banco",
-    "template-gifs": "GIFs",
+    "template-gifs": "Animados",
     "privacy-note": "100% privado — nada sai do seu dispositivo. Sem marca d'água.",
     "close": "Fechar",
     "controls-panel": "Controles de edição",
@@ -524,6 +524,7 @@
     "trending": "Em alta",
     "copy": "Copiar",
     "copied": "Copiado para a área de transferência",
-    "copy-failed": "Falha ao copiar"
+    "copy-failed": "Falha ao copiar",
+    "canvas-label": "Tela do editor de memes"
   }
 }

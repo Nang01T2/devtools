@@ -314,7 +314,7 @@
     "template-classical": "فن كلاسيكي",
     "template-layouts": "تخطيطات",
     "template-stock": "صور مخزنة",
-    "template-gifs": "صور GIF",
+    "template-gifs": "متحركة",
     "privacy-note": "خصوصية 100% — لا شيء يغادر جهازك. بدون علامة مائية.",
     "close": "إغلاق",
     "controls-panel": "أدوات التحرير",
@@ -524,6 +524,7 @@
     "trending": "الرائج",
     "copy": "نسخ",
     "copied": "تم النسخ إلى الحافظة",
-    "copy-failed": "فشل النسخ"
+    "copy-failed": "فشل النسخ",
+    "canvas-label": "لوحة تحرير الميم"
   }
 }
