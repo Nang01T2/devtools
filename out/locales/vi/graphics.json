@@ -525,6 +525,19 @@
     "copy": "Sao chép",
     "copied": "Đã sao chép vào clipboard",
     "copy-failed": "Sao chép thất bại",
-    "canvas-label": "Canvas tạo meme"
+    "canvas-label": "Canvas tạo meme",
+    "template-title-gif-dance": "Nhảy",
+    "template-title-gif-explosion": "Vụ nổ",
+    "template-title-gif-hearteyes": "Mắt tim",
+    "template-title-gif-shake": "Rung lắc",
+    "template-title-gif-spin": "Xoay tròn",
+    "template-title-gif-rage": "Cuồng nộ",
+    "template-title-gif-party": "Tiệc tùng",
+    "template-title-gif-troll": "Troll",
+    "template-title-gif-moneyrain": "Mưa tiền",
+    "template-title-gif-catjam": "Mèo nhảy",
+    "template-title-gif-zoom": "Phóng to",
+    "template-title-gif-laugh": "Cười lăn",
+    "template-title-gif-sigma": "Sigma"
   }
 }

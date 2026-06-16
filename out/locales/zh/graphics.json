@@ -525,6 +525,19 @@
     "copy": "复制",
     "copied": "已复制到剪贴板",
     "copy-failed": "复制失败",
-    "canvas-label": "表情包编辑区"
+    "canvas-label": "表情包编辑区",
+    "template-title-gif-dance": "舞蹈",
+    "template-title-gif-explosion": "爆炸",
+    "template-title-gif-hearteyes": "心形眼睛",
+    "template-title-gif-shake": "震动",
+    "template-title-gif-spin": "旋转",
+    "template-title-gif-rage": "愤怒",
+    "template-title-gif-party": "派对",
+    "template-title-gif-troll": "捣蛋鬼",
+    "template-title-gif-moneyrain": "钱雨",
+    "template-title-gif-catjam": "猫猫摇摆",
+    "template-title-gif-zoom": "冲击缩放",
+    "template-title-gif-laugh": "大笑",
+    "template-title-gif-sigma": "西格马"
   }
 }

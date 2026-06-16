@@ -525,6 +525,19 @@
     "copy": "Copier",
     "copied": "Copié dans le presse-papiers",
     "copy-failed": "Échec de la copie",
-    "canvas-label": "Zone de création de mème"
+    "canvas-label": "Zone de création de mème",
+    "template-title-gif-dance": "Danse",
+    "template-title-gif-explosion": "Explosion",
+    "template-title-gif-hearteyes": "Yeux Cœur",
+    "template-title-gif-shake": "Tremblement",
+    "template-title-gif-spin": "Rotation",
+    "template-title-gif-rage": "Rage",
+    "template-title-gif-party": "Fête",
+    "template-title-gif-troll": "Troll",
+    "template-title-gif-moneyrain": "Pluie d'Argent",
+    "template-title-gif-catjam": "Chat Groovant",
+    "template-title-gif-zoom": "Zoom",
+    "template-title-gif-laugh": "Fou Rire",
+    "template-title-gif-sigma": "Sigma"
   }
 }

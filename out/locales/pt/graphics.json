@@ -525,6 +525,19 @@
     "copy": "Copiar",
     "copied": "Copiado para a área de transferência",
     "copy-failed": "Falha ao copiar",
-    "canvas-label": "Tela do editor de memes"
+    "canvas-label": "Tela do editor de memes",
+    "template-title-gif-dance": "Dança",
+    "template-title-gif-explosion": "Explosão",
+    "template-title-gif-hearteyes": "Olhos de Coração",
+    "template-title-gif-shake": "Tremor",
+    "template-title-gif-spin": "Giro",
+    "template-title-gif-rage": "Fúria",
+    "template-title-gif-party": "Festa",
+    "template-title-gif-troll": "Troll",
+    "template-title-gif-moneyrain": "Chuva de Dinheiro",
+    "template-title-gif-catjam": "Gato Dançando",
+    "template-title-gif-zoom": "Zoom",
+    "template-title-gif-laugh": "Gargalhada",
+    "template-title-gif-sigma": "Sigma"
   }
 }

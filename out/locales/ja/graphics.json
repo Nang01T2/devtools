@@ -525,6 +525,19 @@
     "copy": "コピー",
     "copied": "クリップボードにコピーしました",
     "copy-failed": "コピーに失敗しました",
-    "canvas-label": "ミームキャンバス"
+    "canvas-label": "ミームキャンバス",
+    "template-title-gif-dance": "ダンス",
+    "template-title-gif-explosion": "爆発",
+    "template-title-gif-hearteyes": "ハートの目",
+    "template-title-gif-shake": "シェイク",
+    "template-title-gif-spin": "スピン",
+    "template-title-gif-rage": "激怒",
+    "template-title-gif-party": "パーティー",
+    "template-title-gif-troll": "トロール",
+    "template-title-gif-moneyrain": "お金の雨",
+    "template-title-gif-catjam": "キャットジャム",
+    "template-title-gif-zoom": "ズーム",
+    "template-title-gif-laugh": "爆笑",
+    "template-title-gif-sigma": "シグマ"
   }
 }
