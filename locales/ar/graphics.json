@@ -538,6 +538,19 @@
     "template-title-gif-catjam": "القط يتمايل",
     "template-title-gif-zoom": "تكبير مفاجئ",
     "template-title-gif-laugh": "ضحك",
-    "template-title-gif-sigma": "سيغما"
+    "template-title-gif-sigma": "سيغما",
+    "slot-empty-warning": "بعض فتحات الصور لا تزال فارغة — سيتم تصديرها كعناصر نائبة رمادية.",
+    "slot-unfilled": "فتحة الصورة",
+    "upload-photo": "رفع صورة",
+    "template-photo": "صورة",
+    "slot-label-photo": "صورة",
+    "text-then": "قبل",
+    "text-now": "الآن",
+    "template-title-photo-newspaper": "صحيفة",
+    "template-title-photo-polaroid": "بولارويد",
+    "template-title-photo-wanted": "مطلوب",
+    "template-title-photo-split": "شاشة مقسمة",
+    "template-title-photo-then-now": "قبل / الآن",
+    "template-title-photo-reaction": "ركن التفاعل"
   }
 }

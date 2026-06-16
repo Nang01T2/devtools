@@ -538,6 +538,19 @@
     "template-title-gif-catjam": "Gatto in Groove",
     "template-title-gif-zoom": "Zoom",
     "template-title-gif-laugh": "Risata",
-    "template-title-gif-sigma": "Sigma"
+    "template-title-gif-sigma": "Sigma",
+    "slot-empty-warning": "Alcuni spazi foto sono ancora vuoti — verranno esportati come segnaposto grigi.",
+    "slot-unfilled": "Spazio foto",
+    "upload-photo": "Carica foto",
+    "template-photo": "Foto",
+    "slot-label-photo": "Foto",
+    "text-then": "Prima",
+    "text-now": "Ora",
+    "template-title-photo-newspaper": "Giornale",
+    "template-title-photo-polaroid": "Polaroid",
+    "template-title-photo-wanted": "Ricercato",
+    "template-title-photo-split": "Schermo diviso",
+    "template-title-photo-then-now": "Prima / Ora",
+    "template-title-photo-reaction": "Angolo reazione"
   }
 }

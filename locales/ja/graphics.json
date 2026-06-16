@@ -538,6 +538,19 @@
     "template-title-gif-catjam": "キャットジャム",
     "template-title-gif-zoom": "ズーム",
     "template-title-gif-laugh": "爆笑",
-    "template-title-gif-sigma": "シグマ"
+    "template-title-gif-sigma": "シグマ",
+    "slot-empty-warning": "一部の写真スロットがまだ空です — グレーのプレースホルダーとしてエクスポートされます。",
+    "slot-unfilled": "写真スロット",
+    "upload-photo": "写真をアップロード",
+    "template-photo": "写真",
+    "slot-label-photo": "写真",
+    "text-then": "昔",
+    "text-now": "今",
+    "template-title-photo-newspaper": "新聞",
+    "template-title-photo-polaroid": "ポラロイド",
+    "template-title-photo-wanted": "指名手配",
+    "template-title-photo-split": "分割画面",
+    "template-title-photo-then-now": "昔 / 今",
+    "template-title-photo-reaction": "リアクションコーナー"
   }
 }

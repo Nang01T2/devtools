@@ -538,6 +538,19 @@
     "template-title-gif-catjam": "Кот грувит",
     "template-title-gif-zoom": "Зум",
     "template-title-gif-laugh": "Смех",
-    "template-title-gif-sigma": "Сигма"
+    "template-title-gif-sigma": "Сигма",
+    "slot-empty-warning": "Некоторые слоты для фото ещё пусты — они будут экспортированы как серые заглушки.",
+    "slot-unfilled": "Слот для фото",
+    "upload-photo": "Загрузить фото",
+    "template-photo": "Фото",
+    "slot-label-photo": "Фото",
+    "text-then": "Тогда",
+    "text-now": "Сейчас",
+    "template-title-photo-newspaper": "Газета",
+    "template-title-photo-polaroid": "Полароид",
+    "template-title-photo-wanted": "Разыскивается",
+    "template-title-photo-split": "Разделённый экран",
+    "template-title-photo-then-now": "Тогда / Сейчас",
+    "template-title-photo-reaction": "Угол реакции"
   }
 }

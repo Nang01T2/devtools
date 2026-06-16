@@ -538,6 +538,19 @@
     "template-title-gif-catjam": "猫猫摇摆",
     "template-title-gif-zoom": "冲击缩放",
     "template-title-gif-laugh": "大笑",
-    "template-title-gif-sigma": "西格马"
+    "template-title-gif-sigma": "西格马",
+    "slot-empty-warning": "部分照片槽仍为空 — 导出时将显示为灰色占位符。",
+    "slot-unfilled": "照片槽",
+    "upload-photo": "上传照片",
+    "template-photo": "照片",
+    "slot-label-photo": "照片",
+    "text-then": "以前",
+    "text-now": "现在",
+    "template-title-photo-newspaper": "报纸",
+    "template-title-photo-polaroid": "拍立得",
+    "template-title-photo-wanted": "通缉令",
+    "template-title-photo-split": "分屏",
+    "template-title-photo-then-now": "以前 / 现在",
+    "template-title-photo-reaction": "反应角落"
   }
 }

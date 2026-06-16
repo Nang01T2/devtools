@@ -538,6 +538,19 @@
     "template-title-gif-catjam": "Mèo nhảy",
     "template-title-gif-zoom": "Phóng to",
     "template-title-gif-laugh": "Cười lăn",
-    "template-title-gif-sigma": "Sigma"
+    "template-title-gif-sigma": "Sigma",
+    "slot-empty-warning": "Một số ô ảnh vẫn còn trống — chúng sẽ được xuất dưới dạng ô xám.",
+    "slot-unfilled": "Ô ảnh",
+    "upload-photo": "Tải ảnh lên",
+    "template-photo": "Ảnh",
+    "slot-label-photo": "Ảnh",
+    "text-then": "Trước",
+    "text-now": "Bây giờ",
+    "template-title-photo-newspaper": "Báo",
+    "template-title-photo-polaroid": "Polaroid",
+    "template-title-photo-wanted": "Truy nã",
+    "template-title-photo-split": "Màn hình đôi",
+    "template-title-photo-then-now": "Trước / Bây giờ",
+    "template-title-photo-reaction": "Góc phản ứng"
   }
 }

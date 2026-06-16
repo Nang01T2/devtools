@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#f0f0f0"/>
+  <!-- Left panel bg -->
+  <rect x="5" y="5" width="390" height="490" fill="#e4e4e4" stroke="#ccc" stroke-width="1"/>
+  <!-- Right panel bg -->
+  <rect x="405" y="5" width="390" height="490" fill="#e4e4e4" stroke="#ccc" stroke-width="1"/>
+  <!-- Center divider -->
+  <line x1="400" y1="0" x2="400" y2="500" stroke="#bbb" stroke-width="2"/>
+</svg>
