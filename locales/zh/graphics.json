@@ -314,7 +314,7 @@
     "template-classical": "古典艺术",
     "template-layouts": "布局",
     "template-stock": "图库照片",
-    "template-gifs": "GIF 动图",
+    "template-gifs": "动图",
     "privacy-note": "100% 私密 — 数据不会离开你的设备。无水印。",
     "close": "关闭",
     "controls-panel": "编辑控件",
@@ -524,6 +524,7 @@
     "trending": "热门",
     "copy": "复制",
     "copied": "已复制到剪贴板",
-    "copy-failed": "复制失败"
+    "copy-failed": "复制失败",
+    "canvas-label": "表情包编辑区"
   }
 }

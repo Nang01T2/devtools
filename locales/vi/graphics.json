@@ -239,7 +239,7 @@
   "mememaker": {
     "upload-title": "Thả ảnh, dán, hoặc nhấn để chọn",
     "upload-hint": "JPEG, PNG, WebP, AVIF, HEIC (iPhone), JXL — xử lý trên thiết bị của bạn",
-    "decode-failed": "Could not decode image. Please try another file.",
+    "decode-failed": "Không thể đọc ảnh. Vui lòng thử tệp khác.",
     "file-too-large": "Ảnh vượt quá 25 MB. Vui lòng dùng tệp nhỏ hơn.",
     "or-choose-template": "hoặc chọn một mẫu",
     "export-format-label": "Định dạng xuất",
@@ -314,7 +314,7 @@
     "template-classical": "Nghệ thuật cổ điển",
     "template-layouts": "Bố cục",
     "template-stock": "Ảnh stock",
-    "template-gifs": "GIF",
+    "template-gifs": "Ảnh động",
     "privacy-note": "100% riêng tư — không có gì rời thiết bị của bạn. Không watermark.",
     "close": "Đóng",
     "controls-panel": "Bảng điều chỉnh",
@@ -524,6 +524,7 @@
     "trending": "Thịnh hành",
     "copy": "Sao chép",
     "copied": "Đã sao chép vào clipboard",
-    "copy-failed": "Sao chép thất bại"
+    "copy-failed": "Sao chép thất bại",
+    "canvas-label": "Canvas tạo meme"
   }
 }

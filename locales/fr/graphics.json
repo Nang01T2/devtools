@@ -314,7 +314,7 @@
     "template-classical": "Art classique",
     "template-layouts": "Mises en page",
     "template-stock": "Photos libres",
-    "template-gifs": "GIFs",
+    "template-gifs": "Animés",
     "privacy-note": "100% privé — rien ne quitte votre appareil. Sans filigrane.",
     "close": "Fermer",
     "controls-panel": "Outils d'édition",
@@ -524,6 +524,7 @@
     "trending": "Tendances",
     "copy": "Copier",
     "copied": "Copié dans le presse-papiers",
-    "copy-failed": "Échec de la copie"
+    "copy-failed": "Échec de la copie",
+    "canvas-label": "Zone de création de mème"
   }
 }

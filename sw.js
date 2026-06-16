@@ -5,7 +5,11 @@
  *  - Navigations (HTML): NETWORK-FIRST, fall back to cache, then /offline.html.
  *    So an online user always gets fresh content; a deploy can never get stuck
  *    behind a stale cached page.
- *  - Same-origin static assets (_next/static, /vendor, /locales, /icons, fonts,
+ *  - Locale JSON (/locales/**): NETWORK-FIRST, fall back to cache. Fixed URLs
+ *    (no content hash) mean stale-while-revalidate would silently serve the old
+ *    deploy's strings until the second reload; network-first makes updates
+ *    instant for online users while offline users still get the cached copy.
+ *  - Same-origin static assets (_next/static, /vendor, /icons, fonts,
  *    .wasm, images): STALE-WHILE-REVALIDATE — instant from cache, refreshed in
  *    the background. This is what makes tools (incl. the WASM codecs) work
  *    offline after one visit.
@@ -100,8 +104,40 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Static assets → stale-while-revalidate. Caching the WASM codecs / locale
-  // JSON / chunks is what makes the tools work offline; the cache is bounded by
+  // Locale JSON → network-first. These files sit at fixed URLs (no content
+  // hash), so stale-while-revalidate would silently serve the previous deploy's
+  // translations until the *second* reload. Network-first ensures the UI always
+  // reflects the latest strings; cached copy is the offline fallback.
+  if (url.pathname.startsWith("/locales/")) {
+    event.respondWith(
+      fetch(req)
+        .then((res) => {
+          if (res && res.status === 200 && res.type === "basic") {
+            const copy = res.clone();
+            caches
+              .open(CACHE)
+              .then((c) => c.put(req, copy))
+              .then(() => trimCache())
+              .catch(() => {});
+          }
+          return res;
+        })
+        .catch(() =>
+          caches.match(req).then(
+            (cached) =>
+              cached ||
+              new Response("{}", {
+                status: 503,
+                headers: { "Content-Type": "application/json" },
+              }),
+          ),
+        ),
+    );
+    return;
+  }
+
+  // Static assets → stale-while-revalidate. Caching the WASM codecs /
+  // chunks is what makes the tools work offline; the cache is bounded by
   // MAX_ENTRIES (trimmed below) so it can't grow without limit, and the browser
   // still evicts under storage pressure / quota-exceeded `put`s are swallowed.
   event.respondWith(

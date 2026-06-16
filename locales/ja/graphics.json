@@ -314,7 +314,7 @@
     "template-classical": "名画",
     "template-layouts": "レイアウト",
     "template-stock": "ストック写真",
-    "template-gifs": "GIF",
+    "template-gifs": "アニメーション",
     "privacy-note": "100%プライベート — データは端末から出ません。透かしなし。",
     "close": "閉じる",
     "controls-panel": "編集コントロール",
@@ -524,6 +524,7 @@
     "trending": "トレンド",
     "copy": "コピー",
     "copied": "クリップボードにコピーしました",
-    "copy-failed": "コピーに失敗しました"
+    "copy-failed": "コピーに失敗しました",
+    "canvas-label": "ミームキャンバス"
   }
 }

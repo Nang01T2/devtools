@@ -314,7 +314,7 @@
     "template-classical": "Arte classica",
     "template-layouts": "Layouts",
     "template-stock": "Foto stock",
-    "template-gifs": "GIF",
+    "template-gifs": "Animati",
     "privacy-note": "100% privato: nulla lascia il tuo dispositivo. Nessuna filigrana.",
     "close": "Chiudi",
     "controls-panel": "Controlli di modifica",
@@ -524,6 +524,7 @@
     "trending": "Di tendenza",
     "copy": "Copia",
     "copied": "Copiato negli appunti",
-    "copy-failed": "Copia non riuscita"
+    "copy-failed": "Copia non riuscita",
+    "canvas-label": "Area dell'editor meme"
   }
 }

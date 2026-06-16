@@ -314,7 +314,7 @@
     "template-classical": "Classical Art",
     "template-layouts": "Layouts",
     "template-stock": "Stock",
-    "template-gifs": "GIFs",
+    "template-gifs": "Animated",
     "privacy-note": "100% private — nothing leaves your device. No watermark.",
     "close": "Close",
     "controls-panel": "Editing Controls",
@@ -524,6 +524,7 @@
     "trending": "Trending",
     "copy": "Copy",
     "copied": "Copied to clipboard",
-    "copy-failed": "Copy failed"
+    "copy-failed": "Copy failed",
+    "canvas-label": "Meme editor canvas"
   }
 }
