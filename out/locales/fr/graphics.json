@@ -538,6 +538,19 @@
     "template-title-gif-catjam": "Chat Groovant",
     "template-title-gif-zoom": "Zoom",
     "template-title-gif-laugh": "Fou Rire",
-    "template-title-gif-sigma": "Sigma"
+    "template-title-gif-sigma": "Sigma",
+    "slot-empty-warning": "Certains emplacements photo sont encore vides — ils seront exportés comme espaces réservés gris.",
+    "slot-unfilled": "Emplacement photo",
+    "upload-photo": "Télécharger une photo",
+    "template-photo": "Photo",
+    "slot-label-photo": "Photo",
+    "text-then": "Avant",
+    "text-now": "Maintenant",
+    "template-title-photo-newspaper": "Journal",
+    "template-title-photo-polaroid": "Polaroïd",
+    "template-title-photo-wanted": "Recherché",
+    "template-title-photo-split": "Écran partagé",
+    "template-title-photo-then-now": "Avant / Maintenant",
+    "template-title-photo-reaction": "Coin réaction"
   }
 }

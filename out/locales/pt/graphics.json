@@ -538,6 +538,19 @@
     "template-title-gif-catjam": "Gato Dançando",
     "template-title-gif-zoom": "Zoom",
     "template-title-gif-laugh": "Gargalhada",
-    "template-title-gif-sigma": "Sigma"
+    "template-title-gif-sigma": "Sigma",
+    "slot-empty-warning": "Alguns espaços de foto ainda estão vazios — serão exportados como marcadores cinzas.",
+    "slot-unfilled": "Espaço de foto",
+    "upload-photo": "Enviar foto",
+    "template-photo": "Foto",
+    "slot-label-photo": "Foto",
+    "text-then": "Antes",
+    "text-now": "Agora",
+    "template-title-photo-newspaper": "Jornal",
+    "template-title-photo-polaroid": "Polaroid",
+    "template-title-photo-wanted": "Procurado",
+    "template-title-photo-split": "Tela dividida",
+    "template-title-photo-then-now": "Antes / Agora",
+    "template-title-photo-reaction": "Canto de reação"
   }
 }

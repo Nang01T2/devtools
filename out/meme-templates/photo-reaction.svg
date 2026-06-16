@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#f8f8f8"/>
+  <!-- Main content area hint -->
+  <rect x="10" y="10" width="780" height="580" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Reaction corner frame -->
+  <rect x="548" y="368" width="242" height="222" fill="#e0e0e0" stroke="#bbb" stroke-width="2"/>
+  <!-- Corner bracket decorations -->
+  <polyline points="548,378 548,368 558,368" fill="none" stroke="#888" stroke-width="3"/>
+  <polyline points="780,378 780,368 770,368" fill="none" stroke="#888" stroke-width="3"/>
+  <polyline points="548,580 548,590 558,590" fill="none" stroke="#888" stroke-width="3"/>
+  <polyline points="780,580 780,590 770,590" fill="none" stroke="#888" stroke-width="3"/>
+</svg>
