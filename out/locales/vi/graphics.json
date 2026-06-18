@@ -660,6 +660,14 @@
     "section-art": "Hiệu ứng nghệ thuật",
     "section-advanced-color": "Màu sắc nâng cao",
     "section-ai": "Công cụ AI",
-    "export-format-webm": "WebM (Video)"
+    "export-format-webm": "WebM (Video)",
+    "panel-text": "Văn bản",
+    "tab-font": "Phông chữ",
+    "tab-color": "Màu sắc",
+    "tab-effects": "Hiệu ứng",
+    "more-options": "Thêm tùy chọn",
+    "base-zoom-label": "Phóng to",
+    "base-zoom-reset": "Đặt lại",
+    "base-drag-hint": "Kéo để di chuyển"
   }
 }

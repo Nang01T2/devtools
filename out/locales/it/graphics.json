@@ -660,6 +660,14 @@
     "section-art": "Effetti artistici",
     "section-advanced-color": "Colore avanzato",
     "section-ai": "Strumenti AI",
-    "export-format-webm": "WebM (Video)"
+    "export-format-webm": "WebM (Video)",
+    "panel-text": "Testo",
+    "tab-font": "Carattere",
+    "tab-color": "Colore",
+    "tab-effects": "Effetti",
+    "more-options": "Altre opzioni",
+    "base-zoom-label": "Zoom",
+    "base-zoom-reset": "Ripristina",
+    "base-drag-hint": "Trascina per riposizionare"
   }
 }

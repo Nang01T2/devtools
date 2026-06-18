@@ -660,6 +660,14 @@
     "section-art": "التأثيرات الفنية",
     "section-advanced-color": "الألوان المتقدمة",
     "section-ai": "أدوات الذكاء الاصطناعي",
-    "export-format-webm": "WebM (فيديو)"
+    "export-format-webm": "WebM (فيديو)",
+    "panel-text": "النص",
+    "tab-font": "الخط",
+    "tab-color": "اللون",
+    "tab-effects": "التأثيرات",
+    "more-options": "خيارات إضافية",
+    "base-zoom-label": "تكبير",
+    "base-zoom-reset": "إعادة تعيين",
+    "base-drag-hint": "اسحب لإعادة التموضع"
   }
 }
