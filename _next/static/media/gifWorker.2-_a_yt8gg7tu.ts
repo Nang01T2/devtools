@@ -42,6 +42,14 @@ interface GifJob {
   baseHeight: number;
   /** Frame management (FT-3): trim/delete/reverse/boomerang + per-frame delays. */
   frameEdits: FrameEdits;
+  /**
+   * Pre-captured animated text overlay snapshots (transferred). When present, the
+   * worker picks the snapshot whose animation phase best matches the cumulative
+   * display time of each output frame, instead of using `overlays`.
+   */
+  animFrames?: ImageBitmap[];
+  /** Animation period in ms — used with animFrames to pick the right snapshot. */
+  animPeriodMs?: number;
 }
 
 const ctx = self as unknown as DedicatedWorkerGlobalScope;
@@ -60,6 +68,8 @@ ctx.onmessage = async (e: MessageEvent<GifJob>) => {
     baseWidth,
     baseHeight,
     frameEdits,
+    animFrames,
+    animPeriodMs,
   } = e.data;
   try {
     const parsed = parseGIF(gifBytes);
@@ -105,6 +115,9 @@ ctx.onmessage = async (e: MessageEvent<GifJob>) => {
     // `repeat` is read only from the first frame (0 = loop forever, -1 = play once).
     const repeatOpt = { repeat: loop ? 0 : -1 };
     const enc = GIFEncoder();
+    // Cumulative display time (ms) used to pick the right animation snapshot per frame.
+    let cumulativeMs = 0;
+    const period = animPeriodMs ?? 2000;
     for (let pos = 0; pos < seq.length; pos++) {
       const si = seq[pos]; // source frame index (may repeat under boomerang)
       const fr = frames[si];
@@ -122,10 +135,18 @@ ctx.onmessage = async (e: MessageEvent<GifJob>) => {
         exportW,
         exportH,
       );
-      // Draw each overlay that shows on this SOURCE frame (already cropped + at
-      // export dims), in z-order. Full-range overlays have end = MAX_SAFE_INTEGER.
-      for (const ov of overlays) {
-        if (si >= ov.start && si <= ov.end) cctx.drawImage(ov.bitmap, 0, 0);
+      if (animFrames && animFrames.length > 0) {
+        // Pick the animation snapshot whose phase best matches this frame's display time.
+        const t = cumulativeMs % period;
+        const idx =
+          Math.floor((t / period) * animFrames.length) % animFrames.length;
+        cctx.drawImage(animFrames[idx], 0, 0);
+      } else {
+        // Draw each overlay that shows on this SOURCE frame (already cropped + at
+        // export dims), in z-order. Full-range overlays have end = MAX_SAFE_INTEGER.
+        for (const ov of overlays) {
+          if (si >= ov.start && si <= ov.end) cctx.drawImage(ov.bitmap, 0, 0);
+        }
       }
       const { data } = cctx.getImageData(0, 0, exportW, exportH);
       const palette = quantize(data, 256);
@@ -139,6 +160,8 @@ ctx.onmessage = async (e: MessageEvent<GifJob>) => {
         delay,
         ...(pos === 0 ? repeatOpt : {}),
       });
+      // Accumulate display time using the adjusted delay (tracks real playback speed).
+      cumulativeMs += delay;
       ctx.postMessage({
         type: "gif-progress",
         progress: (pos + 1) / seq.length,
@@ -147,12 +170,14 @@ ctx.onmessage = async (e: MessageEvent<GifJob>) => {
     enc.finish();
     const bytes = enc.bytes();
     for (const ov of overlays) ov.bitmap.close();
+    if (animFrames) for (const b of animFrames) b.close();
     ctx.postMessage(
       { type: "gif-done", bytes, frameCount: seq.length, sampledOut },
       [bytes.buffer],
     );
   } catch (err) {
     for (const ov of overlays) ov.bitmap.close();
+    if (animFrames) for (const b of animFrames) b.close();
     ctx.postMessage({ type: "gif-error", message: String(err) });
   }
 };

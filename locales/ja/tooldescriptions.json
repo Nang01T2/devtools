@@ -37,5 +37,5 @@
   "image-converter": "最新フォーマット対応の高度な画像コンバーター：HEIC/HEIF（iPhone写真）、AVIF、WebP、JPEG XL（JXL）、MozJPEG、PNG、アニメーションGIF。品質、リサイズ、最適化、一括処理、フォーマット間変換、複数画像の単一PDF結合（PNG、JPG/JPEG、GIF、WebPのみ）を完全制御。",
   "pdf-to-images": "PDFファイルからページごとに高品質な画像を抽出。PNG/JPEG出力の選択、解像度（72〜288 DPI）とJPEG品質の調整、複数PDFの一括処理、ページプレビュー、個別またはZIPでのダウンロードに対応。",
   "ip-geolocation": "任意のIPアドレス（または現在のIP）の位置情報を即座に取得。都市、地域、国、タイムゾーン、ISP、緯度/経度などを含む。結果は複数形式（JSON、XML、YAMLなど）でエクスポート可能。",
-  "meme-maker": "Make memes in your browser — add captions, stickers and text to any photo, including iPhone HEIC. 100% private, no upload, no watermark, no signup."
+  "meme-maker": "ブラウザで写真・アニメーションGIF・動画からミームを作成。字幕・ステッカー・60種以上のフィルターを全フレームに適用。PNG・GIF・MP4でエクスポート。アップロード不要、透かしなし。"
 }
