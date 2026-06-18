@@ -660,6 +660,14 @@
     "section-art": "艺术效果",
     "section-advanced-color": "高级色彩",
     "section-ai": "AI工具",
-    "export-format-webm": "WebM（视频）"
+    "export-format-webm": "WebM（视频）",
+    "panel-text": "文字",
+    "tab-font": "字体",
+    "tab-color": "颜色",
+    "tab-effects": "效果",
+    "more-options": "更多选项",
+    "base-zoom-label": "缩放",
+    "base-zoom-reset": "重置",
+    "base-drag-hint": "拖动以重新定位"
   }
 }

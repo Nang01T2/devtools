@@ -660,6 +660,14 @@
     "section-art": "Художественные эффекты",
     "section-advanced-color": "Расширенный цвет",
     "section-ai": "Инструменты ИИ",
-    "export-format-webm": "WebM (Видео)"
+    "export-format-webm": "WebM (Видео)",
+    "panel-text": "Текст",
+    "tab-font": "Шрифт",
+    "tab-color": "Цвет",
+    "tab-effects": "Эффекты",
+    "more-options": "Дополнительные параметры",
+    "base-zoom-label": "Масштаб",
+    "base-zoom-reset": "Сбросить",
+    "base-drag-hint": "Перетащите для перемещения"
   }
 }

@@ -660,6 +660,14 @@
     "section-art": "Kunsteffekte",
     "section-advanced-color": "Erweiterte Farbe",
     "section-ai": "KI-Werkzeuge",
-    "export-format-webm": "WebM (Video)"
+    "export-format-webm": "WebM (Video)",
+    "panel-text": "Text",
+    "tab-font": "Schrift",
+    "tab-color": "Farbe",
+    "tab-effects": "Effekte",
+    "more-options": "Weitere Optionen",
+    "base-zoom-label": "Zoom",
+    "base-zoom-reset": "Zurücksetzen",
+    "base-drag-hint": "Ziehen zum Verschieben"
   }
 }

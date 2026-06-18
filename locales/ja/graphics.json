@@ -660,6 +660,14 @@
     "section-art": "アートエフェクト",
     "section-advanced-color": "詳細カラー",
     "section-ai": "AIツール",
-    "export-format-webm": "WebM（動画）"
+    "export-format-webm": "WebM（動画）",
+    "panel-text": "テキスト",
+    "tab-font": "フォント",
+    "tab-color": "カラー",
+    "tab-effects": "エフェクト",
+    "more-options": "その他のオプション",
+    "base-zoom-label": "ズーム",
+    "base-zoom-reset": "リセット",
+    "base-drag-hint": "ドラッグして位置調整"
   }
 }
