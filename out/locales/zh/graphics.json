@@ -300,6 +300,7 @@
     "video-duration-label": "时长",
     "video-export-progress": "编码中…",
     "video-webm-toast": "您的浏览器不支持MP4导出，已改为下载WebM格式",
+    "video-webm-no-audio-toast": "WebM＋视频底层：不含音频。如需保留原始音频，请使用MP4。",
     "video-base-hint": "拖放图片、GIF或视频（MP4/WebM）",
     "video-file-too-large": "视频文件过大（最大{max}MB）",
     "video-decode-failed": "无法加载视频",
@@ -327,6 +328,7 @@
     "template-layouts": "布局",
     "template-stock": "图库照片",
     "template-gifs": "动图",
+    "template-category-label": "模板分类",
     "privacy-note": "100% 私密 — 数据不会离开你的设备。无水印。",
     "close": "关闭",
     "controls-panel": "编辑控件",
@@ -657,6 +659,7 @@
     "section-filters": "滤镜与效果",
     "section-art": "艺术效果",
     "section-advanced-color": "高级色彩",
-    "section-ai": "AI工具"
+    "section-ai": "AI工具",
+    "export-format-webm": "WebM（视频）"
   }
 }

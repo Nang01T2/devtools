@@ -300,6 +300,7 @@
     "video-duration-label": "Duración",
     "video-export-progress": "Codificando…",
     "video-webm-toast": "Tu navegador no soporta exportación MP4 — descargado como WebM",
+    "video-webm-no-audio-toast": "WebM + base de vídeo: sin audio. Usa MP4 para conservar el audio original.",
     "video-base-hint": "Suelta una imagen, GIF o vídeo (MP4/WebM)",
     "video-file-too-large": "El vídeo es demasiado grande (máx. {max} MB)",
     "video-decode-failed": "No se puede cargar el vídeo",
@@ -327,6 +328,7 @@
     "template-layouts": "Diseños",
     "template-stock": "Fotos de stock",
     "template-gifs": "Animados",
+    "template-category-label": "Categoría de plantilla",
     "privacy-note": "100% privado: nada sale de tu dispositivo. Sin marca de agua.",
     "close": "Cerrar",
     "controls-panel": "Controles de edición",
@@ -657,6 +659,7 @@
     "section-filters": "Filtros y efectos",
     "section-art": "Efectos artísticos",
     "section-advanced-color": "Color avanzado",
-    "section-ai": "Herramientas IA"
+    "section-ai": "Herramientas IA",
+    "export-format-webm": "WebM (Vídeo)"
   }
 }

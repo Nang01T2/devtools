@@ -300,6 +300,7 @@
     "video-duration-label": "المدة",
     "video-export-progress": "جارٍ الترميز…",
     "video-webm-toast": "متصفحك لا يدعم تصدير MP4 — تم التنزيل بصيغة WebM بدلاً من ذلك",
+    "video-webm-no-audio-toast": "WebM + قاعدة فيديو: لا يوجد صوت. استخدم MP4 للحفاظ على الصوت الأصلي.",
     "video-base-hint": "أفلت صورة أو GIF أو فيديو (MP4/WebM)",
     "video-file-too-large": "الفيديو كبير جداً (الحد الأقصى {max}ميغابايت)",
     "video-decode-failed": "تعذّر تحميل الفيديو",
@@ -327,6 +328,7 @@
     "template-layouts": "تخطيطات",
     "template-stock": "صور مخزنة",
     "template-gifs": "متحركة",
+    "template-category-label": "فئة القالب",
     "privacy-note": "خصوصية 100% — لا شيء يغادر جهازك. بدون علامة مائية.",
     "close": "إغلاق",
     "controls-panel": "أدوات التحرير",
@@ -657,6 +659,7 @@
     "section-filters": "المرشحات والتأثيرات",
     "section-art": "التأثيرات الفنية",
     "section-advanced-color": "الألوان المتقدمة",
-    "section-ai": "أدوات الذكاء الاصطناعي"
+    "section-ai": "أدوات الذكاء الاصطناعي",
+    "export-format-webm": "WebM (فيديو)"
   }
 }

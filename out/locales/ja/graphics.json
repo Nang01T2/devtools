@@ -300,6 +300,7 @@
     "video-duration-label": "長さ",
     "video-export-progress": "エンコード中…",
     "video-webm-toast": "ブラウザがMP4エクスポートに対応していません。WebMでダウンロードしました",
+    "video-webm-no-audio-toast": "WebM＋動画ベース：音声なし。音声を保持するにはMP4を使用してください。",
     "video-base-hint": "画像・GIF・動画（MP4/WebM）をドロップ",
     "video-file-too-large": "動画が大きすぎます（最大{max}MB）",
     "video-decode-failed": "動画を読み込めませんでした",
@@ -327,6 +328,7 @@
     "template-layouts": "レイアウト",
     "template-stock": "ストック写真",
     "template-gifs": "アニメーション",
+    "template-category-label": "テンプレートカテゴリ",
     "privacy-note": "100%プライベート — データは端末から出ません。透かしなし。",
     "close": "閉じる",
     "controls-panel": "編集コントロール",
@@ -657,6 +659,7 @@
     "section-filters": "フィルター & エフェクト",
     "section-art": "アートエフェクト",
     "section-advanced-color": "詳細カラー",
-    "section-ai": "AIツール"
+    "section-ai": "AIツール",
+    "export-format-webm": "WebM（動画）"
   }
 }
