@@ -300,6 +300,7 @@
     "video-duration-label": "Длительность",
     "video-export-progress": "Кодирование…",
     "video-webm-toast": "Ваш браузер не поддерживает экспорт MP4 — загружено как WebM",
+    "video-webm-no-audio-toast": "WebM + видеоподложка: аудио не включено. Используйте MP4 для сохранения оригинального звука.",
     "video-base-hint": "Перетащите изображение, GIF или видео (MP4/WebM)",
     "video-file-too-large": "Видео слишком большое (макс. {max} МБ)",
     "video-decode-failed": "Не удалось загрузить видео",
@@ -327,6 +328,7 @@
     "template-layouts": "Макеты",
     "template-stock": "Фотобанк",
     "template-gifs": "Анимации",
+    "template-category-label": "Категория шаблона",
     "privacy-note": "100% конфиденциально — ничего не покидает ваше устройство. Без водяного знака.",
     "close": "Закрыть",
     "controls-panel": "Инструменты редактирования",
@@ -657,6 +659,7 @@
     "section-filters": "Фильтры и эффекты",
     "section-art": "Художественные эффекты",
     "section-advanced-color": "Расширенный цвет",
-    "section-ai": "Инструменты ИИ"
+    "section-ai": "Инструменты ИИ",
+    "export-format-webm": "WebM (Видео)"
   }
 }

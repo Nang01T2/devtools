@@ -300,6 +300,7 @@
     "video-duration-label": "Thời lượng",
     "video-export-progress": "Đang mã hóa…",
     "video-webm-toast": "Trình duyệt không hỗ trợ xuất MP4 — đã tải về dạng WebM thay thế",
+    "video-webm-no-audio-toast": "WebM + nền video: không có âm thanh. Dùng MP4 để giữ âm thanh gốc.",
     "video-base-hint": "Thả ảnh, GIF hoặc video (MP4/WebM)",
     "video-file-too-large": "Video quá lớn (tối đa {max}MB)",
     "video-decode-failed": "Không thể tải video",
@@ -327,6 +328,7 @@
     "template-layouts": "Bố cục",
     "template-stock": "Ảnh stock",
     "template-gifs": "Ảnh động",
+    "template-category-label": "Danh mục mẫu",
     "privacy-note": "100% riêng tư — không có gì rời thiết bị của bạn. Không watermark.",
     "close": "Đóng",
     "controls-panel": "Bảng điều chỉnh",
@@ -657,6 +659,7 @@
     "section-filters": "Bộ lọc & Hiệu ứng",
     "section-art": "Hiệu ứng nghệ thuật",
     "section-advanced-color": "Màu sắc nâng cao",
-    "section-ai": "Công cụ AI"
+    "section-ai": "Công cụ AI",
+    "export-format-webm": "WebM (Video)"
   }
 }
