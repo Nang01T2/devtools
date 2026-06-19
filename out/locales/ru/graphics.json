@@ -668,6 +668,12 @@
     "more-options": "Дополнительные параметры",
     "base-zoom-label": "Масштаб",
     "base-zoom-reset": "Сбросить",
-    "base-drag-hint": "Перетащите для перемещения"
+    "base-drag-hint": "Перетащите для перемещения",
+    "video-baking": "Применение к видео…",
+    "video-filter-no-webcodecs": "Ваш браузер не может обрабатывать видеофильтры (WebCodecs недоступен).",
+    "base-zoom-expand": "Показать масштаб",
+    "base-zoom-collapse": "Скрыть масштаб",
+    "bg-remove-video-unsupported": "Удаление фона недоступно для видео. Используйте изображение или GIF в качестве основы.",
+    "face-blur-none-video": "Лица в этом видео не обнаружены."
   }
 }

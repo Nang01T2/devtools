@@ -668,6 +668,12 @@
     "more-options": "Thêm tùy chọn",
     "base-zoom-label": "Phóng to",
     "base-zoom-reset": "Đặt lại",
-    "base-drag-hint": "Kéo để di chuyển"
+    "base-drag-hint": "Kéo để di chuyển",
+    "video-baking": "Đang áp dụng lên video…",
+    "video-filter-no-webcodecs": "Trình duyệt của bạn không hỗ trợ xử lý filter video (thiếu WebCodecs).",
+    "base-zoom-expand": "Hiện thanh thu phóng",
+    "base-zoom-collapse": "Ẩn thanh thu phóng",
+    "bg-remove-video-unsupported": "Xoá nền chưa hỗ trợ cho video. Hãy dùng ảnh hoặc GIF làm nền.",
+    "face-blur-none-video": "Không tìm thấy khuôn mặt nào trong video."
   }
 }

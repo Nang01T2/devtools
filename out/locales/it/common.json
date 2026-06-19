@@ -44,7 +44,8 @@
     "stat-nosignup": "Senza registrazione",
     "all": "Tutti",
     "all-tools": "Tutti gli strumenti",
-    "no-results": "Nessuno strumento corrisponde alla ricerca."
+    "no-results": "Nessuno strumento corrisponde alla ricerca.",
+    "popular": "Strumenti popolari"
   },
   "footer": {
     "privacy-policy": "Informativa sulla privacy"

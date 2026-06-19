@@ -44,7 +44,8 @@
     "stat-nosignup": "بدون تسجيل",
     "all": "الكل",
     "all-tools": "كل الأدوات",
-    "no-results": "لا توجد أدوات تطابق بحثك."
+    "no-results": "لا توجد أدوات تطابق بحثك.",
+    "popular": "أدوات شائعة"
   },
   "footer": {
     "privacy-policy": "سياسة الخصوصية"

@@ -668,6 +668,12 @@
     "more-options": "خيارات إضافية",
     "base-zoom-label": "تكبير",
     "base-zoom-reset": "إعادة تعيين",
-    "base-drag-hint": "اسحب لإعادة التموضع"
+    "base-drag-hint": "اسحب لإعادة التموضع",
+    "video-baking": "جارٍ التطبيق على الفيديو…",
+    "video-filter-no-webcodecs": "متصفحك لا يدعم معالجة فلاتر الفيديو (WebCodecs غير متوفر).",
+    "base-zoom-expand": "إظهار أداة التكبير",
+    "base-zoom-collapse": "إخفاء أداة التكبير",
+    "bg-remove-video-unsupported": "إزالة الخلفية غير متاحة للفيديو. استخدم صورة أو GIF كخلفية.",
+    "face-blur-none-video": "لم يتم اكتشاف أي وجه في هذا الفيديو."
   }
 }

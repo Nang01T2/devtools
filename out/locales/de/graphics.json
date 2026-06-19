@@ -668,6 +668,12 @@
     "more-options": "Weitere Optionen",
     "base-zoom-label": "Zoom",
     "base-zoom-reset": "Zurücksetzen",
-    "base-drag-hint": "Ziehen zum Verschieben"
+    "base-drag-hint": "Ziehen zum Verschieben",
+    "video-baking": "Wird auf Video angewendet…",
+    "video-filter-no-webcodecs": "Ihr Browser kann keine Videofilter verarbeiten (WebCodecs nicht verfügbar).",
+    "base-zoom-expand": "Zoom-Steuerung anzeigen",
+    "base-zoom-collapse": "Zoom-Steuerung ausblenden",
+    "bg-remove-video-unsupported": "Hintergrundentfernung ist für Videos nicht verfügbar. Verwende ein Bild oder GIF als Basis.",
+    "face-blur-none-video": "Keine Gesichter in diesem Video erkannt."
   }
 }

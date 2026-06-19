@@ -668,6 +668,12 @@
     "more-options": "Altre opzioni",
     "base-zoom-label": "Zoom",
     "base-zoom-reset": "Ripristina",
-    "base-drag-hint": "Trascina per riposizionare"
+    "base-drag-hint": "Trascina per riposizionare",
+    "video-baking": "Applicazione al video…",
+    "video-filter-no-webcodecs": "Il tuo browser non può elaborare i filtri video (WebCodecs non disponibile).",
+    "base-zoom-expand": "Mostra controllo zoom",
+    "base-zoom-collapse": "Nascondi controllo zoom",
+    "bg-remove-video-unsupported": "La rimozione dello sfondo non è disponibile per i video. Usa un'immagine o una GIF come base.",
+    "face-blur-none-video": "Nessun volto rilevato in questo video."
   }
 }
