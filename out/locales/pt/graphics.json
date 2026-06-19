@@ -670,6 +670,7 @@
     "base-zoom-reset": "Redefinir",
     "base-drag-hint": "Arraste para reposicionar",
     "video-baking": "Aplicando ao vídeo…",
+    "cancel-bake": "Cancelar",
     "video-filter-no-webcodecs": "Seu navegador não pode processar filtros de vídeo (WebCodecs indisponível).",
     "base-zoom-expand": "Mostrar controle de zoom",
     "base-zoom-collapse": "Ocultar controle de zoom",

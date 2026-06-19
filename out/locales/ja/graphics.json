@@ -670,6 +670,7 @@
     "base-zoom-reset": "リセット",
     "base-drag-hint": "ドラッグして位置調整",
     "video-baking": "動画に適用中…",
+    "cancel-bake": "キャンセル",
     "video-filter-no-webcodecs": "お使いのブラウザは動画フィルターを処理できません（WebCodecs 非対応）。",
     "base-zoom-expand": "ズームコントロールを表示",
     "base-zoom-collapse": "ズームコントロールを非表示",
