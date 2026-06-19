@@ -670,6 +670,7 @@
     "base-zoom-reset": "إعادة تعيين",
     "base-drag-hint": "اسحب لإعادة التموضع",
     "video-baking": "جارٍ التطبيق على الفيديو…",
+    "cancel-bake": "إلغاء",
     "video-filter-no-webcodecs": "متصفحك لا يدعم معالجة فلاتر الفيديو (WebCodecs غير متوفر).",
     "base-zoom-expand": "إظهار أداة التكبير",
     "base-zoom-collapse": "إخفاء أداة التكبير",

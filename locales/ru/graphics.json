@@ -670,6 +670,7 @@
     "base-zoom-reset": "Сбросить",
     "base-drag-hint": "Перетащите для перемещения",
     "video-baking": "Применение к видео…",
+    "cancel-bake": "Отмена",
     "video-filter-no-webcodecs": "Ваш браузер не может обрабатывать видеофильтры (WebCodecs недоступен).",
     "base-zoom-expand": "Показать масштаб",
     "base-zoom-collapse": "Скрыть масштаб",
