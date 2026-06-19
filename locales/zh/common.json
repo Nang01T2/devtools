@@ -44,7 +44,8 @@
     "stat-nosignup": "无需注册",
     "all": "全部",
     "all-tools": "全部工具",
-    "no-results": "没有匹配的工具。"
+    "no-results": "没有匹配的工具。",
+    "popular": "热门工具"
   },
   "footer": {
     "privacy-policy": "隐私政策"

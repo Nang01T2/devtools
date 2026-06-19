@@ -668,6 +668,12 @@
     "more-options": "更多选项",
     "base-zoom-label": "缩放",
     "base-zoom-reset": "重置",
-    "base-drag-hint": "拖动以重新定位"
+    "base-drag-hint": "拖动以重新定位",
+    "video-baking": "正在应用到视频…",
+    "video-filter-no-webcodecs": "您的浏览器无法处理视频滤镜（不支持 WebCodecs）。",
+    "base-zoom-expand": "显示缩放控件",
+    "base-zoom-collapse": "隐藏缩放控件",
+    "bg-remove-video-unsupported": "视频不支持去除背景。请使用图片或 GIF 作为背景。",
+    "face-blur-none-video": "在此视频中未检测到人脸。"
   }
 }

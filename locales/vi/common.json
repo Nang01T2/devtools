@@ -44,7 +44,8 @@
     "stat-nosignup": "Không cần đăng ký",
     "all": "Tất cả",
     "all-tools": "Tất cả công cụ",
-    "no-results": "Không có công cụ nào khớp tìm kiếm."
+    "no-results": "Không có công cụ nào khớp tìm kiếm.",
+    "popular": "Công cụ phổ biến"
   },
   "footer": {
     "privacy-policy": "Chính sách bảo mật"

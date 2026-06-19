@@ -668,6 +668,12 @@
     "more-options": "その他のオプション",
     "base-zoom-label": "ズーム",
     "base-zoom-reset": "リセット",
-    "base-drag-hint": "ドラッグして位置調整"
+    "base-drag-hint": "ドラッグして位置調整",
+    "video-baking": "動画に適用中…",
+    "video-filter-no-webcodecs": "お使いのブラウザは動画フィルターを処理できません（WebCodecs 非対応）。",
+    "base-zoom-expand": "ズームコントロールを表示",
+    "base-zoom-collapse": "ズームコントロールを非表示",
+    "bg-remove-video-unsupported": "背景除去は動画では利用できません。画像または GIF を背景にしてください。",
+    "face-blur-none-video": "この動画で顔が検出されませんでした。"
   }
 }

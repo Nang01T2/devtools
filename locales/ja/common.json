@@ -44,7 +44,8 @@
     "stat-nosignup": "登録不要",
     "all": "すべて",
     "all-tools": "すべてのツール",
-    "no-results": "一致するツールがありません。"
+    "no-results": "一致するツールがありません。",
+    "popular": "人気のツール"
   },
   "footer": {
     "privacy-policy": "プライバシーポリシー"

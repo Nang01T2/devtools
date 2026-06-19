@@ -44,7 +44,8 @@
     "stat-nosignup": "Keine Anmeldung",
     "all": "Alle",
     "all-tools": "Alle Tools",
-    "no-results": "Keine Tools entsprechen deiner Suche."
+    "no-results": "Keine Tools entsprechen deiner Suche.",
+    "popular": "Beliebte Tools"
   },
   "footer": {
     "privacy-policy": "Datenschutzerklärung"
