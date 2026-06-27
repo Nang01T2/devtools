@@ -785,7 +785,7 @@
     "subtitle-preset-fast": "Rápido",
     "subtitle-preset-fast-hint": "Modelo base · Sin resaltado de palabras · El más rápido",
     "subtitle-preset-balanced": "Equilibrado",
-    "subtitle-preset-balanced-hint": "Modelo base · Resaltado de palabras · Bueno para la mayoría de videos",
+    "subtitle-preset-balanced-hint": "Modelo Turbo · Resaltado de palabras · Mejor calidad, requiere WebGPU",
     "subtitle-preset-high-quality": "Alta calidad",
     "subtitle-preset-high-quality-hint": "Modelo Turbo · Timing preciso · Mejor calidad (requiere WebGPU)",
     "subtitle-spoken-lang": "Idioma hablado",

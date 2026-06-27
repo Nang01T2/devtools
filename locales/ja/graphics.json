@@ -785,7 +785,7 @@
     "subtitle-preset-fast": "高速",
     "subtitle-preset-fast-hint": "ベースモデル · ワードハイライトなし · 最速",
     "subtitle-preset-balanced": "バランス",
-    "subtitle-preset-balanced-hint": "ベースモデル · ワードハイライト · ほとんどの動画に適切",
+    "subtitle-preset-balanced-hint": "Turboモデル · ワードハイライト · より高品質、WebGPU が必要",
     "subtitle-preset-high-quality": "高品質",
     "subtitle-preset-high-quality-hint": "Turboモデル · 精密なタイミング · 最高品質（WebGPU必須）",
     "subtitle-spoken-lang": "話されている言語",

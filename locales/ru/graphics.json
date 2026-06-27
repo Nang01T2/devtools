@@ -785,7 +785,7 @@
     "subtitle-preset-fast": "Быстрый",
     "subtitle-preset-fast-hint": "Базовая модель · Без подсветки слов · Самый быстрый",
     "subtitle-preset-balanced": "Сбалансированный",
-    "subtitle-preset-balanced-hint": "Базовая модель · Подсветка слов · Подходит для большинства видео",
+    "subtitle-preset-balanced-hint": "Модель Turbo · Подсветка слов · Лучшее качество, требует WebGPU",
     "subtitle-preset-high-quality": "Высокое качество",
     "subtitle-preset-high-quality-hint": "Модель Turbo · Точный тайминг · Лучшее качество (требуется WebGPU)",
     "subtitle-spoken-lang": "Язык речи",

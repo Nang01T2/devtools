@@ -785,7 +785,7 @@
     "subtitle-preset-fast": "快速",
     "subtitle-preset-fast-hint": "基础模型 · 无单词高亮 · 最快",
     "subtitle-preset-balanced": "平衡",
-    "subtitle-preset-balanced-hint": "基础模型 · 单词高亮 · 适合大多数视频",
+    "subtitle-preset-balanced-hint": "Turbo 模型 · 单词高亮 · 质量更好，需要 WebGPU",
     "subtitle-preset-high-quality": "高质量",
     "subtitle-preset-high-quality-hint": "Turbo模型 · 精确时间戳 · 最佳质量（需要WebGPU）",
     "subtitle-spoken-lang": "语音语言",

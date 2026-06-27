@@ -785,7 +785,7 @@
     "subtitle-preset-fast": "Nhanh",
     "subtitle-preset-fast-hint": "Mô hình cơ bản · Không tô sáng từ · Nhanh nhất",
     "subtitle-preset-balanced": "Cân bằng",
-    "subtitle-preset-balanced-hint": "Mô hình cơ bản · Tô sáng từ · Phù hợp với hầu hết video",
+    "subtitle-preset-balanced-hint": "Mô hình Turbo · Tô sáng từ · Chất lượng tốt hơn, cần WebGPU",
     "subtitle-preset-high-quality": "Chất lượng cao",
     "subtitle-preset-high-quality-hint": "Mô hình Turbo · Thời gian chính xác · Chất lượng tốt nhất (cần WebGPU)",
     "subtitle-spoken-lang": "Ngôn ngữ giọng nói",

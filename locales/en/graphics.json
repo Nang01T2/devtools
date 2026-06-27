@@ -780,7 +780,7 @@
     "subtitle-preset-fast": "Fast",
     "subtitle-preset-fast-hint": "Base model · No word highlight · Fastest",
     "subtitle-preset-balanced": "Balanced",
-    "subtitle-preset-balanced-hint": "Base model · Word highlight · Good for most videos",
+    "subtitle-preset-balanced-hint": "Turbo model · Word highlight · Better quality, requires WebGPU",
     "subtitle-preset-high-quality": "High Quality",
     "subtitle-preset-high-quality-hint": "Turbo model · Precise timing · Best quality (requires WebGPU)",
     "subtitle-spoken-lang": "Spoken language",

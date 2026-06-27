@@ -785,7 +785,7 @@
     "subtitle-preset-fast": "سريع",
     "subtitle-preset-fast-hint": "نموذج أساسي · بدون تمييز كلمات · الأسرع",
     "subtitle-preset-balanced": "متوازن",
-    "subtitle-preset-balanced-hint": "نموذج أساسي · تمييز الكلمات · مناسب لمعظم مقاطع الفيديو",
+    "subtitle-preset-balanced-hint": "نموذج توربو · تمييز الكلمات · جودة أفضل، يتطلب WebGPU",
     "subtitle-preset-high-quality": "جودة عالية",
     "subtitle-preset-high-quality-hint": "نموذج Turbo · توقيت دقيق · أفضل جودة (يتطلب WebGPU)",
     "subtitle-spoken-lang": "لغة الكلام",
