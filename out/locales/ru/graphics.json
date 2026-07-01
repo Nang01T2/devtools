@@ -773,6 +773,8 @@
     "bg-model-label": "Модель удаления фона",
     "cancel-video-export": "Отменить экспорт видео",
     "subtitle": "Субтитры",
+    "subtitles-group": "Субтитры",
+    "toggle-subtitle-group": "Переключить группу субтитров",
     "subtitle-extracting": "Извлечение звука…",
     "subtitle-loading-model": "Загрузка модели ИИ…",
     "subtitle-initializing-model": "Инициализация модели…",
@@ -940,6 +942,7 @@
     "dub-resampling": "Обработка аудио…",
     "dub-too-long": "Видео слишком длинное для дублирования (макс. 10 мин).",
     "dub-failed": "Дублирование не удалось. Попробуйте ещё раз.",
+    "dub-partial-fail": "Some lines could not be dubbed (silence used)",
     "dub-done": "Экспортировано с вьетнамской озвучкой",
     "recording-click-highlight": "Подсветка клика",
     "recording-auto-stop": "Автостоп",
@@ -963,6 +966,10 @@
     "recording-draw-highlight": "Маркер",
     "recording-draw-eraser": "Ластик",
     "recording-draw-clear": "Очистить всё",
-    "recording-draw-undo": "Отменить"
+    "recording-draw-undo": "Отменить",
+    "tts-model-label": "Голос озвучки",
+    "tts-mms": "Стандарт (MMS)",
+    "tts-piper": "Естественный (Piper)",
+    "tts-piper-note": "Более качественный вьетнамский голос; загружает ~60 МБ при первом использовании."
   }
 }

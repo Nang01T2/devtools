@@ -773,6 +773,8 @@
     "bg-model-label": "Hintergrundentfernungsmodell",
     "cancel-video-export": "Videoexport abbrechen",
     "subtitle": "Untertitel",
+    "subtitles-group": "Untertitel",
+    "toggle-subtitle-group": "Untertitelgruppe umschalten",
     "subtitle-extracting": "Audio wird extrahiert…",
     "subtitle-loading-model": "KI-Modell wird geladen…",
     "subtitle-initializing-model": "Modell wird initialisiert…",
@@ -940,6 +942,7 @@
     "dub-resampling": "Audio wird verarbeitet…",
     "dub-too-long": "Video zu lang für Synchronisation (max. 10 Min.).",
     "dub-failed": "Synchronisation fehlgeschlagen. Bitte erneut versuchen.",
+    "dub-partial-fail": "Some lines could not be dubbed (silence used)",
     "dub-done": "Mit vietnamesischem Ton exportiert",
     "recording-click-highlight": "Klick-Hervorhebung",
     "recording-auto-stop": "Automatischer Stopp",
@@ -963,6 +966,10 @@
     "recording-draw-highlight": "Textmarker",
     "recording-draw-eraser": "Radierer",
     "recording-draw-clear": "Alles löschen",
-    "recording-draw-undo": "Rückgängig"
+    "recording-draw-undo": "Rückgängig",
+    "tts-model-label": "Synchronstimme",
+    "tts-mms": "Standard (MMS)",
+    "tts-piper": "Natürlich (Piper)",
+    "tts-piper-note": "Höhere Qualität für Vietnamesisch; lädt beim ersten Mal ~60 MB."
   }
 }

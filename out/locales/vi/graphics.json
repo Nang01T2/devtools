@@ -773,6 +773,8 @@
     "bg-model-label": "Mô hình xóa nền",
     "cancel-video-export": "Hủy xuất video",
     "subtitle": "Phụ đề",
+    "subtitles-group": "Phụ đề",
+    "toggle-subtitle-group": "Bật/tắt nhóm phụ đề",
     "subtitle-extracting": "Đang tách âm thanh…",
     "subtitle-loading-model": "Đang tải mô hình AI…",
     "subtitle-initializing-model": "Đang khởi tạo mô hình…",
@@ -940,6 +942,7 @@
     "dub-resampling": "Đang xử lý âm thanh…",
     "dub-too-long": "Video quá dài để lồng tiếng (tối đa 10 phút).",
     "dub-failed": "Lồng tiếng thất bại. Vui lòng thử lại.",
+    "dub-partial-fail": "Một số dòng không thể lồng tiếng (im lặng được dùng)",
     "dub-done": "Đã xuất với âm thanh tiếng Việt",
     "recording-click-highlight": "Hiệu ứng nhấp chuột",
     "recording-auto-stop": "Tự dừng",
@@ -963,6 +966,14 @@
     "recording-draw-highlight": "Đánh dấu",
     "recording-draw-eraser": "Tẩy",
     "recording-draw-clear": "Xóa tất cả",
-    "recording-draw-undo": "Hoàn tác"
+    "recording-draw-undo": "Hoàn tác",
+    "tts-model-label": "Giọng lồng tiếng",
+    "tts-mms": "Tiêu chuẩn (MMS)",
+    "tts-piper": "Tự nhiên (Piper)",
+    "tts-piper-note": "Giọng tiếng Việt chất lượng cao hơn; tải ~60 MB ở lần dùng đầu.",
+    "tts-vieneu-v3": "VieNeu-TTS v3 Turbo (desktop)",
+    "tts-vieneu-v3-note": "Chất lượng cao nhất; tải ~560 MB ở lần dùng đầu. Chỉ có trên ứng dụng desktop.",
+    "tts-vieneu-voice-label": "Giọng nói",
+    "tts-vieneu-voice-default": "Mặc định"
   }
 }

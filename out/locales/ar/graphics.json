@@ -773,6 +773,8 @@
     "bg-model-label": "نموذج إزالة الخلفية",
     "cancel-video-export": "إلغاء تصدير الفيديو",
     "subtitle": "ترجمة",
+    "subtitles-group": "الترجمات",
+    "toggle-subtitle-group": "تبديل مجموعة الترجمة",
     "subtitle-extracting": "جارٍ استخراج الصوت…",
     "subtitle-loading-model": "جارٍ تحميل نموذج الذكاء الاصطناعي…",
     "subtitle-initializing-model": "جارٍ تهيئة النموذج…",
@@ -940,6 +942,7 @@
     "dub-resampling": "جارٍ معالجة الصوت…",
     "dub-too-long": "الفيديو طويل جداً للدبلجة (10 دقائق كحد أقصى).",
     "dub-failed": "فشلت الدبلجة. يرجى المحاولة مرة أخرى.",
+    "dub-partial-fail": "Some lines could not be dubbed (silence used)",
     "dub-done": "تم التصدير مع الصوت الفيتنامي",
     "recording-click-highlight": "تمييز النقر",
     "recording-auto-stop": "إيقاف تلقائي",
@@ -963,6 +966,10 @@
     "recording-draw-highlight": "تمييز",
     "recording-draw-eraser": "ممحاة",
     "recording-draw-clear": "مسح الكل",
-    "recording-draw-undo": "تراجع"
+    "recording-draw-undo": "تراجع",
+    "tts-model-label": "صوت الدبلجة",
+    "tts-mms": "قياسي (MMS)",
+    "tts-piper": "طبيعي (Piper)",
+    "tts-piper-note": "صوت فيتنامي أعلى جودة؛ يُنزّل ~60 ميغابايت عند أول استخدام."
   }
 }
