@@ -773,6 +773,8 @@
     "bg-model-label": "背景除去モデル",
     "cancel-video-export": "ビデオエクスポートをキャンセル",
     "subtitle": "字幕",
+    "subtitles-group": "字幕",
+    "toggle-subtitle-group": "字幕グループの切り替え",
     "subtitle-extracting": "音声を抽出中…",
     "subtitle-loading-model": "AIモデルを読み込み中…",
     "subtitle-initializing-model": "モデルを初期化中…",
@@ -940,6 +942,7 @@
     "dub-resampling": "音声を処理中…",
     "dub-too-long": "動画が長すぎます（最大10分）。",
     "dub-failed": "吹き替えに失敗しました。もう一度お試しください。",
+    "dub-partial-fail": "Some lines could not be dubbed (silence used)",
     "dub-done": "ベトナム語音声で書き出しました",
     "recording-click-highlight": "クリックハイライト",
     "recording-auto-stop": "自動停止",
@@ -963,6 +966,10 @@
     "recording-draw-highlight": "ハイライター",
     "recording-draw-eraser": "消しゴム",
     "recording-draw-clear": "すべてクリア",
-    "recording-draw-undo": "元に戻す"
+    "recording-draw-undo": "元に戻す",
+    "tts-model-label": "吹き替え音声",
+    "tts-mms": "標準 (MMS)",
+    "tts-piper": "自然 (Piper)",
+    "tts-piper-note": "高品質なベトナム語音声。初回に約60MBをダウンロードします。"
   }
 }

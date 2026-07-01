@@ -768,6 +768,8 @@
     "cancel-bake": "Cancel",
     "cancel-video-export": "Cancel video export",
     "subtitle": "Subtitle",
+    "subtitles-group": "Subtitles",
+    "toggle-subtitle-group": "Toggle subtitle group",
     "subtitle-extracting": "Extracting audio…",
     "subtitle-loading-model": "Loading AI model…",
     "subtitle-initializing-model": "Initializing model…",
@@ -940,6 +942,7 @@
     "dub-resampling": "Processing audio…",
     "dub-too-long": "Video is too long for dubbing (max 10 min).",
     "dub-failed": "Dubbing failed. Please try again.",
+    "dub-partial-fail": "Some lines could not be dubbed (silence used)",
     "dub-done": "Exported with Vietnamese audio",
     "recording-click-highlight": "Click highlight",
     "recording-auto-stop": "Auto-stop",
@@ -963,6 +966,14 @@
     "recording-draw-highlight": "Highlighter",
     "recording-draw-eraser": "Eraser",
     "recording-draw-clear": "Clear all",
-    "recording-draw-undo": "Undo"
+    "recording-draw-undo": "Undo",
+    "tts-model-label": "Dub voice",
+    "tts-mms": "Standard (MMS)",
+    "tts-piper": "Natural (Piper)",
+    "tts-piper-note": "Higher-quality Vietnamese voice; downloads ~60 MB on first use.",
+    "tts-vieneu-v3": "VieNeu-TTS v3 Turbo (desktop)",
+    "tts-vieneu-v3-note": "Highest-quality Vietnamese voice; downloads ~560 MB on first use. Desktop app only.",
+    "tts-vieneu-voice-label": "Voice",
+    "tts-vieneu-voice-default": "Default"
   }
 }

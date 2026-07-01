@@ -773,6 +773,8 @@
     "bg-model-label": "Modello rimozione sfondo",
     "cancel-video-export": "Annulla esportazione video",
     "subtitle": "Sottotitoli",
+    "subtitles-group": "Sottotitoli",
+    "toggle-subtitle-group": "Attiva/disattiva gruppo sottotitoli",
     "subtitle-extracting": "Estrazione audio…",
     "subtitle-loading-model": "Caricamento modello IA…",
     "subtitle-initializing-model": "Inizializzazione modello…",
@@ -940,6 +942,7 @@
     "dub-resampling": "Elaborazione audio…",
     "dub-too-long": "Il video è troppo lungo per il doppiaggio (max 10 min).",
     "dub-failed": "Doppiaggio fallito. Riprova.",
+    "dub-partial-fail": "Some lines could not be dubbed (silence used)",
     "dub-done": "Esportato con audio vietnamita",
     "recording-click-highlight": "Evidenziazione clic",
     "recording-auto-stop": "Stop automatico",
@@ -963,6 +966,10 @@
     "recording-draw-highlight": "Evidenziatore",
     "recording-draw-eraser": "Gomma",
     "recording-draw-clear": "Cancella tutto",
-    "recording-draw-undo": "Annulla"
+    "recording-draw-undo": "Annulla",
+    "tts-model-label": "Voce del doppiaggio",
+    "tts-mms": "Standard (MMS)",
+    "tts-piper": "Naturale (Piper)",
+    "tts-piper-note": "Voce vietnamita di qualità superiore; scarica ~60 MB al primo utilizzo."
   }
 }

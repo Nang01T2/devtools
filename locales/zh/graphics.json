@@ -773,6 +773,8 @@
     "bg-model-label": "背景去除模型",
     "cancel-video-export": "取消视频导出",
     "subtitle": "字幕",
+    "subtitles-group": "字幕",
+    "toggle-subtitle-group": "切换字幕组",
     "subtitle-extracting": "正在提取音频…",
     "subtitle-loading-model": "正在加载 AI 模型…",
     "subtitle-initializing-model": "正在初始化模型…",
@@ -940,6 +942,7 @@
     "dub-resampling": "正在处理音频…",
     "dub-too-long": "视频过长，无法配音（最长10分钟）。",
     "dub-failed": "配音失败，请重试。",
+    "dub-partial-fail": "Some lines could not be dubbed (silence used)",
     "dub-done": "已导出越南语配音",
     "recording-click-highlight": "点击高亮",
     "recording-auto-stop": "自动停止",
@@ -963,6 +966,10 @@
     "recording-draw-highlight": "荧光笔",
     "recording-draw-eraser": "橡皮擦",
     "recording-draw-clear": "全部清除",
-    "recording-draw-undo": "撤销"
+    "recording-draw-undo": "撤销",
+    "tts-model-label": "配音语音",
+    "tts-mms": "标准 (MMS)",
+    "tts-piper": "自然 (Piper)",
+    "tts-piper-note": "更高质量的越南语语音；首次使用时下载约 60 MB。"
   }
 }
