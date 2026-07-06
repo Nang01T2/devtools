@@ -26,6 +26,37 @@ const PRECACHE = ["/", "/offline.html", "/manifest.webmanifest"];
 // keep a typical multi-tool offline session intact.
 const MAX_ENTRIES = 120;
 
+// COOP/COEP(credentialless) header injection for navigation responses — makes
+// the document crossOriginIsolated, unlocking multi-threaded WASM
+// (aiWorker.ts/visionWorker.ts gate numThreads on this) — see
+// mememaker-web-performance-design.md's Phase 2 C1 for the spike that ruled
+// out a second, separate coi-serviceworker (it fought this same SW for scope
+// control) in favor of merging the header injection in here. credentialless
+// mode does NOT require CORP headers on cross-origin resources (unlike
+// require-corp), so HF CDN/GA/font requests are untouched and keep working
+// exactly as before — verified in the spike. Only the document needs these
+// headers; dedicated Workers spawned from a crossOriginIsolated page inherit
+// it, no per-worker-script header needed (also verified in the spike).
+//
+// Skips redirected responses: constructing a new Response always produces an
+// empty internal URL list, so wrapping a redirected response (e.g. GitHub
+// Pages' automatic trailing-slash redirect) would make the browser display
+// the pre-redirect request URL instead of the canonical one. Trading away
+// cross-origin isolation for THAT ONE navigation (falling back to
+// single-threaded WASM until the next page load) is a better trade than a
+// wrong address bar.
+function withCoiHeaders(res) {
+  if (!res || res.redirected) return res;
+  const headers = new Headers(res.headers);
+  headers.set("Cross-Origin-Embedder-Policy", "credentialless");
+  headers.set("Cross-Origin-Opener-Policy", "same-origin");
+  return new Response(res.body, {
+    status: res.status,
+    statusText: res.statusText,
+    headers,
+  });
+}
+
 /** Trim the cache to MAX_ENTRIES, evicting oldest non-shell entries first. */
 async function trimCache() {
   try {
@@ -82,7 +113,8 @@ self.addEventListener("fetch", (event) => {
   // Only handle our own origin — leave CDN/proxy/analytics to the network.
   if (url.origin !== self.location.origin) return;
 
-  // Navigations → network-first with offline fallback.
+  // Navigations → network-first with offline fallback. See withCoiHeaders'
+  // own comment (top of file) for why the response is wrapped here.
   if (req.mode === "navigate") {
     event.respondWith(
       fetch(req)
@@ -92,13 +124,14 @@ self.addEventListener("fetch", (event) => {
             .open(CACHE)
             .then((c) => c.put(req, copy))
             .catch(() => {});
-          return res;
+          return withCoiHeaders(res);
         })
         .catch(() =>
           caches
             .match(req)
             .then((cached) => cached || caches.match("/offline.html"))
-            .then((res) => res || caches.match("/")),
+            .then((res) => res || caches.match("/"))
+            .then((res) => (res ? withCoiHeaders(res) : res)),
         ),
     );
     return;
