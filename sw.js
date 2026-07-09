@@ -157,16 +157,43 @@ self.addEventListener("fetch", (event) => {
   // through to the plain stale-while-revalidate branch below with no header
   // injection). `aiWorker.ts`/`visionWorker.ts` are compiled by Turbopack
   // into a shared CLASSIC bootstrap chunk (`turbopack-worker-*.js`, see
-  // ai-integration.md's "Multiple Module Workers" section) — `req.destination
-  // === "worker"` catches that chunk AND the real chunks it `importScripts`-
-  // loads (those requests carry the same destination). No redirect concern
-  // here (unlike the navigate branch — GH Pages only redirects on the
-  // trailing-slash-less HTML route, never on `_next/static/**` asset URLs).
+  // ai-integration.md's "Multiple Module Workers" section) that `importScripts()`s
+  // the real chunks. Only the TOP-LEVEL bootstrap fetch carries
+  // `req.destination === "worker"` — per the classic-worker-imported-script
+  // fetch algorithm, sub-fetches made via `importScripts()` from inside an
+  // already-committed worker realm carry `destination: "script"` instead, and
+  // don't need their own COEP header (confirmed empirically both before this
+  // fix, when ONLY the bootstrap chunk showed `ERR_BLOCKED_BY_RESPONSE` in the
+  // network panel and every `importScripts`-loaded chunk loaded fine, and
+  // after, re-checking the same chunks). No redirect concern here (unlike the
+  // navigate branch — GH Pages only redirects on the trailing-slash-less HTML
+  // route, never on `_next/static/**` asset URLs).
   if (req.destination === "worker" || req.destination === "sharedworker") {
     event.respondWith(
       fetch(req)
-        .then((res) => withCoiHeaders(res))
-        .catch(() => caches.match(req)),
+        .then((res) => {
+          // Cache like the default SWR branch below — this request used to
+          // fall through to it before the branch above existed, so skipping
+          // the cache write here would silently regress offline support for
+          // exactly the worker script this branch exists to fix.
+          if (res && res.status === 200 && res.type === "basic") {
+            const copy = res.clone();
+            caches
+              .open(CACHE)
+              .then((c) => c.put(req, copy))
+              .then(() => trimCache())
+              .catch(() => {});
+          }
+          return withCoiHeaders(res);
+        })
+        // Re-wrap the cache fallback too — Cache Storage never persists the
+        // headers injected above (they're added fresh on every read, not
+        // written into the cached entry), so an unwrapped cached copy would
+        // reproduce the exact ERR_BLOCKED_BY_RESPONSE this branch exists to
+        // prevent, just on the offline/fetch-failure path instead of always.
+        .catch(() =>
+          caches.match(req).then((res) => (res ? withCoiHeaders(res) : res)),
+        ),
     );
     return;
   }

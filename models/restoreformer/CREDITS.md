@@ -47,3 +47,21 @@ license survey).
   same threading conditions as production): int8 7.6–7.8s/face, fp32
   6.8s/face. int8 is ~13% _slower_ at runtime (dynamic-quant conv overhead)
   — it wins purely on download size (75.5 MB vs 294 MB).
+
+## fp32 WebGPU fast path (`restoreformer-webgpu-spike`, 2026-07-06)
+
+- `restoreformer_plus_plus.fp32.onnx` (this directory) is the SAME upstream
+  file `scripts/quantize-restoreformer-onnx.py` already downloads as its
+  `/tmp` intermediate before quantizing to int8 — `scripts/fetch-restoreformer-fp32-onnx.py`
+  fetches/verifies the identical hash and ships it directly as a permanent
+  static asset instead of discarding it, so `FaceRestorationEngine`'s
+  `hasWebGPU()`-gated branch can serve full fp32 precision on WebGPU.
+- fp32 file: 294,264,232 bytes, sha256
+  `164818b70d1745da4108a45c9263b05452236d14ac0ffab2202af0ac4a438195` — same
+  provenance and license as the int8 file above (Apache-2.0).
+- Real WebGPU contract (2026-07-06 spike, Playwright/Chromium,
+  `device:"webgpu"`, no fallback): loads ~1.6s, runs ~1.0-1.4s/inference (3
+  consistent, non-degenerate runs) — vs the int8-on-WASM path's
+  browser-measured 13.0s/face. ~10x faster. The `113597032` ORT internal
+  error that killed Swin2SR/Real-ESRGAN on WebGPU does not reproduce for
+  this model (no GroupNorm/DeformConv/fused-Attention in its op list).
