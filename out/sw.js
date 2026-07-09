@@ -17,7 +17,7 @@
  *
  * Bump CACHE_VERSION to invalidate everything on the next activation.
  */
-const CACHE_VERSION = "v1";
+const CACHE_VERSION = "v2";
 const CACHE = `gadgetforge-${CACHE_VERSION}`;
 const PRECACHE = ["/", "/offline.html", "/manifest.webmanifest"];
 // Soft cap on the stale-while-revalidate cache so it can't grow without bound
@@ -34,9 +34,17 @@ const MAX_ENTRIES = 120;
 // control) in favor of merging the header injection in here. credentialless
 // mode does NOT require CORP headers on cross-origin resources (unlike
 // require-corp), so HF CDN/GA/font requests are untouched and keep working
-// exactly as before — verified in the spike. Only the document needs these
-// headers; dedicated Workers spawned from a crossOriginIsolated page inherit
-// it, no per-worker-script header needed (also verified in the spike).
+// exactly as before — verified in the spike.
+//
+// CORRECTION (2026-07-09): this comment used to claim "dedicated Workers
+// spawned from a crossOriginIsolated page inherit it, no per-worker-script
+// header needed" — verified FALSE against the real production deploy. Once
+// the document is isolated, Chrome also enforces COEP on a classic worker's
+// own top-level script response, and GitHub Pages can't set that header
+// itself — the fetch handler below has its own `req.destination === "worker"`
+// branch applying the exact same `withCoiHeaders` wrapping for that case.
+// This function's "only the document" framing is kept only insofar as it's
+// the ORIGINAL header source; both call sites below now reuse it.
 //
 // Skips redirected responses: constructing a new Response always produces an
 // empty internal URL list, so wrapping a redirected response (e.g. GitHub
@@ -133,6 +141,32 @@ self.addEventListener("fetch", (event) => {
             .then((res) => res || caches.match("/"))
             .then((res) => (res ? withCoiHeaders(res) : res)),
         ),
+    );
+    return;
+  }
+
+  // Worker script requests → same COOP/COEP header injection as navigations.
+  // CORRECTS a wrong assumption in this file's original comment ("dedicated
+  // Workers spawned from a crossOriginIsolated page inherit it, no per-
+  // worker-script header needed") — verified FALSE against the real
+  // production deploy (2026-07-09): once the document is crossOriginIsolated,
+  // Chrome requires a CLASSIC worker's own top-level script response to also
+  // satisfy COEP, or the browser refuses to instantiate the worker at all
+  // (`net::ERR_BLOCKED_BY_RESPONSE` on the worker's bootstrap script — GitHub
+  // Pages can't set this header itself, and this fetch previously fell
+  // through to the plain stale-while-revalidate branch below with no header
+  // injection). `aiWorker.ts`/`visionWorker.ts` are compiled by Turbopack
+  // into a shared CLASSIC bootstrap chunk (`turbopack-worker-*.js`, see
+  // ai-integration.md's "Multiple Module Workers" section) — `req.destination
+  // === "worker"` catches that chunk AND the real chunks it `importScripts`-
+  // loads (those requests carry the same destination). No redirect concern
+  // here (unlike the navigate branch — GH Pages only redirects on the
+  // trailing-slash-less HTML route, never on `_next/static/**` asset URLs).
+  if (req.destination === "worker" || req.destination === "sharedworker") {
+    event.respondWith(
+      fetch(req)
+        .then((res) => withCoiHeaders(res))
+        .catch(() => caches.match(req)),
     );
     return;
   }
