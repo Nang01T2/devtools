@@ -40,3 +40,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+out/models/restoreformer/restoreformer_plus_plus.fp32.onnx
