@@ -237,7 +237,7 @@
     "download": "Télécharger"
   },
   "mememaker": {
-    "upload-title": "Déposez, collez ou cliquez pour parcourir",
+    "upload-title": "Déposez une image, un GIF ou une vidéo",
     "upload-hint": "JPEG, PNG, WebP, AVIF, HEIC (iPhone), JXL — traité sur votre appareil",
     "decode-failed": "Could not decode image. Please try another file.",
     "file-too-large": "L'image dépasse 25 Mo. Veuillez utiliser un fichier plus petit.",
@@ -312,7 +312,9 @@
     "video-export-progress": "Encodage en cours…",
     "video-webm-toast": "Votre navigateur ne prend pas en charge l'export MP4 — téléchargé en WebM",
     "video-webm-no-audio-toast": "WebM + fond vidéo : pas d'audio inclus. Utilisez MP4 pour conserver l'audio d'origine.",
-    "video-base-hint": "Déposez une image, un GIF ou une vidéo (MP4/WebM)",
+    "upload-hint-browse": "ou cliquez pour parcourir",
+    "upload-hint-paste": "collez avec",
+    "upload-hint-heic": "HEIC pris en charge",
     "record-screen": "Enregistrer l'écran",
     "recording-stop": "Arrêter l'enregistrement",
     "screen-record-processing": "Traitement de l'enregistrement…",

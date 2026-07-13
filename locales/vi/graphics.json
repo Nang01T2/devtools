@@ -237,7 +237,7 @@
     "download": "Tải xuống"
   },
   "mememaker": {
-    "upload-title": "Thả ảnh, dán, hoặc nhấn để chọn",
+    "upload-title": "Thả ảnh, GIF hoặc video",
     "upload-hint": "JPEG, PNG, WebP, AVIF, HEIC (iPhone), JXL — xử lý trên thiết bị của bạn",
     "decode-failed": "Không thể đọc ảnh. Vui lòng thử tệp khác.",
     "file-too-large": "Ảnh vượt quá 25 MB. Vui lòng dùng tệp nhỏ hơn.",
@@ -312,7 +312,9 @@
     "video-export-progress": "Đang mã hóa…",
     "video-webm-toast": "Trình duyệt không hỗ trợ xuất MP4 — đã tải về dạng WebM thay thế",
     "video-webm-no-audio-toast": "WebM + nền video: không có âm thanh. Dùng MP4 để giữ âm thanh gốc.",
-    "video-base-hint": "Thả ảnh, GIF hoặc video (MP4/WebM)",
+    "upload-hint-browse": "hoặc nhấn để chọn",
+    "upload-hint-paste": "dán bằng",
+    "upload-hint-heic": "hỗ trợ HEIC",
     "record-screen": "Quay màn hình",
     "recording-stop": "Dừng quay",
     "screen-record-processing": "Đang xử lý bản ghi…",

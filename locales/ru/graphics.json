@@ -237,7 +237,7 @@
     "download": "Скачать"
   },
   "mememaker": {
-    "upload-title": "Перетащите, вставьте или нажмите для выбора",
+    "upload-title": "Перетащите изображение, GIF или видео",
     "upload-hint": "JPEG, PNG, WebP, AVIF, HEIC (iPhone), JXL — обрабатывается на вашем устройстве",
     "decode-failed": "Could not decode image. Please try another file.",
     "file-too-large": "Изображение превышает 25 МБ. Пожалуйста, используйте файл меньшего размера.",
@@ -312,7 +312,9 @@
     "video-export-progress": "Кодирование…",
     "video-webm-toast": "Ваш браузер не поддерживает экспорт MP4 — загружено как WebM",
     "video-webm-no-audio-toast": "WebM + видеоподложка: аудио не включено. Используйте MP4 для сохранения оригинального звука.",
-    "video-base-hint": "Перетащите изображение, GIF или видео (MP4/WebM)",
+    "upload-hint-browse": "или нажмите для выбора",
+    "upload-hint-paste": "вставьте с помощью",
+    "upload-hint-heic": "поддержка HEIC",
     "record-screen": "Записать экран",
     "recording-stop": "Остановить запись",
     "screen-record-processing": "Обработка записи…",
