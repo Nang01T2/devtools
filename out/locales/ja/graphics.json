@@ -237,7 +237,7 @@
     "download": "ダウンロード"
   },
   "mememaker": {
-    "upload-title": "ドロップ、貼り付け、またはクリックして選択",
+    "upload-title": "画像、GIF、動画をドロップ",
     "upload-hint": "JPEG、PNG、WebP、AVIF、HEIC（iPhone）、JXL — デバイス上で処理",
     "decode-failed": "Could not decode image. Please try another file.",
     "file-too-large": "画像が25 MBを超えています。より小さいファイルを使用してください。",
@@ -312,7 +312,9 @@
     "video-export-progress": "エンコード中…",
     "video-webm-toast": "ブラウザがMP4エクスポートに対応していません。WebMでダウンロードしました",
     "video-webm-no-audio-toast": "WebM＋動画ベース：音声なし。音声を保持するにはMP4を使用してください。",
-    "video-base-hint": "画像・GIF・動画（MP4/WebM）をドロップ",
+    "upload-hint-browse": "またはクリックして選択",
+    "upload-hint-paste": "貼り付け",
+    "upload-hint-heic": "HEIC 対応",
     "record-screen": "画面を録画",
     "recording-stop": "録画を停止",
     "screen-record-processing": "録画を処理中…",

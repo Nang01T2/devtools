@@ -237,7 +237,7 @@
     "download": "Download"
   },
   "mememaker": {
-    "upload-title": "Drop a photo, paste, or click to browse",
+    "upload-title": "Drop an image, GIF or video",
     "upload-hint": "JPEG, PNG, WebP, AVIF, HEIC (iPhone), JXL — processed on your device",
     "decode-failed": "Couldn't read that image. Try another file.",
     "file-too-large": "Image exceeds 25 MB. Please use a smaller file.",
@@ -315,7 +315,9 @@
     "video-export-progress": "Encoding video…",
     "video-webm-toast": "Your browser doesn't support H.264 encoding — exporting as WebM instead",
     "video-webm-no-audio-toast": "WebM + video base: no audio included. Use MP4 to keep the original audio.",
-    "video-base-hint": "Drop image, GIF, or video (MP4/WebM)",
+    "upload-hint-browse": "or click to browse",
+    "upload-hint-paste": "paste with",
+    "upload-hint-heic": "HEIC supported",
     "record-screen": "Record Screen",
     "recording-stop": "Stop Recording",
     "screen-record-processing": "Processing recording…",

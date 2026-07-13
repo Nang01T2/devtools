@@ -237,7 +237,7 @@
     "download": "تنزيل"
   },
   "mememaker": {
-    "upload-title": "أفلت أو الصق أو انقر للاستعراض",
+    "upload-title": "أفلت صورة أو GIF أو فيديو",
     "upload-hint": "JPEG، PNG، WebP، AVIF، HEIC (iPhone)، JXL — تتم المعالجة على جهازك",
     "decode-failed": "Could not decode image. Please try another file.",
     "file-too-large": "الصورة تتجاوز 25 ميجابايت. يرجى استخدام ملف أصغر.",
@@ -312,7 +312,9 @@
     "video-export-progress": "جارٍ الترميز…",
     "video-webm-toast": "متصفحك لا يدعم تصدير MP4 — تم التنزيل بصيغة WebM بدلاً من ذلك",
     "video-webm-no-audio-toast": "WebM + قاعدة فيديو: لا يوجد صوت. استخدم MP4 للحفاظ على الصوت الأصلي.",
-    "video-base-hint": "أفلت صورة أو GIF أو فيديو (MP4/WebM)",
+    "upload-hint-browse": "أو انقر للتصفح",
+    "upload-hint-paste": "الصق باستخدام",
+    "upload-hint-heic": "يدعم HEIC",
     "record-screen": "تسجيل الشاشة",
     "recording-stop": "إيقاف التسجيل",
     "screen-record-processing": "جارٍ معالجة التسجيل…",

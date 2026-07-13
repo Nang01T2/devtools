@@ -237,7 +237,7 @@
     "download": "下载"
   },
   "mememaker": {
-    "upload-title": "拖入、粘贴或点击选择图片",
+    "upload-title": "拖放图片、GIF 或视频",
     "upload-hint": "JPEG、PNG、WebP、AVIF、HEIC（iPhone）、JXL — 在您的设备上处理",
     "decode-failed": "Could not decode image. Please try another file.",
     "file-too-large": "图片超过 25 MB，请使用较小的文件。",
@@ -312,7 +312,9 @@
     "video-export-progress": "编码中…",
     "video-webm-toast": "您的浏览器不支持MP4导出，已改为下载WebM格式",
     "video-webm-no-audio-toast": "WebM＋视频底层：不含音频。如需保留原始音频，请使用MP4。",
-    "video-base-hint": "拖放图片、GIF或视频（MP4/WebM）",
+    "upload-hint-browse": "或点击浏览",
+    "upload-hint-paste": "粘贴",
+    "upload-hint-heic": "支持 HEIC",
     "record-screen": "录制屏幕",
     "recording-stop": "停止录制",
     "screen-record-processing": "正在处理录制…",
