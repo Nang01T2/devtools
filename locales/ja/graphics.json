@@ -438,6 +438,8 @@
     "ruler-horizontal": "水平ルーラー — 下にドラッグして水平ガイドを作成",
     "ruler-vertical": "垂直ルーラー — 右にドラッグして垂直ガイドを作成",
     "clear-guides": "すべてのガイドを消去",
+    "show-rulers": "定規を表示",
+    "snap-enabled": "ガイドと端にスナップ",
     "mask-enabled": "マスク有効",
     "mask-disabled": "マスク無効",
     "mask-invalid-file": "マスクには画像ファイルを選択してください",

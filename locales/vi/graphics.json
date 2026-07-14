@@ -438,6 +438,8 @@
     "ruler-horizontal": "Thước ngang — kéo xuống để tạo đường gióng ngang (guide)",
     "ruler-vertical": "Thước dọc — kéo sang phải để tạo đường gióng dọc (guide)",
     "clear-guides": "Xoá tất cả đường gióng (guides)",
+    "show-rulers": "Hiện thước kẻ",
+    "snap-enabled": "Bắt dính vào đường gióng & mép",
     "mask-enabled": "Mặt nạ đang bật",
     "mask-disabled": "Mặt nạ đang tắt",
     "mask-invalid-file": "Vui lòng chọn một tệp ảnh làm mặt nạ",

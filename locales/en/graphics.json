@@ -441,6 +441,8 @@
     "ruler-horizontal": "Horizontal ruler — drag down to create a horizontal guide",
     "ruler-vertical": "Vertical ruler — drag right to create a vertical guide",
     "clear-guides": "Clear all guides",
+    "show-rulers": "Show rulers",
+    "snap-enabled": "Snap to guides & edges",
     "mask-enabled": "Mask enabled",
     "mask-disabled": "Mask disabled",
     "mask-invalid-file": "Please choose an image file for the mask",

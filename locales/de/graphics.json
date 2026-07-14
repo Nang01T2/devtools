@@ -438,6 +438,8 @@
     "ruler-horizontal": "Horizontales Lineal — nach unten ziehen, um eine horizontale Hilfslinie zu erstellen",
     "ruler-vertical": "Vertikales Lineal — nach rechts ziehen, um eine vertikale Hilfslinie zu erstellen",
     "clear-guides": "Alle Hilfslinien löschen",
+    "show-rulers": "Lineale anzeigen",
+    "snap-enabled": "An Hilfslinien & Kanten einrasten",
     "mask-enabled": "Maske aktiviert",
     "mask-disabled": "Maske deaktiviert",
     "mask-invalid-file": "Bitte wähle eine Bilddatei für die Maske aus",

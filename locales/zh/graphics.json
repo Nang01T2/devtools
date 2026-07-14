@@ -438,6 +438,8 @@
     "ruler-horizontal": "水平标尺 — 向下拖动以创建水平参考线",
     "ruler-vertical": "垂直标尺 — 向右拖动以创建垂直参考线",
     "clear-guides": "清除所有参考线",
+    "show-rulers": "显示标尺",
+    "snap-enabled": "吸附到参考线和边缘",
     "mask-enabled": "蒙版已启用",
     "mask-disabled": "蒙版已禁用",
     "mask-invalid-file": "请选择一个图片文件作为蒙版",

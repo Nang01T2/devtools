@@ -438,6 +438,8 @@
     "ruler-horizontal": "Regla horizontal — arrastra hacia abajo para crear una guía horizontal",
     "ruler-vertical": "Regla vertical — arrastra hacia la derecha para crear una guía vertical",
     "clear-guides": "Borrar todas las guías",
+    "show-rulers": "Mostrar reglas",
+    "snap-enabled": "Ajustar a guías y bordes",
     "mask-enabled": "Máscara activada",
     "mask-disabled": "Máscara desactivada",
     "mask-invalid-file": "Elige un archivo de imagen para la máscara",

@@ -438,6 +438,8 @@
     "ruler-horizontal": "Règle horizontale — faites glisser vers le bas pour créer un repère horizontal",
     "ruler-vertical": "Règle verticale — faites glisser vers la droite pour créer un repère vertical",
     "clear-guides": "Effacer tous les repères",
+    "show-rulers": "Afficher les règles",
+    "snap-enabled": "Aimanter aux repères et bords",
     "mask-enabled": "Masque activé",
     "mask-disabled": "Masque désactivé",
     "mask-invalid-file": "Veuillez choisir un fichier image pour le masque",

@@ -438,6 +438,8 @@
     "ruler-horizontal": "Righello orizzontale — trascina verso il basso per creare una guida orizzontale",
     "ruler-vertical": "Righello verticale — trascina verso destra per creare una guida verticale",
     "clear-guides": "Cancella tutte le guide",
+    "show-rulers": "Mostra righelli",
+    "snap-enabled": "Aggancia a guide e bordi",
     "mask-enabled": "Maschera attiva",
     "mask-disabled": "Maschera disattivata",
     "mask-invalid-file": "Scegli un file immagine per la maschera",
