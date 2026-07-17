@@ -344,12 +344,12 @@
     "rail-files": "Arquivos",
     "files-panel-title": "Modelos",
     "change-image": "Trocar imagem",
-    "draw": "Desenhar",
-    "panel-draw": "Desenhar",
-    "draw-hint": "Desenhe à mão livre no meme. Arraste para pintar.",
+    "draw": "Anotar",
+    "panel-draw": "Anotar",
+    "draw-hint": "Anote à mão livre no meme. Arraste para desenhar.",
     "draw-color": "Cor",
     "draw-width": "Pincel",
-    "draw-clear": "Limpar desenho",
+    "draw-clear": "Limpar anotação",
     "color-red": "Vermelho",
     "color-yellow": "Amarelo",
     "color-green": "Verde",
@@ -423,9 +423,22 @@
     "marquee-tool": "Seleção retangular",
     "lasso-tool": "Seleção de laço",
     "wand-tool": "Varinha mágica",
+    "ai-select-tool": "Seleção de objeto com IA",
     "marquee-hint": "Arraste um retângulo na tela para selecionar essa região de pixels.",
     "lasso-hint": "Arraste um laço à mão livre na tela para selecionar essa região de pixels.",
     "wand-hint": "Clique dentro da imagem para selecionar a região contígua correspondente, com base na tolerância abaixo.",
+    "ai-select-hint": "Clique num ponto de um objeto para a IA selecioná-lo automaticamente. Clique novamente para adicionar, ou Alt+clique para excluir uma região.",
+
+    "ai-select-encoding": "Analisando imagem…",
+
+    "ai-select-include-mode": "Incluir",
+
+    "ai-select-exclude-mode": "Excluir",
+
+    "ai-select-commit": "Confirmar",
+
+    "ai-select-discard": "Descartar",
+
     "wand-tolerance": "Tolerância",
     "selection-select-all": "Selecionar tudo",
     "selection-deselect": "Desmarcar seleção",
@@ -574,8 +587,8 @@
     "history-remove-layer": "Remover camada",
     "history-reorder-layer": "Reordenar camada",
     "history-move-layer": "Mover camada",
-    "history-draw": "Desenhar",
-    "history-clear-drawings": "Limpar desenhos",
+    "history-draw": "Anotar",
+    "history-clear-drawings": "Limpar anotações",
     "history-crop": "Cortar",
     "history-set-mask": "Definir máscara",
     "history-toggle-mask": "Alternar máscara",
@@ -1267,6 +1280,21 @@
     "color-balance-highlights": "Realces",
     "color-balance-cyanRed": "Ciano-Vermelho",
     "color-balance-magentaGreen": "Magenta-Verde",
-    "color-balance-yellowBlue": "Amarelo-Azul"
+    "color-balance-yellowBlue": "Amarelo-Azul",
+    "background-layer": "Plano de fundo",
+    "background-unlock-hint": "Clique duas vezes para desbloquear esta camada e editá-la",
+    "background-unlocked": "Camada de fundo desbloqueada — os ajustes foram redefinidos para a nova camada",
+    "ai-op-cancel": "Cancelar",
+    "brush-tool": "Pincel",
+    "brush-hint": "Arraste sobre a imagem para pintar com cor sólida e depois toque em Aplicar.",
+    "brush-color": "Cor",
+    "brush-opacity": "Opacidade",
+    "brush-hardness": "Dureza",
+    "brush-undo": "Desfazer",
+    "brush-apply": "Aplicar pintura",
+    "brush-soft-edge-note": "Bordas suaves (dureza abaixo de 100%) aparecem após Aplicar.",
+    "pen-anchor-mode": "Modo de âncora",
+    "pen-anchor-corner": "Canto",
+    "pen-anchor-smooth": "Suave"
   }
 }

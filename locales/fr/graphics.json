@@ -344,12 +344,12 @@
     "rail-files": "Fichiers",
     "files-panel-title": "Modèles",
     "change-image": "Changer d'image",
-    "draw": "Dessiner",
-    "panel-draw": "Dessiner",
-    "draw-hint": "Dessinez à main levée sur le mème. Glissez pour peindre.",
+    "draw": "Annoter",
+    "panel-draw": "Annoter",
+    "draw-hint": "Annotez le mème à main levée. Glissez pour dessiner.",
     "draw-color": "Couleur",
     "draw-width": "Pinceau",
-    "draw-clear": "Effacer le dessin",
+    "draw-clear": "Effacer l'annotation",
     "color-red": "Rouge",
     "color-yellow": "Jaune",
     "color-green": "Vert",
@@ -423,9 +423,22 @@
     "marquee-tool": "Sélection rectangle",
     "lasso-tool": "Sélection lasso",
     "wand-tool": "Baguette magique",
+    "ai-select-tool": "Sélection d'objet par IA",
     "marquee-hint": "Faites glisser un rectangle sur le canevas pour sélectionner cette région de pixels.",
     "lasso-hint": "Faites glisser une boucle à main levée sur le canevas pour sélectionner cette région de pixels.",
     "wand-hint": "Cliquez à l'intérieur de l'image pour sélectionner la région contiguë correspondante, selon la tolérance ci-dessous.",
+    "ai-select-hint": "Cliquez sur un point d'un objet pour que l'IA le sélectionne automatiquement. Cliquez à nouveau pour en ajouter, ou Alt+clic pour exclure une zone.",
+
+    "ai-select-encoding": "Analyse de l'image…",
+
+    "ai-select-include-mode": "Inclure",
+
+    "ai-select-exclude-mode": "Exclure",
+
+    "ai-select-commit": "Valider",
+
+    "ai-select-discard": "Annuler",
+
     "wand-tolerance": "Tolérance",
     "selection-select-all": "Tout sélectionner",
     "selection-deselect": "Désélectionner",
@@ -574,8 +587,8 @@
     "history-remove-layer": "Supprimer le calque",
     "history-reorder-layer": "Réorganiser le calque",
     "history-move-layer": "Déplacer le calque",
-    "history-draw": "Dessiner",
-    "history-clear-drawings": "Effacer les dessins",
+    "history-draw": "Annoter",
+    "history-clear-drawings": "Effacer les annotations",
     "history-crop": "Recadrer",
     "history-set-mask": "Définir le masque",
     "history-toggle-mask": "Basculer le masque",
@@ -1267,6 +1280,21 @@
     "color-balance-highlights": "Hautes lumières",
     "color-balance-cyanRed": "Cyan-Rouge",
     "color-balance-magentaGreen": "Magenta-Vert",
-    "color-balance-yellowBlue": "Jaune-Bleu"
+    "color-balance-yellowBlue": "Jaune-Bleu",
+    "background-layer": "Arrière-plan",
+    "background-unlock-hint": "Double-cliquez pour déverrouiller ce calque afin de le modifier",
+    "background-unlocked": "Calque d'arrière-plan déverrouillé — les réglages ont été réinitialisés pour le nouveau calque",
+    "ai-op-cancel": "Annuler",
+    "brush-tool": "Pinceau",
+    "brush-hint": "Faites glisser sur l'image pour peindre en couleur unie, puis appuyez sur Appliquer.",
+    "brush-color": "Couleur",
+    "brush-opacity": "Opacité",
+    "brush-hardness": "Dureté",
+    "brush-undo": "Annuler",
+    "brush-apply": "Appliquer la peinture",
+    "brush-soft-edge-note": "Les bords doux (dureté inférieure à 100 %) apparaissent après l'application.",
+    "pen-anchor-mode": "Mode d'ancrage",
+    "pen-anchor-corner": "Angle",
+    "pen-anchor-smooth": "Lisse"
   }
 }
