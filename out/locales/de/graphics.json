@@ -344,12 +344,12 @@
     "rail-files": "Dateien",
     "files-panel-title": "Vorlagen",
     "change-image": "Bild ändern",
-    "draw": "Zeichnen",
-    "panel-draw": "Zeichnen",
-    "draw-hint": "Frei auf dem Meme zeichnen. Zum Malen ziehen.",
+    "draw": "Anmerken",
+    "panel-draw": "Anmerken",
+    "draw-hint": "Frei auf dem Meme anmerken. Zum Zeichnen ziehen.",
     "draw-color": "Farbe",
     "draw-width": "Pinsel",
-    "draw-clear": "Zeichnung löschen",
+    "draw-clear": "Anmerkung löschen",
     "color-red": "Rot",
     "color-yellow": "Gelb",
     "color-green": "Grün",
@@ -423,9 +423,22 @@
     "marquee-tool": "Rechteckauswahl",
     "lasso-tool": "Lasso-Auswahl",
     "wand-tool": "Zauberstab",
+    "ai-select-tool": "KI-Objektauswahl",
     "marquee-hint": "Ziehen Sie ein Rechteck auf der Leinwand, um diesen Pixelbereich auszuwählen.",
     "lasso-hint": "Ziehen Sie eine Freihandschleife auf der Leinwand, um diesen Pixelbereich auszuwählen.",
     "wand-hint": "Klicken Sie in das Bild, um den zusammenhängenden übereinstimmenden Bereich basierend auf der Toleranz unten auszuwählen.",
+    "ai-select-hint": "Klicken Sie auf einen Punkt in einem Objekt, damit die KI es automatisch auswählt. Erneut klicken, um hinzuzufügen, oder Alt+Klick, um einen Bereich auszuschließen.",
+
+    "ai-select-encoding": "Bild wird analysiert…",
+
+    "ai-select-include-mode": "Einschließen",
+
+    "ai-select-exclude-mode": "Ausschließen",
+
+    "ai-select-commit": "Übernehmen",
+
+    "ai-select-discard": "Verwerfen",
+
     "wand-tolerance": "Toleranz",
     "selection-select-all": "Alles auswählen",
     "selection-deselect": "Auswahl aufheben",
@@ -574,8 +587,8 @@
     "history-remove-layer": "Ebene entfernen",
     "history-reorder-layer": "Ebene neu anordnen",
     "history-move-layer": "Ebene verschieben",
-    "history-draw": "Zeichnen",
-    "history-clear-drawings": "Zeichnungen löschen",
+    "history-draw": "Anmerken",
+    "history-clear-drawings": "Anmerkungen löschen",
     "history-crop": "Zuschneiden",
     "history-set-mask": "Maske festlegen",
     "history-toggle-mask": "Maske umschalten",
@@ -1267,6 +1280,21 @@
     "color-balance-highlights": "Lichter",
     "color-balance-cyanRed": "Cyan-Rot",
     "color-balance-magentaGreen": "Magenta-Grün",
-    "color-balance-yellowBlue": "Gelb-Blau"
+    "color-balance-yellowBlue": "Gelb-Blau",
+    "background-layer": "Hintergrund",
+    "background-unlock-hint": "Doppelklicken, um diese Ebene zur Bearbeitung zu entsperren",
+    "background-unlocked": "Hintergrundebene entsperrt — Anpassungen für die neue Ebene zurückgesetzt",
+    "ai-op-cancel": "Abbrechen",
+    "brush-tool": "Pinsel",
+    "brush-hint": "Ziehe über das Bild, um mit deckender Farbe zu malen, dann Anwenden drücken.",
+    "brush-color": "Farbe",
+    "brush-opacity": "Deckkraft",
+    "brush-hardness": "Härte",
+    "brush-undo": "Rückgängig",
+    "brush-apply": "Farbe anwenden",
+    "brush-soft-edge-note": "Weiche Kanten (Härte unter 100 %) erscheinen erst nach dem Anwenden.",
+    "pen-anchor-mode": "Ankermodus",
+    "pen-anchor-corner": "Ecke",
+    "pen-anchor-smooth": "Weich"
   }
 }

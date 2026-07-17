@@ -344,12 +344,12 @@
     "rail-files": "File",
     "files-panel-title": "Modelli",
     "change-image": "Cambia immagine",
-    "draw": "Disegna",
-    "panel-draw": "Disegna",
-    "draw-hint": "Disegna a mano libera sul meme. Trascina per dipingere.",
+    "draw": "Annota",
+    "panel-draw": "Annota",
+    "draw-hint": "Annota a mano libera sul meme. Trascina per disegnare.",
     "draw-color": "Colore",
     "draw-width": "Pennello",
-    "draw-clear": "Cancella disegno",
+    "draw-clear": "Cancella annotazione",
     "color-red": "Rosso",
     "color-yellow": "Giallo",
     "color-green": "Verde",
@@ -423,9 +423,22 @@
     "marquee-tool": "Selezione rettangolare",
     "lasso-tool": "Selezione lazo",
     "wand-tool": "Bacchetta magica",
+    "ai-select-tool": "Selezione oggetto IA",
     "marquee-hint": "Trascina un rettangolo sulla tela per selezionare quella regione di pixel.",
     "lasso-hint": "Trascina un anello a mano libera sulla tela per selezionare quella regione di pixel.",
     "wand-hint": "Fai clic all'interno dell'immagine per selezionare la regione contigua corrispondente, in base alla tolleranza qui sotto.",
+    "ai-select-hint": "Fai clic su un punto di un oggetto per farlo selezionare automaticamente dall'IA. Fai clic di nuovo per aggiungere, oppure Alt+clic per escludere una regione.",
+
+    "ai-select-encoding": "Analisi dell'immagine…",
+
+    "ai-select-include-mode": "Includi",
+
+    "ai-select-exclude-mode": "Escludi",
+
+    "ai-select-commit": "Conferma",
+
+    "ai-select-discard": "Scarta",
+
     "wand-tolerance": "Tolleranza",
     "selection-select-all": "Seleziona tutto",
     "selection-deselect": "Deseleziona",
@@ -574,8 +587,8 @@
     "history-remove-layer": "Rimuovi livello",
     "history-reorder-layer": "Riordina livello",
     "history-move-layer": "Sposta livello",
-    "history-draw": "Disegna",
-    "history-clear-drawings": "Cancella disegni",
+    "history-draw": "Annota",
+    "history-clear-drawings": "Cancella annotazioni",
     "history-crop": "Ritaglia",
     "history-set-mask": "Imposta maschera",
     "history-toggle-mask": "Attiva/disattiva maschera",
@@ -1267,6 +1280,21 @@
     "color-balance-highlights": "Luci",
     "color-balance-cyanRed": "Ciano-Rosso",
     "color-balance-magentaGreen": "Magenta-Verde",
-    "color-balance-yellowBlue": "Giallo-Blu"
+    "color-balance-yellowBlue": "Giallo-Blu",
+    "background-layer": "Sfondo",
+    "background-unlock-hint": "Fai doppio clic per sbloccare questo livello e modificarlo",
+    "background-unlocked": "Livello di sfondo sbloccato — le regolazioni sono state ripristinate per il nuovo livello",
+    "ai-op-cancel": "Annulla",
+    "brush-tool": "Pennello",
+    "brush-hint": "Trascina sull'immagine per dipingere con colore pieno, poi premi Applica.",
+    "brush-color": "Colore",
+    "brush-opacity": "Opacità",
+    "brush-hardness": "Durezza",
+    "brush-undo": "Annulla",
+    "brush-apply": "Applica pittura",
+    "brush-soft-edge-note": "I bordi morbidi (durezza sotto il 100%) compaiono dopo Applica.",
+    "pen-anchor-mode": "Modalità ancoraggio",
+    "pen-anchor-corner": "Angolo",
+    "pen-anchor-smooth": "Liscio"
   }
 }

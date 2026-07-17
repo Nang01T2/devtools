@@ -344,12 +344,12 @@
     "rail-files": "文件",
     "files-panel-title": "模板",
     "change-image": "更换图片",
-    "draw": "绘制",
-    "panel-draw": "绘制",
-    "draw-hint": "在表情包上自由绘制。拖动即可绘画。",
+    "draw": "标注",
+    "panel-draw": "标注",
+    "draw-hint": "在表情包上自由标注。拖动即可绘制。",
     "draw-color": "颜色",
     "draw-width": "画笔",
-    "draw-clear": "清除绘制",
+    "draw-clear": "清除标注",
     "color-red": "红色",
     "color-yellow": "黄色",
     "color-green": "绿色",
@@ -423,9 +423,22 @@
     "marquee-tool": "矩形选框",
     "lasso-tool": "套索选择",
     "wand-tool": "魔术棒",
+    "ai-select-tool": "AI 对象选择",
     "marquee-hint": "在画布上拖动一个矩形以选择该像素区域。",
     "lasso-hint": "在画布上自由拖动一个圈以选择该像素区域。",
     "wand-hint": "点击图像内部,根据下方的容差选择连续的匹配区域。",
+    "ai-select-hint": "点击对象上的一个点,AI 会自动选择它。再次点击可添加,按住 Alt 点击可排除某个区域。",
+
+    "ai-select-encoding": "正在分析图像…",
+
+    "ai-select-include-mode": "包含",
+
+    "ai-select-exclude-mode": "排除",
+
+    "ai-select-commit": "确认",
+
+    "ai-select-discard": "放弃",
+
     "wand-tolerance": "容差",
     "selection-select-all": "全选",
     "selection-deselect": "取消选择",
@@ -574,8 +587,8 @@
     "history-remove-layer": "删除图层",
     "history-reorder-layer": "调整图层顺序",
     "history-move-layer": "移动图层",
-    "history-draw": "绘制",
-    "history-clear-drawings": "清除绘制内容",
+    "history-draw": "标注",
+    "history-clear-drawings": "清除标注内容",
     "history-crop": "裁剪",
     "history-set-mask": "设置蒙版",
     "history-toggle-mask": "切换蒙版",
@@ -1267,6 +1280,21 @@
     "color-balance-highlights": "高光",
     "color-balance-cyanRed": "青色-红色",
     "color-balance-magentaGreen": "洋红-绿色",
-    "color-balance-yellowBlue": "黄色-蓝色"
+    "color-balance-yellowBlue": "黄色-蓝色",
+    "background-layer": "背景",
+    "background-unlock-hint": "双击以解锁此图层进行编辑",
+    "background-unlocked": "背景图层已解锁 — 新图层的调整已重置",
+    "ai-op-cancel": "取消",
+    "brush-tool": "画笔",
+    "brush-hint": "在图片上拖动以涂上纯色，然后点击应用。",
+    "brush-color": "颜色",
+    "brush-opacity": "不透明度",
+    "brush-hardness": "硬度",
+    "brush-undo": "撤销",
+    "brush-apply": "应用绘画",
+    "brush-soft-edge-note": "柔边（硬度低于100%）在应用后才会显示。",
+    "pen-anchor-mode": "锚点模式",
+    "pen-anchor-corner": "转角",
+    "pen-anchor-smooth": "平滑"
   }
 }

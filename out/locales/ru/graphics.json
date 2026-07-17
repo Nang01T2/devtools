@@ -344,12 +344,12 @@
     "rail-files": "Файлы",
     "files-panel-title": "Шаблоны",
     "change-image": "Сменить изображение",
-    "draw": "Рисовать",
-    "panel-draw": "Рисовать",
-    "draw-hint": "Рисуйте от руки на меме. Перетаскивайте, чтобы рисовать.",
+    "draw": "Аннотировать",
+    "panel-draw": "Аннотировать",
+    "draw-hint": "Добавляйте аннотации от руки на меме. Перетаскивайте, чтобы рисовать.",
     "draw-color": "Цвет",
     "draw-width": "Кисть",
-    "draw-clear": "Очистить рисунок",
+    "draw-clear": "Очистить аннотацию",
     "color-red": "Красный",
     "color-yellow": "Жёлтый",
     "color-green": "Зелёный",
@@ -423,9 +423,22 @@
     "marquee-tool": "Прямоугольное выделение",
     "lasso-tool": "Выделение лассо",
     "wand-tool": "Волшебная палочка",
+    "ai-select-tool": "Выделение объекта с ИИ",
     "marquee-hint": "Перетащите прямоугольник на холсте, чтобы выделить эту область пикселей.",
     "lasso-hint": "Перетащите произвольную петлю на холсте, чтобы выделить эту область пикселей.",
     "wand-hint": "Щёлкните внутри изображения, чтобы выделить смежную совпадающую область на основе допуска ниже.",
+    "ai-select-hint": "Щёлкните точку на объекте, чтобы ИИ автоматически его выделил. Щёлкните ещё раз, чтобы добавить, или Alt+щелчок, чтобы исключить область.",
+
+    "ai-select-encoding": "Анализ изображения…",
+
+    "ai-select-include-mode": "Включить",
+
+    "ai-select-exclude-mode": "Исключить",
+
+    "ai-select-commit": "Подтвердить",
+
+    "ai-select-discard": "Отменить",
+
     "wand-tolerance": "Допуск",
     "selection-select-all": "Выделить всё",
     "selection-deselect": "Снять выделение",
@@ -574,8 +587,8 @@
     "history-remove-layer": "Удалить слой",
     "history-reorder-layer": "Изменить порядок слоя",
     "history-move-layer": "Переместить слой",
-    "history-draw": "Рисование",
-    "history-clear-drawings": "Очистить рисунки",
+    "history-draw": "Аннотировать",
+    "history-clear-drawings": "Очистить аннотации",
     "history-crop": "Обрезка",
     "history-set-mask": "Задать маску",
     "history-toggle-mask": "Переключить маску",
@@ -1267,6 +1280,21 @@
     "color-balance-highlights": "Света",
     "color-balance-cyanRed": "Голубой-Красный",
     "color-balance-magentaGreen": "Пурпурный-Зелёный",
-    "color-balance-yellowBlue": "Жёлтый-Синий"
+    "color-balance-yellowBlue": "Жёлтый-Синий",
+    "background-layer": "Фон",
+    "background-unlock-hint": "Дважды щёлкните, чтобы разблокировать этот слой для редактирования",
+    "background-unlocked": "Фоновый слой разблокирован — настройки сброшены для нового слоя",
+    "ai-op-cancel": "Отмена",
+    "brush-tool": "Кисть",
+    "brush-hint": "Проведите по изображению, чтобы закрасить область сплошным цветом, затем нажмите Применить.",
+    "brush-color": "Цвет",
+    "brush-opacity": "Непрозрачность",
+    "brush-hardness": "Жёсткость",
+    "brush-undo": "Отменить",
+    "brush-apply": "Применить краску",
+    "brush-soft-edge-note": "Мягкие края (жёсткость ниже 100%) появятся после применения.",
+    "pen-anchor-mode": "Режим опорной точки",
+    "pen-anchor-corner": "Угол",
+    "pen-anchor-smooth": "Плавный"
   }
 }

@@ -344,12 +344,12 @@
     "rail-files": "ملفات",
     "files-panel-title": "القوالب",
     "change-image": "تغيير الصورة",
-    "draw": "رسم",
-    "panel-draw": "رسم",
-    "draw-hint": "ارسم بحرية على الميم. اسحب للرسم.",
+    "draw": "تعليق توضيحي",
+    "panel-draw": "تعليق توضيحي",
+    "draw-hint": "أضف تعليقًا توضيحيًا حرًا على الميم. اسحب للرسم.",
     "draw-color": "اللون",
     "draw-width": "الفرشاة",
-    "draw-clear": "مسح الرسم",
+    "draw-clear": "مسح التعليق التوضيحي",
     "color-red": "أحمر",
     "color-yellow": "أصفر",
     "color-green": "أخضر",
@@ -423,9 +423,22 @@
     "marquee-tool": "تحديد مستطيل",
     "lasso-tool": "تحديد حر",
     "wand-tool": "العصا السحرية",
+    "ai-select-tool": "تحديد الكائن بالذكاء الاصطناعي",
     "marquee-hint": "اسحب مستطيلاً على القماش لتحديد تلك المنطقة من البكسل.",
     "lasso-hint": "اسحب حلقة حرة على القماش لتحديد تلك المنطقة من البكسل.",
     "wand-hint": "انقر داخل الصورة لتحديد المنطقة المتجاورة المطابقة، بناءً على التفاوت أدناه.",
+    "ai-select-hint": "انقر على نقطة في كائن ليقوم الذكاء الاصطناعي بتحديده تلقائيًا. انقر مرة أخرى للإضافة، أو Alt+نقر لاستبعاد منطقة.",
+
+    "ai-select-encoding": "جارٍ تحليل الصورة…",
+
+    "ai-select-include-mode": "تضمين",
+
+    "ai-select-exclude-mode": "استبعاد",
+
+    "ai-select-commit": "تأكيد",
+
+    "ai-select-discard": "تجاهل",
+
     "wand-tolerance": "التفاوت",
     "selection-select-all": "تحديد الكل",
     "selection-deselect": "إلغاء التحديد",
@@ -574,8 +587,8 @@
     "history-remove-layer": "إزالة طبقة",
     "history-reorder-layer": "إعادة ترتيب الطبقة",
     "history-move-layer": "نقل طبقة",
-    "history-draw": "رسم",
-    "history-clear-drawings": "مسح الرسومات",
+    "history-draw": "تعليق توضيحي",
+    "history-clear-drawings": "مسح التعليقات التوضيحية",
     "history-crop": "قص",
     "history-set-mask": "تعيين قناع",
     "history-toggle-mask": "تبديل القناع",
@@ -1267,6 +1280,21 @@
     "color-balance-highlights": "الإضاءات",
     "color-balance-cyanRed": "سماوي-أحمر",
     "color-balance-magentaGreen": "أرجواني-أخضر",
-    "color-balance-yellowBlue": "أصفر-أزرق"
+    "color-balance-yellowBlue": "أصفر-أزرق",
+    "background-layer": "الخلفية",
+    "background-unlock-hint": "انقر نقرًا مزدوجًا لإلغاء قفل هذه الطبقة للتحرير",
+    "background-unlocked": "تم إلغاء قفل طبقة الخلفية — تمت إعادة ضبط التعديلات للطبقة الجديدة",
+    "ai-op-cancel": "إلغاء",
+    "brush-tool": "فرشاة",
+    "brush-hint": "اسحب فوق الصورة للرسم بلون واحد، ثم اضغط تطبيق.",
+    "brush-color": "اللون",
+    "brush-opacity": "العتامة",
+    "brush-hardness": "الصلابة",
+    "brush-undo": "تراجع",
+    "brush-apply": "تطبيق الطلاء",
+    "brush-soft-edge-note": "تظهر الحواف الناعمة (صلابة أقل من 100%) بعد التطبيق.",
+    "pen-anchor-mode": "وضع نقطة الإرساء",
+    "pen-anchor-corner": "زاوية",
+    "pen-anchor-smooth": "ناعم"
   }
 }

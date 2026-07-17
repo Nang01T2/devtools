@@ -344,12 +344,12 @@
     "rail-files": "ファイル",
     "files-panel-title": "テンプレート",
     "change-image": "画像を変更",
-    "draw": "描画",
-    "panel-draw": "描画",
-    "draw-hint": "ミームに自由に描けます。ドラッグして描画。",
+    "draw": "注釈",
+    "panel-draw": "注釈",
+    "draw-hint": "ミームに自由に注釈を付けられます。ドラッグして描画。",
     "draw-color": "色",
     "draw-width": "ブラシ",
-    "draw-clear": "描画を消去",
+    "draw-clear": "注釈を消去",
     "color-red": "赤",
     "color-yellow": "黄",
     "color-green": "緑",
@@ -423,9 +423,22 @@
     "marquee-tool": "矩形選択",
     "lasso-tool": "投げなわ選択",
     "wand-tool": "マジックワンド",
+    "ai-select-tool": "AIオブジェクト選択",
     "marquee-hint": "キャンバス上で矩形をドラッグして、そのピクセル領域を選択します。",
     "lasso-hint": "キャンバス上でフリーハンドの輪をドラッグして、そのピクセル領域を選択します。",
     "wand-hint": "画像内をクリックすると、下の許容範囲に基づいて連続する一致領域が選択されます。",
+    "ai-select-hint": "オブジェクト上の1点をクリックするとAIが自動的に選択します。クリックを追加するか、Alt+クリックで領域を除外できます。",
+
+    "ai-select-encoding": "画像を解析中…",
+
+    "ai-select-include-mode": "含める",
+
+    "ai-select-exclude-mode": "除外",
+
+    "ai-select-commit": "確定",
+
+    "ai-select-discard": "破棄",
+
     "wand-tolerance": "許容範囲",
     "selection-select-all": "すべて選択",
     "selection-deselect": "選択解除",
@@ -574,8 +587,8 @@
     "history-remove-layer": "レイヤーを削除",
     "history-reorder-layer": "レイヤーの並べ替え",
     "history-move-layer": "レイヤーを移動",
-    "history-draw": "描画",
-    "history-clear-drawings": "描画を消去",
+    "history-draw": "注釈",
+    "history-clear-drawings": "注釈を消去",
     "history-crop": "切り抜き",
     "history-set-mask": "マスクを設定",
     "history-toggle-mask": "マスクの切り替え",
@@ -1267,6 +1280,21 @@
     "color-balance-highlights": "ハイライト",
     "color-balance-cyanRed": "シアン-レッド",
     "color-balance-magentaGreen": "マゼンタ-グリーン",
-    "color-balance-yellowBlue": "イエロー-ブルー"
+    "color-balance-yellowBlue": "イエロー-ブルー",
+    "background-layer": "背景",
+    "background-unlock-hint": "ダブルクリックしてこのレイヤーのロックを解除し編集できるようにします",
+    "background-unlocked": "背景レイヤーのロックを解除しました — 新しいレイヤーの調整はリセットされました",
+    "ai-op-cancel": "キャンセル",
+    "brush-tool": "ブラシ",
+    "brush-hint": "画像上でドラッグして単色で塗り、適用を押してください。",
+    "brush-color": "色",
+    "brush-opacity": "不透明度",
+    "brush-hardness": "硬さ",
+    "brush-undo": "元に戻す",
+    "brush-apply": "ペイントを適用",
+    "brush-soft-edge-note": "ソフトエッジ（硬さ100%未満）は適用後に表示されます。",
+    "pen-anchor-mode": "アンカーモード",
+    "pen-anchor-corner": "コーナー",
+    "pen-anchor-smooth": "スムーズ"
   }
 }
