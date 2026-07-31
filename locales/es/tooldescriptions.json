@@ -34,7 +34,7 @@
   "multi-language-translator": "Traduce palabras y frases a más de 11 idiomas al instante. Genera archivos common.json listos para usar en tu aplicación (i18n) con camelCase, snake_case…",
   "markdown-editor": "Escribe, edita y previsualiza Markdown en tiempo real con resaltado de sintaxis, renderizado en vivo, soporte para modo oscuro/claro y opciones de…",
   "icon-generator": "Genera conjuntos completos de iconos de aplicación para iOS y Android a partir de una sola imagen de origen.",
-  "image-converter": "Convertidor de imágenes avanzado compatible con formatos modernos: HEIC/HEIF (fotos de iPhone), AVIF, WebP, JPEG XL (JXL), MozJPEG, PNG y GIF animado.",
+  "image-converter": "Esta herramienta se trasladó: la conversión de imágenes (HEIC, AVIF, WebP, JPEG XL, GIF) ahora está en Convertir y optimizar por lotes de MemeMaker.",
   "pdf-to-images": "Extrae imágenes de alta calidad de archivos PDF página por página.",
   "ip-geolocation": "Obtén al instante datos de geolocalización de cualquier dirección IP (o de tu IP actual).",
   "meme-maker": "Crea memes desde fotos, GIFs o vídeos. Añade subtítulos, stickers y 60+ filtros en cada fotograma. Exporta PNG, GIF o MP4. Sin subidas, sin marca de agua."

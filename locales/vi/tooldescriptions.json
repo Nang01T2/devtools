@@ -34,7 +34,7 @@
   "multi-language-translator": "Dịch từ và cụm từ sang hơn 11 ngôn ngữ ngay lập tức. Tạo tệp common.json sẵn dùng cho ứng dụng (i18n) với camelCase, snake_case hoặc bất kỳ định dạng nào.",
   "markdown-editor": "Viết, chỉnh sửa và xem trước Markdown theo thời gian thực với tô sáng cú pháp, kết xuất trực tiếp, hỗ trợ chế độ sáng/tối và tùy chọn xuất.",
   "icon-generator": "Tạo bộ icon ứng dụng đầy đủ cho iOS và Android từ một ảnh nguồn.",
-  "image-converter": "Trình chuyển đổi ảnh nâng cao hỗ trợ định dạng hiện đại: HEIC/HEIF (ảnh iPhone), AVIF, WebP, JPEG XL (JXL), MozJPEG, PNG và GIF động.",
+  "image-converter": "Công cụ này đã chuyển: tính năng chuyển đổi ảnh (HEIC, AVIF, WebP, JPEG XL, GIF) giờ nằm trong tính năng Chuyển đổi & Tối ưu hàng loạt của MemeMaker.",
   "pdf-to-images": "Trích xuất ảnh chất lượng cao từ tệp PDF theo từng trang. Chọn đầu ra PNG hoặc JPEG, điều chỉnh độ phân giải (72–288 DPI), chất lượng JPEG, xử lý hàng…",
   "ip-geolocation": "Truy xuất ngay dữ liệu vị trí địa lý của bất kỳ địa chỉ IP nào (hoặc IP hiện tại của bạn).",
   "meme-maker": "Tạo meme từ ảnh, GIF hoặc video. Thêm chú thích, sticker & 60+ bộ lọc cho mọi khung hình. Xuất PNG, GIF hoặc MP4. Không upload, không watermark."
