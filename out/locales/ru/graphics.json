@@ -1770,7 +1770,15 @@
     "bgeraser-mode-background": "Цвет фона",
     "bgeraser-tolerance": "Допуск",
     "bgeraser-anti-alias": "Сглаживание",
-    "bgeraser-contiguous": "Смежные"
+    "bgeraser-contiguous": "Смежные",
+    "blur-tool": "Инструмент Размытие",
+    "sharpen-tool": "Инструмент Резкость",
+    "blur-group-tools": "Инструменты размытия",
+    "blur-flyout-hint": "Удерживайте, чтобы выбрать инструмент размытия",
+    "blur-strength": "Сила",
+    "blur-select-image-hint": "Выберите слой изображения для размытия",
+    "sharpen-protect-detail": "Защита деталей",
+    "sharpen-select-image-hint": "Выберите слой изображения для повышения резкости"
   },
   "converter-moved": {
     "heading": "Этот инструмент переехал",

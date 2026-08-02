@@ -1770,7 +1770,15 @@
     "bgeraser-mode-background": "背景色板",
     "bgeraser-tolerance": "容差",
     "bgeraser-anti-alias": "抗锯齿",
-    "bgeraser-contiguous": "邻近"
+    "bgeraser-contiguous": "邻近",
+    "blur-tool": "模糊工具",
+    "sharpen-tool": "锐化工具",
+    "blur-group-tools": "模糊工具组",
+    "blur-flyout-hint": "按住以选择模糊工具",
+    "blur-strength": "强度",
+    "blur-select-image-hint": "选择一个图像图层以进行模糊",
+    "sharpen-protect-detail": "保护细节",
+    "sharpen-select-image-hint": "选择一个图像图层以进行锐化"
   },
   "converter-moved": {
     "heading": "此工具已迁移",

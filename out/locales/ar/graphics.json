@@ -1770,7 +1770,15 @@
     "bgeraser-mode-background": "لون الخلفية",
     "bgeraser-tolerance": "التفاوت",
     "bgeraser-anti-alias": "تنعيم الحواف",
-    "bgeraser-contiguous": "متجاور"
+    "bgeraser-contiguous": "متجاور",
+    "blur-tool": "أداة التمويه",
+    "sharpen-tool": "أداة التوضيح",
+    "blur-group-tools": "أدوات التمويه",
+    "blur-flyout-hint": "اضغط مطولاً لاختيار أداة تمويه",
+    "blur-strength": "القوة",
+    "blur-select-image-hint": "اختر طبقة صورة للتمويه",
+    "sharpen-protect-detail": "حماية التفاصيل",
+    "sharpen-select-image-hint": "اختر طبقة صورة للتوضيح"
   },
   "converter-moved": {
     "heading": "تم نقل هذه الأداة",

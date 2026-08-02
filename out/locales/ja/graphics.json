@@ -1770,7 +1770,15 @@
     "bgeraser-mode-background": "背景色",
     "bgeraser-tolerance": "許容値",
     "bgeraser-anti-alias": "アンチエイリアス",
-    "bgeraser-contiguous": "隣接"
+    "bgeraser-contiguous": "隣接",
+    "blur-tool": "ぼかしツール",
+    "sharpen-tool": "シャープツール",
+    "blur-group-tools": "ぼかしツール",
+    "blur-flyout-hint": "長押しでぼかしツールを選択",
+    "blur-strength": "強さ",
+    "blur-select-image-hint": "ぼかす画像レイヤーを選択してください",
+    "sharpen-protect-detail": "ディテールを保護",
+    "sharpen-select-image-hint": "シャープにする画像レイヤーを選択してください"
   },
   "converter-moved": {
     "heading": "このツールは移動しました",

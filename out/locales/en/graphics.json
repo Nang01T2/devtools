@@ -1771,7 +1771,15 @@
     "bgeraser-mode-background": "Background Swatch",
     "bgeraser-tolerance": "Tolerance",
     "bgeraser-anti-alias": "Anti-alias",
-    "bgeraser-contiguous": "Contiguous"
+    "bgeraser-contiguous": "Contiguous",
+    "blur-tool": "Blur Tool",
+    "sharpen-tool": "Sharpen Tool",
+    "blur-group-tools": "Blur tools",
+    "blur-flyout-hint": "Hold to choose a blur tool",
+    "blur-strength": "Strength",
+    "blur-select-image-hint": "Select an image layer to blur",
+    "sharpen-protect-detail": "Protect Detail",
+    "sharpen-select-image-hint": "Select an image layer to sharpen"
   },
   "converter-moved": {
     "heading": "This tool has moved",

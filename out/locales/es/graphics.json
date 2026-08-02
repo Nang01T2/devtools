@@ -1770,7 +1770,15 @@
     "bgeraser-mode-background": "Color de fondo",
     "bgeraser-tolerance": "Tolerancia",
     "bgeraser-anti-alias": "Suavizado",
-    "bgeraser-contiguous": "Contiguo"
+    "bgeraser-contiguous": "Contiguo",
+    "blur-tool": "Herramienta Difuminar",
+    "sharpen-tool": "Herramienta Enfocar",
+    "blur-group-tools": "Herramientas de difuminado",
+    "blur-flyout-hint": "Mantén pulsado para elegir una herramienta de difuminado",
+    "blur-strength": "Intensidad",
+    "blur-select-image-hint": "Selecciona una capa de imagen para difuminar",
+    "sharpen-protect-detail": "Proteger detalles",
+    "sharpen-select-image-hint": "Selecciona una capa de imagen para enfocar"
   },
   "converter-moved": {
     "heading": "Esta herramienta se ha trasladado",
