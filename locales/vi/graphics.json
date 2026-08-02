@@ -1770,7 +1770,15 @@
     "bgeraser-mode-background": "Màu nền",
     "bgeraser-tolerance": "Dung sai",
     "bgeraser-anti-alias": "Khử răng cưa",
-    "bgeraser-contiguous": "Liền kề"
+    "bgeraser-contiguous": "Liền kề",
+    "blur-tool": "Công cụ Làm mờ",
+    "sharpen-tool": "Công cụ Làm sắc nét",
+    "blur-group-tools": "Các công cụ làm mờ",
+    "blur-flyout-hint": "Giữ để chọn một công cụ làm mờ",
+    "blur-strength": "Cường độ",
+    "blur-select-image-hint": "Chọn một lớp hình ảnh để làm mờ",
+    "sharpen-protect-detail": "Bảo vệ chi tiết",
+    "sharpen-select-image-hint": "Chọn một lớp hình ảnh để làm sắc nét"
   },
   "converter-moved": {
     "heading": "Công cụ này đã chuyển",

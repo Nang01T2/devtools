@@ -1770,7 +1770,15 @@
     "bgeraser-mode-background": "Hintergrundfarbe",
     "bgeraser-tolerance": "Toleranz",
     "bgeraser-anti-alias": "Kantenglättung",
-    "bgeraser-contiguous": "Zusammenhängend"
+    "bgeraser-contiguous": "Zusammenhängend",
+    "blur-tool": "Weichzeichner-Werkzeug",
+    "sharpen-tool": "Scharfzeichner-Werkzeug",
+    "blur-group-tools": "Weichzeichner-Werkzeuge",
+    "blur-flyout-hint": "Gedrückt halten, um ein Weichzeichner-Werkzeug zu wählen",
+    "blur-strength": "Stärke",
+    "blur-select-image-hint": "Wähle eine Bildebene zum Weichzeichnen aus",
+    "sharpen-protect-detail": "Details schützen",
+    "sharpen-select-image-hint": "Wähle eine Bildebene zum Scharfzeichnen aus"
   },
   "converter-moved": {
     "heading": "Dieses Tool ist umgezogen",

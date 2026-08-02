@@ -1770,7 +1770,15 @@
     "bgeraser-mode-background": "Couleur d'arrière-plan",
     "bgeraser-tolerance": "Tolérance",
     "bgeraser-anti-alias": "Anticrénelage",
-    "bgeraser-contiguous": "Contigu"
+    "bgeraser-contiguous": "Contigu",
+    "blur-tool": "Outil Flou",
+    "sharpen-tool": "Outil Netteté",
+    "blur-group-tools": "Outils de flou",
+    "blur-flyout-hint": "Maintenez pour choisir un outil de flou",
+    "blur-strength": "Intensité",
+    "blur-select-image-hint": "Sélectionnez un calque image à flouter",
+    "sharpen-protect-detail": "Protéger les détails",
+    "sharpen-select-image-hint": "Sélectionnez un calque image à accentuer"
   },
   "converter-moved": {
     "heading": "Cet outil a déménagé",

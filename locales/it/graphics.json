@@ -1770,7 +1770,15 @@
     "bgeraser-mode-background": "Colore di sfondo",
     "bgeraser-tolerance": "Tolleranza",
     "bgeraser-anti-alias": "Anti-aliasing",
-    "bgeraser-contiguous": "Contiguo"
+    "bgeraser-contiguous": "Contiguo",
+    "blur-tool": "Strumento Sfoca",
+    "sharpen-tool": "Strumento Nitidezza",
+    "blur-group-tools": "Strumenti di sfocatura",
+    "blur-flyout-hint": "Tieni premuto per scegliere uno strumento di sfocatura",
+    "blur-strength": "Intensità",
+    "blur-select-image-hint": "Seleziona un livello immagine da sfocare",
+    "sharpen-protect-detail": "Proteggi dettagli",
+    "sharpen-select-image-hint": "Seleziona un livello immagine per nitidire"
   },
   "converter-moved": {
     "heading": "Questo strumento si è spostato",

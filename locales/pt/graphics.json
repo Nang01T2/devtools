@@ -1770,7 +1770,15 @@
     "bgeraser-mode-background": "Cor de fundo",
     "bgeraser-tolerance": "Tolerância",
     "bgeraser-anti-alias": "Suavização",
-    "bgeraser-contiguous": "Contíguo"
+    "bgeraser-contiguous": "Contíguo",
+    "blur-tool": "Ferramenta Desfoque",
+    "sharpen-tool": "Ferramenta Nitidez",
+    "blur-group-tools": "Ferramentas de desfoque",
+    "blur-flyout-hint": "Mantenha pressionado para escolher uma ferramenta de desfoque",
+    "blur-strength": "Força",
+    "blur-select-image-hint": "Selecione uma camada de imagem para desfocar",
+    "sharpen-protect-detail": "Proteger detalhes",
+    "sharpen-select-image-hint": "Selecione uma camada de imagem para nitidez"
   },
   "converter-moved": {
     "heading": "Esta ferramenta foi movida",
