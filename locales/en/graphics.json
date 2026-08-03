@@ -371,6 +371,7 @@
     "move-target-label": "Auto-select target",
     "move-transform-controls": "Transform controls",
     "move-distances": "Distances",
+    "move-align-to": "Align to:",
     "move-align-relative-to": "Align relative to",
     "move-align-relative-selection": "Selection",
     "move-align-relative-canvas": "Canvas",

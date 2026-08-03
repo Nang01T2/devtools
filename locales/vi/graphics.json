@@ -369,6 +369,7 @@
     "move-target-label": "Đối tượng tự động chọn",
     "move-transform-controls": "Điều khiển biến đổi",
     "move-distances": "Khoảng cách",
+    "move-align-to": "Căn chỉnh theo:",
     "move-align-relative-to": "Căn chỉnh tương đối với",
     "move-align-relative-selection": "Vùng chọn",
     "move-align-relative-canvas": "Canvas",
