@@ -369,6 +369,7 @@
     "move-target-label": "هدف التحديد التلقائي",
     "move-transform-controls": "عناصر التحكم بالتحويل",
     "move-distances": "المسافات",
+    "move-align-to": "محاذاة إلى:",
     "move-align-relative-to": "محاذاة بالنسبة إلى",
     "move-align-relative-selection": "التحديد",
     "move-align-relative-canvas": "اللوحة",

@@ -369,6 +369,7 @@
     "move-target-label": "自动选择目标",
     "move-transform-controls": "变换控件",
     "move-distances": "距离标注",
+    "move-align-to": "对齐到：",
     "move-align-relative-to": "对齐基准",
     "move-align-relative-selection": "所选内容",
     "move-align-relative-canvas": "画布",

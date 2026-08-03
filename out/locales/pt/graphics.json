@@ -369,6 +369,7 @@
     "move-target-label": "Alvo da seleção automática",
     "move-transform-controls": "Controles de transformação",
     "move-distances": "Distâncias",
+    "move-align-to": "Alinhar a:",
     "move-align-relative-to": "Alinhar em relação a",
     "move-align-relative-selection": "Seleção",
     "move-align-relative-canvas": "Tela",

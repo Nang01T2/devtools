@@ -369,6 +369,7 @@
     "move-target-label": "Цель автовыбора",
     "move-transform-controls": "Элементы управления трансформацией",
     "move-distances": "Расстояния",
+    "move-align-to": "Выровнять по:",
     "move-align-relative-to": "Выровнять относительно",
     "move-align-relative-selection": "Выделение",
     "move-align-relative-canvas": "Холст",

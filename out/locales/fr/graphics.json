@@ -369,6 +369,7 @@
     "move-target-label": "Cible de sélection automatique",
     "move-transform-controls": "Contrôles de transformation",
     "move-distances": "Distances",
+    "move-align-to": "Aligner sur :",
     "move-align-relative-to": "Aligner par rapport à",
     "move-align-relative-selection": "Sélection",
     "move-align-relative-canvas": "Canevas",

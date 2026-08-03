@@ -369,6 +369,7 @@
     "move-target-label": "自動選択の対象",
     "move-transform-controls": "変形コントロール",
     "move-distances": "距離表示",
+    "move-align-to": "整列先:",
     "move-align-relative-to": "整列の基準",
     "move-align-relative-selection": "選択範囲",
     "move-align-relative-canvas": "キャンバス",
