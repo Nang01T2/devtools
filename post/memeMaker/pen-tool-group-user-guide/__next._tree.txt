@@ -1,0 +1,6 @@
+:HL["/_next/static/chunks/3l04d4l8ip31q.css","style"]
+:HC["/",""]
+:HL["/_next/static/chunks/0yop7oedvgwaq.css","style"]
+:HL["https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css","style"]
+:HL["/vendor/bootstrap.min.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"(blog)","param":null,"prefetchHints":0,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"c","key":"memeMaker/pen-tool-group-user-guide","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"2xCYBdyHjZXyX5jikHfO9"}
