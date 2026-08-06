@@ -272,6 +272,7 @@
     "aspect-landscape": "أفقي 16:9",
     "aspect-pad-color": "لون الحشو",
     "quality": "الجودة",
+    "svg-raster-hint": "يضمّن صورة نقطية مسطحة داخل حاوية SVG — وليس رسمًا متجهيًا. الجودة 100% تدمج PNG بدون فقدان؛ وأقل من 100% تدمج JPEG.",
     "auto-quality": "تلقائي",
     "auto-quality-hint": "ابحث عن أصغر حجم بجودة شبه مطابقة",
     "auto-quality-applied": "تم تطبيق الجودة التلقائية: {percent}%",

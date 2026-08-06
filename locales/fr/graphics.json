@@ -272,6 +272,7 @@
     "aspect-landscape": "Paysage 16:9",
     "aspect-pad-color": "Remplissage",
     "quality": "Qualité",
+    "svg-raster-hint": "Intègre une image matricielle aplatie dans un conteneur SVG — pas un rendu vectoriel. Qualité 100 % intègre du PNG sans perte ; en dessous, du JPEG.",
     "auto-quality": "Auto",
     "auto-quality-hint": "Trouver la plus petite taille à qualité quasi identique",
     "auto-quality-applied": "Qualité auto appliquée : {percent}%",

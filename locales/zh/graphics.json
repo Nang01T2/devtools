@@ -272,6 +272,7 @@
     "aspect-landscape": "横版 16:9",
     "aspect-pad-color": "填充色",
     "quality": "质量",
+    "svg-raster-hint": "在 SVG 容器中嵌入扁平化位图 — 不是矢量图。100% 质量嵌入无损 PNG；低于 100% 嵌入 JPEG。",
     "auto-quality": "自动",
     "auto-quality-hint": "在画质几乎不变的前提下找到最小体积",
     "auto-quality-applied": "已应用自动画质：{percent}%",

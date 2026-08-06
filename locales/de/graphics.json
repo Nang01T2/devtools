@@ -272,6 +272,7 @@
     "aspect-landscape": "Querformat 16:9",
     "aspect-pad-color": "Randfarbe",
     "quality": "Qualität",
+    "svg-raster-hint": "Bettet ein flaches Rasterbild in einen SVG-Container ein — kein Vektorart. Bei 100 % Qualität wird verlustfreies PNG eingebettet, darunter JPEG.",
     "auto-quality": "Auto",
     "auto-quality-hint": "Kleinste Dateigröße bei nahezu identischer Qualität finden",
     "auto-quality-applied": "Auto-Qualität angewendet: {percent}%",
