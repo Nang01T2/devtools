@@ -272,6 +272,7 @@
     "aspect-landscape": "横長 16:9",
     "aspect-pad-color": "余白の色",
     "quality": "品質",
+    "svg-raster-hint": "SVGコンテナ内に平坦化されたラスター画像を埋め込みます（ベクターアートではありません）。品質100%ではロスレスPNGを埋め込み、100%未満ではJPEGを埋め込みます。",
     "auto-quality": "自動",
     "auto-quality-hint": "ほぼ同じ画質で最小サイズを自動で探します",
     "auto-quality-applied": "自動画質を適用しました: {percent}%",

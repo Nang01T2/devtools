@@ -275,6 +275,7 @@
     "aspect-landscape": "Landscape 16:9",
     "aspect-pad-color": "Padding",
     "quality": "Quality",
+    "svg-raster-hint": "Embeds a flattened raster image inside an SVG container — not vector art. 100% quality embeds lossless PNG; below 100% embeds JPEG.",
     "auto-quality": "Auto",
     "auto-quality-hint": "Find the smallest size at near-identical quality",
     "auto-quality-applied": "Auto quality applied: {percent}%",

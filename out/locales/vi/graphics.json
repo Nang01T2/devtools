@@ -272,6 +272,7 @@
     "aspect-landscape": "Ngang 16:9",
     "aspect-pad-color": "Màu nền",
     "quality": "Chất lượng",
+    "svg-raster-hint": "Nhúng một hình ảnh raster đã làm phẳng vào bên trong một container SVG — không phải ảnh vector. Chất lượng 100% nhúng PNG lossless; dưới 100% nhúng JPEG.",
     "auto-quality": "Tự động",
     "auto-quality-hint": "Tìm dung lượng nhỏ nhất với chất lượng gần như không đổi",
     "auto-quality-applied": "Đã áp dụng chất lượng tự động: {percent}%",

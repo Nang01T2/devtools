@@ -272,6 +272,7 @@
     "aspect-landscape": "Horizontal 16:9",
     "aspect-pad-color": "Preenchimento",
     "quality": "Qualidade",
+    "svg-raster-hint": "Embute uma imagem raster achatada dentro de um contêiner SVG — não é arte vetorial. Qualidade 100% incorpora PNG sem perdas; abaixo de 100% incorpora JPEG.",
     "auto-quality": "Auto",
     "auto-quality-hint": "Encontrar o menor tamanho com qualidade quase idêntica",
     "auto-quality-applied": "Qualidade automática aplicada: {percent}%",
