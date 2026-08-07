@@ -12,10 +12,18 @@
 // Two-image ops (watermark/blend) never travel this path — every
 // applyPhotonOpToLayer/applyPhotonOp call site is a single-image op.
 import * as photon from "@gadgetforge/media-core/photon";
+// F03, mememaker-dodge-burn-sponge-photopea-parity — 2 compound ops
+// (lightenHslProtected/darkenHslProtected) merged into the SAME op-name
+// lookup below, alongside photon's own real exports — see
+// protectedPhotonOps.ts's own header for why (Protect Tones travels through
+// this existing single-round-trip contract with zero new message shape).
+import * as protectedOps from "./protectedPhotonOps";
 
 interface PhotonJob {
   id: number;
-  /** Name of an export of @gadgetforge/media-core/photon, e.g. "sepia". */
+  /** Name of an export of @gadgetforge/media-core/photon, or one of
+   *  protectedPhotonOps.ts's compound ops (e.g. "sepia",
+   *  "lightenHslProtected"). */
   op: string;
   width: number;
   height: number;
@@ -31,7 +39,9 @@ ctx.onmessage = async (e: MessageEvent<PhotonJob>) => {
   const { id, op, width, height, buffer, args } = e.data;
   try {
     const data = new ImageData(new Uint8ClampedArray(buffer), width, height);
-    const fn = (photon as Record<string, unknown>)[op];
+    const fn =
+      (photon as Record<string, unknown>)[op] ??
+      (protectedOps as Record<string, unknown>)[op];
     if (typeof fn !== "function") {
       throw new Error(`unknown photon op: ${op}`);
     }
