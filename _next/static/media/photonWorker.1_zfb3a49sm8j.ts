@@ -18,18 +18,24 @@ import * as photon from "@gadgetforge/media-core/photon";
 // protectedPhotonOps.ts's own header for why (Protect Tones travels through
 // this existing single-round-trip contract with zero new message shape).
 import * as protectedOps from "./protectedPhotonOps";
+// F04, mememaker-filter-menu-parity — gaussianBlur-composed filter
+// composites (Unsharp Mask / High Pass / Sharpen Edges) join the same
+// op-name lookup, exactly as protectedPhotonOps did.
+import * as filterComposites from "./filters";
 
 interface PhotonJob {
   id: number;
   /** Name of an export of @gadgetforge/media-core/photon, or one of
    *  protectedPhotonOps.ts's compound ops (e.g. "sepia",
-   *  "lightenHslProtected"). */
+   *  "lightenHslProtected"), or one of lib/filters/index.ts's composites
+   *  (e.g. "unsharpMask", "highPass"). */
   op: string;
   width: number;
   height: number;
   /** The source ImageData's RGBA bytes — transferred in, owned by the worker. */
   buffer: ArrayBuffer;
-  /** Scalar params after the leading ImageData argument. */
+  /** Scalar params, or a single structured-cloneable params object (e.g.
+   *  unsharpMask/highPass), after the leading ImageData argument. */
   args: unknown[];
 }
 
@@ -41,7 +47,8 @@ ctx.onmessage = async (e: MessageEvent<PhotonJob>) => {
     const data = new ImageData(new Uint8ClampedArray(buffer), width, height);
     const fn =
       (photon as Record<string, unknown>)[op] ??
-      (protectedOps as Record<string, unknown>)[op];
+      (protectedOps as Record<string, unknown>)[op] ??
+      (filterComposites as Record<string, unknown>)[op];
     if (typeof fn !== "function") {
       throw new Error(`unknown photon op: ${op}`);
     }
