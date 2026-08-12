@@ -1331,6 +1331,7 @@
     "layers-empty-hint": "Добавьте текст или стикер, чтобы начать",
     "trending": "Популярное",
     "copy": "Копировать",
+    "copy-merged": "Copy Merged",
     "menu-paste": "Вставить",
     "menu-delete": "Удалить",
     "menu-item-invert-selection": "Инвертировать выделение",
