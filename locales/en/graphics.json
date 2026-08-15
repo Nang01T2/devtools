@@ -2117,6 +2117,9 @@
     "brush-sensor-none": "None",
     "brush-sensor-pressure": "Pressure",
     "brush-sensor-velocity": "Velocity",
+    "brush-sensor-distance": "Distance",
+    "brush-sensor-fade": "Fade",
+    "brush-sensor-multi-hint": "Multiple sensors on one parameter combine multiplicatively.",
     "brush-sensor-tilt": "Tilt",
     "brush-sensor-param-size": "Size",
     "brush-sensor-param-opacity": "Opacity",
@@ -2717,7 +2720,15 @@
     "path-blur-point-label": "Point {n} of {total}",
     "path-blur-distance": "Speed",
     "path-blur-no-path": "Draw a path with the Pen tool first — Path Blur follows the path",
-    "path-blur-resolution-warning": "This image is large — applying Path Blur may take {time}. Consider lowering point speeds or working on a smaller canvas."
+    "path-blur-resolution-warning": "This image is large — applying Path Blur may take {time}. Consider lowering point speeds or working on a smaller canvas.",
+    "brush-sensor-curve": "Response Curve",
+    "brush-sensor-curve-preset-linear": "Linear",
+    "brush-sensor-curve-preset-soft": "Soft",
+    "brush-sensor-curve-preset-hard": "Hard",
+    "brush-sensor-curve-preset-scurve": "S-Curve",
+    "brush-sensor-curve-reset": "Reset",
+    "brush-sensor-curve-canvas-aria": "Sensor response curve editor. Drag points to reshape how the sensor maps to this parameter.",
+    "brush-sensor-curve-hint": "Double-click to add a point; double-click a point to remove it"
   },
   "converter-moved": {
     "heading": "This tool has moved",

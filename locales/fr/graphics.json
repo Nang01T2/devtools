@@ -2115,6 +2115,9 @@
     "brush-sensor-none": "Aucun",
     "brush-sensor-pressure": "Pression",
     "brush-sensor-velocity": "Vitesse",
+    "brush-sensor-distance": "Distance",
+    "brush-sensor-fade": "Fondu",
+    "brush-sensor-multi-hint": "Plusieurs capteurs sur un même paramètre se combinent de façon multiplicative.",
     "brush-sensor-tilt": "Inclinaison",
     "brush-sensor-param-size": "Taille",
     "brush-sensor-param-opacity": "Opacité",
@@ -2715,7 +2718,15 @@
     "path-blur-point-label": "Point {n} sur {total}",
     "path-blur-distance": "Vitesse",
     "path-blur-no-path": "Dessinez d'abord un tracé avec l'outil Plume — le Flou de trajectoire suit le tracé",
-    "path-blur-resolution-warning": "Cette image est grande — appliquer Flou de trajectoire peut prendre {time}. Envisagez de réduire les vitesses des points ou de travailler sur un canevas plus petit."
+    "path-blur-resolution-warning": "Cette image est grande — appliquer Flou de trajectoire peut prendre {time}. Envisagez de réduire les vitesses des points ou de travailler sur un canevas plus petit.",
+    "brush-sensor-curve": "Courbe de réponse",
+    "brush-sensor-curve-preset-linear": "Linéaire",
+    "brush-sensor-curve-preset-soft": "Douce",
+    "brush-sensor-curve-preset-hard": "Dure",
+    "brush-sensor-curve-preset-scurve": "Courbe en S",
+    "brush-sensor-curve-reset": "Réinitialiser",
+    "brush-sensor-curve-canvas-aria": "Éditeur de courbe de réponse du capteur. Faites glisser les points pour modifier la façon dont le capteur correspond à ce paramètre.",
+    "brush-sensor-curve-hint": "Double-cliquez pour ajouter un point ; double-cliquez sur un point pour le supprimer"
   },
   "converter-moved": {
     "heading": "Cet outil a déménagé",
