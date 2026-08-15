@@ -2115,6 +2115,9 @@
     "brush-sensor-none": "Nenhum",
     "brush-sensor-pressure": "Pressão",
     "brush-sensor-velocity": "Velocidade",
+    "brush-sensor-distance": "Distância",
+    "brush-sensor-fade": "Esmaecer",
+    "brush-sensor-multi-hint": "Vários sensores em um parâmetro combinam-se multiplicativamente.",
     "brush-sensor-tilt": "Inclinação",
     "brush-sensor-param-size": "Tamanho",
     "brush-sensor-param-opacity": "Opacidade",
@@ -2715,7 +2718,15 @@
     "path-blur-point-label": "Ponto {n} de {total}",
     "path-blur-distance": "Velocidade",
     "path-blur-no-path": "Desenhe primeiro um traçado com a ferramenta Caneta — o Desfoque de trajetória segue o traçado",
-    "path-blur-resolution-warning": "Esta imagem é grande — aplicar Desfoque de trajetória pode levar {time}. Considere reduzir as velocidades dos pontos ou trabalhar em uma tela menor."
+    "path-blur-resolution-warning": "Esta imagem é grande — aplicar Desfoque de trajetória pode levar {time}. Considere reduzir as velocidades dos pontos ou trabalhar em uma tela menor.",
+    "brush-sensor-curve": "Curva de resposta",
+    "brush-sensor-curve-preset-linear": "Linear",
+    "brush-sensor-curve-preset-soft": "Suave",
+    "brush-sensor-curve-preset-hard": "Dura",
+    "brush-sensor-curve-preset-scurve": "Curva em S",
+    "brush-sensor-curve-reset": "Redefinir",
+    "brush-sensor-curve-canvas-aria": "Editor de curva de resposta do sensor. Arraste os pontos para remodelar como o sensor mapeia para este parâmetro.",
+    "brush-sensor-curve-hint": "Clique duas vezes para adicionar um ponto; clique duas vezes num ponto para removê-lo"
   },
   "converter-moved": {
     "heading": "Esta ferramenta foi movida",

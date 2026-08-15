@@ -2115,6 +2115,9 @@
     "brush-sensor-none": "なし",
     "brush-sensor-pressure": "筆圧",
     "brush-sensor-velocity": "速度",
+    "brush-sensor-distance": "距離",
+    "brush-sensor-fade": "フェード",
+    "brush-sensor-multi-hint": "同じパラメータに複数のセンサーを設定すると、乗算で合成されます。",
     "brush-sensor-tilt": "傾き",
     "brush-sensor-param-size": "サイズ",
     "brush-sensor-param-opacity": "不透明度",
@@ -2715,7 +2718,15 @@
     "path-blur-point-label": "ポイント {n}/{total}",
     "path-blur-distance": "速度",
     "path-blur-no-path": "まずペンツールでパスを描いてください — パスぼかしはパスに沿って適用されます",
-    "path-blur-resolution-warning": "この画像は大きいため、パスぼかしの適用に{time}かかる場合があります。ポイントの速度を下げるか、より小さいキャンバスで作業することを検討してください。"
+    "path-blur-resolution-warning": "この画像は大きいため、パスぼかしの適用に{time}かかる場合があります。ポイントの速度を下げるか、より小さいキャンバスで作業することを検討してください。",
+    "brush-sensor-curve": "レスポンスカーブ",
+    "brush-sensor-curve-preset-linear": "リニア",
+    "brush-sensor-curve-preset-soft": "ソフト",
+    "brush-sensor-curve-preset-hard": "ハード",
+    "brush-sensor-curve-preset-scurve": "Sカーブ",
+    "brush-sensor-curve-reset": "リセット",
+    "brush-sensor-curve-canvas-aria": "センサーのレスポンスカーブエディター。ポイントをドラッグして、センサーがこのパラメーターにどうマッピングされるかを変更します。",
+    "brush-sensor-curve-hint": "ダブルクリックでポイントを追加、ポイントをダブルクリックで削除"
   },
   "converter-moved": {
     "heading": "このツールは移動しました",

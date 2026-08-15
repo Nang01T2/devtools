@@ -2115,6 +2115,9 @@
     "brush-sensor-none": "Không",
     "brush-sensor-pressure": "Áp lực",
     "brush-sensor-velocity": "Tốc độ",
+    "brush-sensor-distance": "Khoảng cách",
+    "brush-sensor-fade": "Mờ dần",
+    "brush-sensor-multi-hint": "Nhiều cảm biến trên cùng một tham số sẽ kết hợp theo kiểu nhân.",
     "brush-sensor-tilt": "Độ nghiêng",
     "brush-sensor-param-size": "Kích thước",
     "brush-sensor-param-opacity": "Độ mờ",
@@ -2715,7 +2718,15 @@
     "path-blur-point-label": "Điểm {n}/{total}",
     "path-blur-distance": "Tốc độ",
     "path-blur-no-path": "Hãy vẽ đường dẫn bằng công cụ Bút trước — Làm mờ theo đường dẫn đi theo đường dẫn",
-    "path-blur-resolution-warning": "Hình ảnh này lớn — áp dụng Làm mờ theo đường dẫn có thể mất {time}. Cân nhắc giảm tốc độ các điểm hoặc làm việc trên khung vẽ nhỏ hơn."
+    "path-blur-resolution-warning": "Hình ảnh này lớn — áp dụng Làm mờ theo đường dẫn có thể mất {time}. Cân nhắc giảm tốc độ các điểm hoặc làm việc trên khung vẽ nhỏ hơn.",
+    "brush-sensor-curve": "Đường cong phản hồi",
+    "brush-sensor-curve-preset-linear": "Tuyến tính",
+    "brush-sensor-curve-preset-soft": "Mềm",
+    "brush-sensor-curve-preset-hard": "Cứng",
+    "brush-sensor-curve-preset-scurve": "Đường cong S",
+    "brush-sensor-curve-reset": "Đặt lại",
+    "brush-sensor-curve-canvas-aria": "Trình chỉnh sửa đường cong phản hồi cảm biến. Kéo các điểm để định hình lại cách cảm biến ánh xạ sang tham số này.",
+    "brush-sensor-curve-hint": "Nhấp đúp để thêm điểm; nhấp đúp vào một điểm để xoá nó"
   },
   "converter-moved": {
     "heading": "Công cụ này đã chuyển",

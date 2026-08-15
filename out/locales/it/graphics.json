@@ -2115,6 +2115,9 @@
     "brush-sensor-none": "Nessuno",
     "brush-sensor-pressure": "Pressione",
     "brush-sensor-velocity": "Velocità",
+    "brush-sensor-distance": "Distanza",
+    "brush-sensor-fade": "Dissolvenza",
+    "brush-sensor-multi-hint": "Più sensori sullo stesso parametro si combinano moltiplicativamente.",
     "brush-sensor-tilt": "Inclinazione",
     "brush-sensor-param-size": "Dimensione",
     "brush-sensor-param-opacity": "Opacità",
@@ -2715,7 +2718,15 @@
     "path-blur-point-label": "Punto {n} di {total}",
     "path-blur-distance": "Velocità",
     "path-blur-no-path": "Disegna prima un tracciato con lo strumento Penna — la Sfocatura percorso segue il tracciato",
-    "path-blur-resolution-warning": "Questa immagine è grande — l'applicazione di Sfocatura percorso potrebbe richiedere {time}. Valuta di ridurre le velocità dei punti o di lavorare su una tela più piccola."
+    "path-blur-resolution-warning": "Questa immagine è grande — l'applicazione di Sfocatura percorso potrebbe richiedere {time}. Valuta di ridurre le velocità dei punti o di lavorare su una tela più piccola.",
+    "brush-sensor-curve": "Curva di risposta",
+    "brush-sensor-curve-preset-linear": "Lineare",
+    "brush-sensor-curve-preset-soft": "Morbida",
+    "brush-sensor-curve-preset-hard": "Dura",
+    "brush-sensor-curve-preset-scurve": "Curva a S",
+    "brush-sensor-curve-reset": "Ripristina",
+    "brush-sensor-curve-canvas-aria": "Editor della curva di risposta del sensore. Trascina i punti per modificare come il sensore si associa a questo parametro.",
+    "brush-sensor-curve-hint": "Doppio clic per aggiungere un punto; doppio clic su un punto per rimuoverlo"
   },
   "converter-moved": {
     "heading": "Questo strumento si è spostato",

@@ -2115,6 +2115,9 @@
     "brush-sensor-none": "Kein",
     "brush-sensor-pressure": "Druck",
     "brush-sensor-velocity": "Geschwindigkeit",
+    "brush-sensor-distance": "Entfernung",
+    "brush-sensor-fade": "Ausblenden",
+    "brush-sensor-multi-hint": "Mehrere Sensoren auf einem Parameter multiplizieren sich.",
     "brush-sensor-tilt": "Neigung",
     "brush-sensor-param-size": "Größe",
     "brush-sensor-param-opacity": "Deckkraft",
@@ -2715,7 +2718,15 @@
     "path-blur-point-label": "Punkt {n} von {total}",
     "path-blur-distance": "Geschwindigkeit",
     "path-blur-no-path": "Zeichnen Sie zuerst einen Pfad mit dem Feder-Werkzeug — Pfadunschärfe folgt dem Pfad",
-    "path-blur-resolution-warning": "Dieses Bild ist groß — das Anwenden von Pfadunschärfe kann {time} dauern. Reduzieren Sie die Punktgeschwindigkeiten oder arbeiten Sie mit einer kleineren Leinwand."
+    "path-blur-resolution-warning": "Dieses Bild ist groß — das Anwenden von Pfadunschärfe kann {time} dauern. Reduzieren Sie die Punktgeschwindigkeiten oder arbeiten Sie mit einer kleineren Leinwand.",
+    "brush-sensor-curve": "Reaktionskurve",
+    "brush-sensor-curve-preset-linear": "Linear",
+    "brush-sensor-curve-preset-soft": "Weich",
+    "brush-sensor-curve-preset-hard": "Hart",
+    "brush-sensor-curve-preset-scurve": "S-Kurve",
+    "brush-sensor-curve-reset": "Zurücksetzen",
+    "brush-sensor-curve-canvas-aria": "Editor für die Sensor-Reaktionskurve. Ziehen Sie Punkte, um zu ändern, wie der Sensor auf diesen Parameter abgebildet wird.",
+    "brush-sensor-curve-hint": "Doppelklick zum Hinzufügen eines Punkts; Doppelklick auf einen Punkt zum Entfernen"
   },
   "converter-moved": {
     "heading": "Dieses Tool ist umgezogen",

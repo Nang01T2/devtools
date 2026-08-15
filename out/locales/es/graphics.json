@@ -2115,6 +2115,9 @@
     "brush-sensor-none": "Ninguno",
     "brush-sensor-pressure": "Presión",
     "brush-sensor-velocity": "Velocidad",
+    "brush-sensor-distance": "Distancia",
+    "brush-sensor-fade": "Desvanecer",
+    "brush-sensor-multi-hint": "Varios sensores en un mismo parámetro se combinan multiplicativamente.",
     "brush-sensor-tilt": "Inclinación",
     "brush-sensor-param-size": "Tamaño",
     "brush-sensor-param-opacity": "Opacidad",
@@ -2715,7 +2718,15 @@
     "path-blur-point-label": "Punto {n} de {total}",
     "path-blur-distance": "Velocidad",
     "path-blur-no-path": "Dibuja primero un trazado con la herramienta Pluma — el Desenfoque de trazado sigue el trazado",
-    "path-blur-resolution-warning": "Esta imagen es grande — aplicar Desenfoque de trazado puede tardar {time}. Considera reducir las velocidades de los puntos o trabajar en un lienzo más pequeño."
+    "path-blur-resolution-warning": "Esta imagen es grande — aplicar Desenfoque de trazado puede tardar {time}. Considera reducir las velocidades de los puntos o trabajar en un lienzo más pequeño.",
+    "brush-sensor-curve": "Curva de respuesta",
+    "brush-sensor-curve-preset-linear": "Lineal",
+    "brush-sensor-curve-preset-soft": "Suave",
+    "brush-sensor-curve-preset-hard": "Dura",
+    "brush-sensor-curve-preset-scurve": "Curva en S",
+    "brush-sensor-curve-reset": "Restablecer",
+    "brush-sensor-curve-canvas-aria": "Editor de la curva de respuesta del sensor. Arrastra los puntos para cambiar cómo el sensor se asigna a este parámetro.",
+    "brush-sensor-curve-hint": "Doble clic para añadir un punto; doble clic en un punto para eliminarlo"
   },
   "converter-moved": {
     "heading": "Esta herramienta se ha trasladado",

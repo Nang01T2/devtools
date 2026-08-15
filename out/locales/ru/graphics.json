@@ -2115,6 +2115,9 @@
     "brush-sensor-none": "Нет",
     "brush-sensor-pressure": "Нажим",
     "brush-sensor-velocity": "Скорость",
+    "brush-sensor-distance": "Расстояние",
+    "brush-sensor-fade": "Затухание",
+    "brush-sensor-multi-hint": "Несколько датчиков на одном параметре комбинируются мультипликативно.",
     "brush-sensor-tilt": "Наклон",
     "brush-sensor-param-size": "Размер",
     "brush-sensor-param-opacity": "Непрозрачность",
@@ -2715,7 +2718,15 @@
     "path-blur-point-label": "Точка {n} из {total}",
     "path-blur-distance": "Скорость",
     "path-blur-no-path": "Сначала нарисуйте контур инструментом Перо — размытие по траектории следует вдоль контура",
-    "path-blur-resolution-warning": "Это изображение большое — применение размытия по траектории может занять {time}. Рассмотрите снижение скоростей точек или работу с холстом меньшего размера."
+    "path-blur-resolution-warning": "Это изображение большое — применение размытия по траектории может занять {time}. Рассмотрите снижение скоростей точек или работу с холстом меньшего размера.",
+    "brush-sensor-curve": "Кривая отклика",
+    "brush-sensor-curve-preset-linear": "Линейная",
+    "brush-sensor-curve-preset-soft": "Мягкая",
+    "brush-sensor-curve-preset-hard": "Жёсткая",
+    "brush-sensor-curve-preset-scurve": "S-образная",
+    "brush-sensor-curve-reset": "Сбросить",
+    "brush-sensor-curve-canvas-aria": "Редактор кривой отклика датчика. Перетаскивайте точки, чтобы изменить, как датчик отображается на этот параметр.",
+    "brush-sensor-curve-hint": "Дважды щёлкните, чтобы добавить точку; дважды щёлкните точку, чтобы удалить её"
   },
   "converter-moved": {
     "heading": "Этот инструмент переехал",

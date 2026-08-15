@@ -2115,6 +2115,9 @@
     "brush-sensor-none": "无",
     "brush-sensor-pressure": "压力",
     "brush-sensor-velocity": "速度",
+    "brush-sensor-distance": "距离",
+    "brush-sensor-fade": "淡出",
+    "brush-sensor-multi-hint": "同一参数上的多个传感器会以乘法方式叠加。",
     "brush-sensor-tilt": "倾斜",
     "brush-sensor-param-size": "大小",
     "brush-sensor-param-opacity": "不透明度",
@@ -2715,7 +2718,15 @@
     "path-blur-point-label": "第 {n} 点，共 {total} 点",
     "path-blur-distance": "速度",
     "path-blur-no-path": "请先用钢笔工具绘制路径 — 路径模糊沿路径应用",
-    "path-blur-resolution-warning": "此图像较大——应用路径模糊可能需要{time}。请考虑降低各点速度，或使用较小的画布。"
+    "path-blur-resolution-warning": "此图像较大——应用路径模糊可能需要{time}。请考虑降低各点速度，或使用较小的画布。",
+    "brush-sensor-curve": "响应曲线",
+    "brush-sensor-curve-preset-linear": "线性",
+    "brush-sensor-curve-preset-soft": "柔和",
+    "brush-sensor-curve-preset-hard": "生硬",
+    "brush-sensor-curve-preset-scurve": "S 形曲线",
+    "brush-sensor-curve-reset": "重置",
+    "brush-sensor-curve-canvas-aria": "传感器响应曲线编辑器。拖动控制点以重新调整传感器与此参数的映射方式。",
+    "brush-sensor-curve-hint": "双击可添加控制点；双击某个控制点可将其删除"
   },
   "converter-moved": {
     "heading": "此工具已迁移",
