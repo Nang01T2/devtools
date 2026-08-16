@@ -22,6 +22,11 @@ import {
 } from "./polarCoordinates";
 import { shearFilter, type ShearParams } from "./shear";
 import { displaceFilter, type DisplaceParams } from "./displace";
+import {
+  lensCorrectionFilter,
+  type LensCorrectionParams,
+} from "./lensCorrection";
+import { liquifyFilter, type LiquifyGrid, type LiquifyParams } from "./liquify";
 
 export type DistortOp =
   | "pinch"
@@ -32,7 +37,9 @@ export type DistortOp =
   | "wave"
   | "polar"
   | "shear"
-  | "displace";
+  | "displace"
+  | "lensCorrection"
+  | "liquify";
 export type DistortParams =
   | PinchParams
   | SpherizeParams
@@ -42,7 +49,9 @@ export type DistortParams =
   | WaveParams
   | PolarCoordinatesParams
   | ShearParams
-  | DisplaceParams;
+  | DisplaceParams
+  | LensCorrectionParams
+  | LiquifyParams;
 
 interface DistortJob {
   id: number;
@@ -56,6 +65,11 @@ interface DistortJob {
   mapWidth?: number;
   mapHeight?: number;
   mapBuffer?: ArrayBuffer;
+  // F02, filter.liquify — Liquify only: committed displacement grid,
+  // transferred alongside the image buffer (Displace map-field precedent).
+  gridWidth?: number;
+  gridHeight?: number;
+  gridBuffer?: ArrayBuffer; // Float32Array backing store
 }
 
 const ctx = self as unknown as DedicatedWorkerGlobalScope;
@@ -71,6 +85,9 @@ ctx.onmessage = async (e: MessageEvent<DistortJob>) => {
     mapWidth,
     mapHeight,
     mapBuffer,
+    gridWidth,
+    gridHeight,
+    gridBuffer,
   } = e.data;
   try {
     const data = new ImageData(new Uint8ClampedArray(buffer), width, height);
@@ -104,6 +121,19 @@ ctx.onmessage = async (e: MessageEvent<DistortJob>) => {
         mapHeight,
       );
       result = displaceFilter(data, map, params as DisplaceParams);
+    } else if (op === "lensCorrection") {
+      result = await lensCorrectionFilter(data, params as LensCorrectionParams);
+    } else if (op === "liquify") {
+      if (gridWidth == null || gridHeight == null || gridBuffer == null) {
+        throw new Error("distortWorker: liquify op missing grid fields");
+      }
+      const grid: LiquifyGrid = {
+        offsets: new Float32Array(gridBuffer),
+        gridWidth,
+        gridHeight,
+        step: (params as LiquifyParams).step,
+      };
+      result = await liquifyFilter(data, grid);
     } else {
       throw new Error(`distortWorker: unknown op "${String(op)}"`);
     }
